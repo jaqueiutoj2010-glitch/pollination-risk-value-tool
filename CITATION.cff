@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software during peer review, please cite the software title and version. A DOI-backed citation will be provided with the final archived release."
+title: "Pollination Risk and Value Tool"
+type: software
+authors:
+  - family-names: "Jorge"
+    given-names: "Jaqueiuto S."
+    orcid: "https://orcid.org/0000-0003-4887-3647"
+version: "2.41"
+date-released: "2026-10-06"
+repository-code: "https://github.com/jaqueiutoj2010-glitch/pollination-risk-value-tool"
+keywords:
+  - pollination
+  - ecosystem services
+  - economic valuation
+  - crop dependence
+  - R Shiny
