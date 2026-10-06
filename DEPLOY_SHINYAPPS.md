@@ -18,7 +18,7 @@ Create/sign in to a shinyapps.io account and configure the account from the shin
 
 ## 3. Deploy from the project directory
 
-Open the project directory, then run:
+Open `PollinationRiskTool.Rproj`, then run:
 
 ```r
 rsconnect::deployApp(
@@ -27,6 +27,8 @@ rsconnect::deployApp(
   appTitle = "Pollination Risk and Value Tool"
 )
 ```
+
+`rsconnect` detects the packages used by the app and uploads the application files needed for deployment.
 
 ## 4. Verify the public copy
 
@@ -48,7 +50,7 @@ source("run_tests.R")
 
 ## 5. Record the review URL
 
-After deployment, add the live URL to the manuscript/reviewer note and repository README. Keep the tagged review snapshot immutable.
+After deployment, add the live URL to the manuscript/reviewer note and, if desired, to the repository README in a commit made **after** the frozen V2.41 tag. Keep the tagged review snapshot immutable.
 
 ## After acceptance
 

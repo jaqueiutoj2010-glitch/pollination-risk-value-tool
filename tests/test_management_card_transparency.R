@@ -1,0 +1,8 @@
+app_txt <- paste(readLines("app.R", warn = FALSE, encoding = "UTF-8"), collapse = "\n")
+stopifnot(grepl("Por que foi recomendado", app_txt, fixed = TRUE))
+stopifnot(grepl("O que a literatura sustenta", app_txt, fixed = TRUE))
+stopifnot(grepl("Força da evidência", app_txt, fixed = TRUE))
+stopifnot(grepl("Ver evidências científicas", app_txt, fixed = TRUE))
+stopifnot(grepl("Open-source", app_txt, fixed = TRUE))
+stopifnot(grepl("selected=cur$mg_q01", app_txt, fixed = TRUE))
+cat("Management card transparency test passed.\n")

@@ -1,0 +1,13 @@
+﻿Context_score,Exposure_ID,Management_priority,Management_priority_PT,Interpretation_PT
+0,E0,Maintain,Manter,Condição local não indica limitação; preservar boas práticas.
+0,E1,Maintain,Manter,Exposição menor; manter condições existentes e prevenir deterioração.
+0,E2,Maintain,Manter,Sem limitação contextual identificada; não intensificar ação apenas pelo cenário econômico.
+0,E3,Moderate,Moderada,"Exposição alta justifica revisão/monitoramento, mas não prova limitação ecológica."
+1,E0,Moderate,Moderada,"Há oportunidade de melhoria, com baixa urgência econômica relativa."
+1,E1,Moderate,Moderada,Ação de melhoria é pertinente.
+1,E2,High,Alta,Limitação contextual + exposição intermediária elevam a prioridade.
+1,E3,Very high,Muito alta,Limitação contextual + exposição alta elevam fortemente a prioridade.
+2,E0,High,Alta,Limitação local clara justifica ação mesmo sob menor exposição.
+2,E1,High,Alta,Limitação local clara + exposição menor: ação preventiva/enhancement prioritária.
+2,E2,Very high,Muito alta,Limitação clara + exposição intermediária: intervenção prioritária.
+2,E3,Very high,Muito alta,Limitação clara + exposição alta: prioridade máxima e resposta cumulativa.

@@ -1,0 +1,8 @@
+cat("TEST: scientific terminology and guardrails\n")
+app <- paste(readLines("app.R", warn=FALSE, encoding="UTF-8"), collapse="\n")
+stopifnot(grepl("stress tests, not risk probabilities or climate forecasts", app, fixed=TRUE))
+stopifnot(grepl("testes de estresse do serviço de polinização, não probabilidades de risco ou previsões climáticas", app, fixed=TRUE))
+stopifnot(grepl("Evidence strength and management priority are independent dimensions", app, fixed=TRUE))
+stopifnot(grepl("Força da evidência e prioridade de manejo são dimensões independentes", app, fixed=TRUE))
+stopifnot(grepl("does not automatically convert evidence from one dimension into a quantitative effect on another", app, fixed=TRUE))
+cat("PASS: scientific terminology and guardrails\n")

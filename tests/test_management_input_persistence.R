@@ -1,0 +1,6 @@
+app_txt <- paste(readLines("app.R", warn = FALSE, encoding = "UTF-8"), collapse = "\n")
+stopifnot(grepl('uiOutput\\("management_results_ui"\\)', app_txt))
+stopifnot(grepl('output\\$management_results_ui <- renderUI', app_txt))
+stopifnot(!grepl('selectInput\\("mg_q01"[^\\n]+selected="Unknown"', app_txt))
+stopifnot(grepl('"Não informado"="Unknown"', app_txt, fixed = TRUE))
+cat("Management input persistence regression test passed.\n")

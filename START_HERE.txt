@@ -1,0 +1,18 @@
+POLLINATION RISK AND VALUE TOOL — V2.41 PUBLIC REVIEW RELEASE
+
+LOCAL USE
+1. Extract the complete package.
+2. Open PollinationRiskTool.Rproj in RStudio.
+3. Open OPEN_APP.R and click Source.
+4. The application opens in the browser.
+
+PEER-REVIEW STATUS
+- The 4M analytical dataset is frozen for reproducibility.
+- The expanded Scientific Catalogue is complementary and is not automatically used in economic calculations.
+- Keep this V2.41 package unchanged while the manuscript is under review.
+
+PUBLIC WEB ACCESS
+See DEPLOY_SHINYAPPS.md.
+
+TESTS
+Optional: source("run_tests.R")

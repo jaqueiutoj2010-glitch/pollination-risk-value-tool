@@ -1,0 +1,5 @@
+﻿Exposure_ID,Scenario_range,Exposure_label,Response_role,Exposure_score,Interpretation_PT
+E0,<10%,Very low / custom,Maintain,0,Cenário abaixo do primeiro stress test padronizado; interpretar como exposição econômica relativamente menor.
+E1,10% to <25%,Lower exposure,Prevent & Maintain,1,"A exposição aumenta a urgência preventiva, mas não determina o tipo de intervenção."
+E2,25% to <50%,Intermediate exposure,Enhance & Connect,2,Aumenta a urgência de melhorar condições limitantes identificadas no contexto local.
+E3,>=50%,Higher exposure,Restore & Redesign,3,Maior exposição econômica aumenta a urgência de respostas cumulativas e estruturais.

@@ -1,0 +1,5 @@
+﻿Crop,Crop_PT,Scientific_name,Evidence_IDs,Registered_DR_values,Integration_status
+Coffee,Café,Coffea arabica,COF-001;COF-002,0.25,Registered in existing V2.26.2 evidence database
+Apple,Maçã,Malus domestica,APP-001;APP-002,0.65,Registered in existing V2.26.2 evidence database
+Tomato,Tomate,Solanum lycopersicum,TOM-001;TOM-002,0.05;0.65,Registered in existing V2.26.2 evidence database
+Passion fruit,Maracujá,Passiflora edulis,PAS-001,0.95,Registered in existing V2.26.2 evidence database

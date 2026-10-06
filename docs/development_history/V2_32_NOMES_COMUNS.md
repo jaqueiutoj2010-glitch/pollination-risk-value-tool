@@ -1,0 +1,1 @@
+V2.32: coluna de nomes comuns em português ou inglês conforme idioma da interface, exibida antes do nome científico. Metadados editoriais, sem alterar os registros científicos, coeficientes ou 4M. Entradas sem correspondência segura permanecem vazias; nomes genéricos de grupos são marcados como grupo. Busca inclui ambos os idiomas.

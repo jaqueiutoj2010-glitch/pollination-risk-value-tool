@@ -1,0 +1,1890 @@
+﻿dataset,source_row,study,species,crop,response,treatment,scale,country,pd_value,pd_type
+dataanalyses.csv,2,"Chacoff, 2007a",Citrus paradisi,Grapefruit,SUP,BH,branch,Argentina,0.16,SUP
+dataanalyses.csv,3,"Chacoff, 2007a",Citrus paradisi,Grapefruit,SUP,BH,branch,Argentina,0.94,SUP
+dataanalyses.csv,4,"Garratt, 2021e",Malus domestica,Apple,BOTH,AH,plant,Argentina,1,BOTH
+dataanalyses.csv,5,"Garratt, 2021e",Malus domestica,Apple,BOTH,AH,plant,Argentina,1,BOTH
+dataanalyses.csv,6,"Garratt, 2021e",Malus domestica,Apple,BOTH,AH,plant,Argentina,1,BOTH
+dataanalyses.csv,7,"Garratt, 2021e",Malus domestica,Apple,BOTH,AH,plant,Argentina,1,BOTH
+dataanalyses.csv,8,"Garratt, 2021e",Malus domestica,Apple,BOTH,AH,plant,Argentina,1,BOTH
+dataanalyses.csv,9,"Garratt, 2021e",Malus domestica,Apple,BOTH,AH,plant,Argentina,1,BOTH
+dataanalyses.csv,10,"Garratt, 2021e",Malus domestica,Apple,OP,AH,plant,Argentina,0.93,OP
+dataanalyses.csv,11,"Garratt, 2021e",Malus domestica,Apple,OP,AH,plant,Argentina,0.93,OP
+dataanalyses.csv,12,"Morales, 2009",Rubus idaeus,Raspberry,OP,AH,aflower,Argentina,0.07,OP
+dataanalyses.csv,13,"Garratt, 2021b",Malus domestica,Apple,BOTH,AH,plant,Australia,1,BOTH
+dataanalyses.csv,14,"Garratt, 2021b",Malus domestica,Apple,BOTH,AH,plant,Australia,1,BOTH
+dataanalyses.csv,15,"Garratt, 2021b",Malus domestica,Apple,BOTH,AH,plant,Australia,1,BOTH
+dataanalyses.csv,16,"Garratt, 2021b",Malus domestica,Apple,BOTH,AH,plant,Australia,1,BOTH
+dataanalyses.csv,17,"George, 1993",Diospyros kaki f.,Persimmon,SUP,AH,aflower,Australia,0.21,SUP
+dataanalyses.csv,18,"George, 1993",Diospyros kaki f.,Persimmon,SUP,AH,aflower,Australia,0.45,SUP
+dataanalyses.csv,19,"Howell, 2016",Macadamia sp.,Macadamia1,SUP,BH,inflor.,Australia,0.07,SUP
+dataanalyses.csv,20,"Howlett, 2019",Macadamia integrifolia,Macadamia,BOTH,BH,inflor.,Australia,1,BOTH
+dataanalyses.csv,21,"Howlett, 2019",Macadamia integrifolia,Macadamia,SUP,BH,inflor.,Australia,0.97,SUP
+dataanalyses.csv,22,"Kendall, 2020",Vaccinium corymbosum,Highbush blueberry,SUP,BEH,plant,Australia,0.54,SUP
+dataanalyses.csv,23,"Kendall, 2020",Vaccinium corymbosum,Highbush blueberry,SUP,BEH,plant,Australia,0.92,SUP
+dataanalyses.csv,24,"Kendall, 2020",Vaccinium virgatum,Rabbit-eye blueberry,BOTH,BEH,plant,Australia,1,BOTH
+dataanalyses.csv,25,"Kendall, 2020",Vaccinium virgatum,Rabbit-eye blueberry,SUP,BEH,plant,Australia,0.6,SUP
+dataanalyses.csv,26,"Kendall, 2020",Vaccinium virgatum,Rabbit-eye blueberry,OP,BEH,plant,Australia,0.61,OP
+dataanalyses.csv,27,"Kendall, 2020",Vaccinium virgatum,Rabbit-eye blueberry,SUP,BEH,plant,Australia,0.96,SUP
+dataanalyses.csv,28,"Langridge & Goodman, 1981",Helianthus annuus,Sunflower,SUP,AH,plant,Australia,0.93,SUP
+dataanalyses.csv,29,"Lobaton, 2021",Malus domestica,Apple,SUP,BH,aflower,Australia,0.97,SUP
+dataanalyses.csv,30,"Pritchard, 2005",Annona sp.,Custard Apple,BOTH,AH,aflower,Australia,1,BOTH
+dataanalyses.csv,31,"Pritchard, 2005",Annona sp.,Custard Apple,BOTH,AH,aflower,Australia,1,BOTH
+dataanalyses.csv,32,"Pritchard, 2005",Annona sp.,Custard Apple,BOTH,AH,aflower,Australia,1,BOTH
+dataanalyses.csv,33,"Pritchard, 2005",Annona sp.,Custard Apple,BOTH,AH,aflower,Australia,1,BOTH
+dataanalyses.csv,34,"Pritchard, 2005",Annona sp.,Custard Apple,BOTH,AH,aflower,Australia,1,BOTH
+dataanalyses.csv,35,Wallace 1996,Macadamia sp.,Macadamia1,BOTH,AH,inflor.,Australia,1,BOTH
+dataanalyses.csv,36,Wallace 1996,Macadamia sp.,Macadamia1,SUP,AH,inflor.,Australia,0.56,SUP
+dataanalyses.csv,37,Wallace 1996,Macadamia sp.,Macadamia1,OP,AH,inflor.,Australia,0.49,OP
+dataanalyses.csv,38,Wallace 1996,Macadamia sp.,Macadamia1,OP,AH,inflor.,Australia,0.6,OP
+dataanalyses.csv,39,Wallace 1996,Macadamia sp.,Macadamia1,SUP,AH,inflor.,Australia,0.78,SUP
+dataanalyses.csv,40,Wallace 1996,Macadamia sp.,Macadamia1,SUP,AH,inflor.,Australia,0.87,SUP
+dataanalyses.csv,41,Wallace 1996,Macadamia sp.,Macadamia1,SUP,AH,inflor.,Australia,0.92,SUP
+dataanalyses.csv,42,"Hossain, 2018",Cucumis sativus,Cucumber,SUP,BH,aflower,Bangladesh,0.26,SUP
+dataanalyses.csv,43,"Latet, 1998",Ribes rubrum,Currant,SUP,BEH,inflor.,Belgium,0.42,SUP
+dataanalyses.csv,44,"Ouvrard, 2017",Brassica napus,Oilseed rape,OP,AH,plant,Belgium,0.12,OP
+dataanalyses.csv,45,"Witte, 1995",Malus domestica,Apple,SUP,BH,aflower,Belgium,0.66,SUP
+dataanalyses.csv,46,"Witte, 1995",Malus domestica,Apple,SUP,BH,aflower,Belgium,0.6,SUP
+dataanalyses.csv,47,"Witte, 1995",Malus domestica,Apple,OP,BH,aflower,Belgium,0.46,OP
+dataanalyses.csv,48,"Witte, 1995",Malus domestica,Apple,SUP,BH,aflower,Belgium,0.65,SUP
+dataanalyses.csv,49,"Witte, 1995",Malus domestica,Apple,SUP,BH,aflower,Belgium,0.79,SUP
+dataanalyses.csv,50,"Witte, 1995",Malus domestica,Apple,SUP,BH,aflower,Belgium,0.67,SUP
+dataanalyses.csv,51,"Witte, 1995",Malus domestica,Apple,SUP,BH,aflower,Belgium,0.77,SUP
+dataanalyses.csv,52,"Witte, 1995",Malus domestica,Apple,SUP,BH,aflower,Belgium,0.83,SUP
+dataanalyses.csv,53,"Witte, 1995",Malus domestica,Apple,SUP,BH,aflower,Belgium,0.87,SUP
+dataanalyses.csv,54,"Witte, 1995",Malus domestica,Apple,SUP,BH,aflower,Belgium,0.91,SUP
+dataanalyses.csv,55,"Witte, 1995",Malus domestica,Apple,SUP,BH,aflower,Belgium,0.92,SUP
+dataanalyses.csv,56,"Witte, 1995",Malus domestica,Apple,SUP,BH,aflower,Belgium,0.95,SUP
+dataanalyses.csv,57,"Andrade, 2014",Sesamum indicum,Sesame seed,OP,EH,aflower,Brazil,0.01,OP
+dataanalyses.csv,58,"Blochtein, 2014",Brassica napus,Oilseed rape,OP,AH,aflower,Brazil,0.2,OP
+dataanalyses.csv,59,"Blochtein, 2014",Brassica napus,Oilseed rape,OP,AH,aflower,Brazil,0.21,OP
+dataanalyses.csv,60,"Blochtein, 2014",Brassica napus,Oilseed rape,SUP,AH,aflower,Brazil,0.62,SUP
+dataanalyses.csv,61,"Bos, 2007",Passiflora edulis,Passion fruit,BOTH,BH,plant,Brazil,1,BOTH
+dataanalyses.csv,62,"Campbell, 2017",Euterpe oleracea,Acaí,SUP,AH,inflor.,Brazil,0.84,SUP
+dataanalyses.csv,63,"Cavalcante, 2009",Annona crassiflora,Custard Apple_Marolo,BOTH,BH,aflower,Brazil,1,BOTH
+dataanalyses.csv,64,"Cavalcante, 2009",Annona crassiflora,Custard Apple_Marolo,BOTH,BH,aflower,Brazil,1,BOTH
+dataanalyses.csv,65,"Cavalcante, 2012",Bertholletia excelsa,Brazil nut,BOTH,BH,aflower,Brazil,1,BOTH
+dataanalyses.csv,66,"Faoro, 2010",Pyrus communis,Pear,BOTH,AH,aflower,Brazil,1,BOTH
+dataanalyses.csv,67,"Figueiredo, 2020",Physalis angulata,Camapu,BOTH,BH,aflower,Brazil,1,BOTH
+dataanalyses.csv,68,"Freitas, 1996",Anacardium occidentale,Cashew,BOTH,BH,aflower,Brazil,1,BOTH
+dataanalyses.csv,69,"Freitas, 1999",Malpighia emarginata,Acerola cherry,BOTH,BH,aflower,Brazil,1,BOTH
+dataanalyses.csv,70,"Hickel, 2000",Acca sellowiana,Feijoa,BOTH,AH,aflower,Brazil,1,BOTH
+dataanalyses.csv,71,"Hickel, 2000",Acca sellowiana,Feijoa,BOTH,AH,aflower,Brazil,1,BOTH
+dataanalyses.csv,72,"Hickel, 2000",Acca sellowiana,Feijoa,BOTH,AH,aflower,Brazil,1,BOTH
+dataanalyses.csv,73,"Hickel, 2000",Acca sellowiana,Feijoa,BOTH,AH,aflower,Brazil,1,BOTH
+dataanalyses.csv,74,"Hickel, 2000",Acca sellowiana,Feijoa,BOTH,AH,aflower,Brazil,1,BOTH
+dataanalyses.csv,75,"Hickel, 2000",Acca sellowiana,Feijoa,SUP,AH,aflower,Brazil,0.79,SUP
+dataanalyses.csv,76,"Hickel, 2000",Acca sellowiana,Feijoa,SUP,AH,aflower,Brazil,0.84,SUP
+dataanalyses.csv,77,"Maciel, 2019",Cucurbita moschata,Gourd,BOTH,BH,aflower,Brazil,1,BOTH
+dataanalyses.csv,78,"Mascena, 2011",Gossypium hirsutum,Cottonseed,OP,BEH,aflower,Brazil,0.27,OP
+dataanalyses.csv,79,"Mélo, 2010",Cucurbita moschata,Gourd,BOTH,BH,aflower,Brazil,1,BOTH
+dataanalyses.csv,80,"Mendes, 2012",Annona squamosa,Sugar Apple,BOTH,BH,aflower,Brazil,1,BOTH
+dataanalyses.csv,81,"Mesquita, 2008",Bixa orellana,Annatto,SUP,BH,aflower,Brazil,0.98,SUP
+dataanalyses.csv,82,"Mussury, 2000",Brassica napus,Oilseed rape,OP,BEH,aflower,Brazil,0.16,OP
+dataanalyses.csv,83,"Neto, 2002",Anacardium occidentale,Cashew,BOTH,BH,aflower,Brazil,1,BOTH
+dataanalyses.csv,84,"Neto, 2002",Anacardium occidentale,Cashew,BOTH,BH,aflower,Brazil,1,BOTH
+dataanalyses.csv,85,"Neto, 2010",Coffea arabica,Arabic Coffee,SUP,BEH,aflower,Brazil,0.21,SUP
+dataanalyses.csv,86,"Neto, 2010",Coffea arabica,Arabic Coffee,OP,BEH,aflower,Brazil,0.37,OP
+dataanalyses.csv,87,"Oliveira, 2007",Capsicum annuum,Chilli,SUP,BH,aflower,Brazil,0.29,SUP
+dataanalyses.csv,88,"Oliveira, 2010",Spondias mombin,Hog plum,SUP,BH,aflower,Brazil,0.78,SUP
+dataanalyses.csv,89,"Oliveira, 2012",Malpighia emarginata,Acerola cherry,BOTH,BEH,aflower,Brazil,1,BOTH
+dataanalyses.csv,90,"Patricio, 2012",Solanum melongena,Eggplant,BOTH,AH,aflower,Brazil,1,BOTH
+dataanalyses.csv,91,"Patricio, 2012",Solanum melongena,Eggplant,OP,AH,aflower,Brazil,0.74,OP
+dataanalyses.csv,92,"Patricio, 2012",Solanum melongena,Eggplant,OP,AH,aflower,Brazil,0.74,OP
+dataanalyses.csv,93,"Patricio, 2012",Solanum melongena,Eggplant,OP,AH,aflower,Brazil,0.98,OP
+dataanalyses.csv,94,"Pavanelo, 2019",Physalis peruviana,Golden berry,OP,AH,aflower,Brazil,0.32,OP
+dataanalyses.csv,95,"Rizzardo, 2012",Ricinus communis,Castor bean,BOTH,BEH,aflower,Brazil,0.81,BOTH
+dataanalyses.csv,96,"Rizzardo, 2012b",Jatropha curcas,Jatrofa,OP,BEH,aflower,Brazil,0.67,OP
+dataanalyses.csv,97,"Santos, 2016",Macadamia integrifolia,Macadamia,SUP,BEH,aflower,Brazil,0.65,SUP
+dataanalyses.csv,98,"Santos, 2020",Macadamia integrifolia,Macadamia,SUP,BEH,inflor.,Brazil,0.37,SUP
+dataanalyses.csv,99,"Santos, 2021",C. clementina hort. × (C. paradisi × C. reticulata Blanco),Tangelo,BOTH,BEH,aflower,Brazil,1,BOTH
+dataanalyses.csv,100,"Santos, 2021",C. clementina hort. × (C. paradisi × C. reticulata Blanco),Tangelo,BOTH,BEH,aflower,Brazil,1,BOTH
+dataanalyses.csv,101,"Sezerino, 2015",Pyrus communis,Pear,SUP,BEH,aflower,Brazil,0.99,SUP
+dataanalyses.csv,102,"Sezerino, 2015",Pyrus communis,Pear,SUP,BEH,aflower,Brazil,0.92,SUP
+dataanalyses.csv,103,"Silva, 2005",Capsicum annuum,Chilli,SUP,BH,aflower,Brazil,0.1,SUP
+dataanalyses.csv,104,"Silva, 2007",Gossypium hirsutum,Cottonseed,OP,BH,aflower,Brazil,0.07,OP
+dataanalyses.csv,105,"Silva, 2007",Gossypium hirsutum,Cottonseed,OP,BH,aflower,Brazil,0.19,OP
+dataanalyses.csv,106,"Silveira, 2012",Passiflora edulis f. flavicarpa,Yellow Passion fruit,BOTH,AH,aflower,Brazil,1,BOTH
+dataanalyses.csv,107,"Siqueira, 2011",Malpighia emarginata,Acerola cherry,SUP,AH,aflower,Brazil,0.66,SUP
+dataanalyses.csv,108,"Siqueira, 2011",Malpighia emarginata,Acerola cherry,OP,AH,aflower,Brazil,0.74,OP
+dataanalyses.csv,109,"Siqueira, 2011",Malpighia emarginata,Acerola cherry,SUP,AH,aflower,Brazil,0.88,SUP
+dataanalyses.csv,110,"Soares, 2015",Passiflora edulis f. flavicarpa,Yellow Passion fruit,BOTH,BH,aflower,Brazil,1,BOTH
+dataanalyses.csv,111,"Brown, 2006",Vaccinium macrocarpon,Cranberry,SUP,BH,plant,Canada,0.58,SUP
+dataanalyses.csv,112,"Button, 2014",Vaccinium corymbosum,Highbush blueberry,SUP,AH,inflor.,Canada,0.62,SUP
+dataanalyses.csv,113,"Button, 2014",Vaccinium corymbosum,Highbush blueberry,SUP,AH,inflor.,Canada,0.58,SUP
+dataanalyses.csv,114,"Gibbs, 2015",Vaccinium corymbosum,Highbush blueberry,SUP,AH,inflor.,Canada,0.34,SUP
+dataanalyses.csv,115,"Maclnnis, 2018",Fragaria x ananassa,Strawberry,SUP,AH,aflower,Canada,0.71,SUP
+dataanalyses.csv,116,"Cao, 2020",Paeonia ostii,Peony,SUP,AH,plant,China,0.52,SUP
+dataanalyses.csv,117,"Shi, 2005",Castanea mollissima,Chestnut,OP,BH,aflower,China,0.02,OP
+dataanalyses.csv,118,"Shi, 2005",Castanea mollissima,Chestnut,SUP,BH,aflower,China,0.04,SUP
+dataanalyses.csv,119,"Shi, 2005",Castanea mollissima,Chestnut,OP,BH,aflower,China,0.12,OP
+dataanalyses.csv,120,"Trans, 2014",Selenicereus monacanthus,Red-peel pitaya1,BOTH,BEH,aflower,China,1,BOTH
+dataanalyses.csv,121,"Trans, 2014",Selenicereus spp.,Red-peel pitaya1,BOTH,BEH,aflower,China,1,BOTH
+dataanalyses.csv,122,"Trans, 2014",Selenicereus spp.,Red-peel pitaya1,BOTH,BEH,aflower,China,1,BOTH
+dataanalyses.csv,123,"Trans, 2014",Selenicereus undatus,White-fleshed pitahaya,OP,BEH,aflower,China,0.22,OP
+dataanalyses.csv,124,"Wu, 2021",Malus domestica,Apple,SUP,BH,inflor.,China,0.51,SUP
+dataanalyses.csv,125,"Xie, 2013",Camellia oleifera,Camellia,SUP,AH,aflower,China,0.81,SUP
+dataanalyses.csv,126,"Xie, 2013",Camellia oleifera,Camellia,SUP,AH,aflower,China,0.86,SUP
+dataanalyses.csv,127,"Xie, 2013",Camellia oleifera,Camellia,SUP,AH,aflower,China,0.94,SUP
+dataanalyses.csv,128,"Zhang, 2009",Capparis spinosa,Caper,OP,BEH,aflower,China,0.83,OP
+dataanalyses.csv,129,"Arias-Suarez, 2014",Passiflora edulis,Passion fruit,OP,BEH,aflower,Colombia,0.97,OP
+dataanalyses.csv,130,"Chauta-Mellizo, 2012",Physalis peruviana,Golden berry,OP,BH,plant,Colombia,0.35,OP
+dataanalyses.csv,131,"Gutiérrez-Chacón, 2018",Passiflora ligularis,Granadilla,SUP,AH,aflower,Colombia,0.99,SUP
+dataanalyses.csv,132,"Vladek, 2018",Lonicera caerulea,Honeysuckle,OP,BH,inflor.,Czech Republic,0.62,OP
+dataanalyses.csv,133,"Vladek, 2018",Lonicera caerulea,Honeysuckle,OP,BH,inflor.,Czech Republic,0.65,OP
+dataanalyses.csv,134,"Atawia, 2016",Citrus clementina,Clementine,SUP,BEH,aflower,Egypt,0.73,SUP
+dataanalyses.csv,135,"Atawia, 2016",Citrus clementina,Clementine,SUP,BEH,aflower,Egypt,0.74,SUP
+dataanalyses.csv,136,"Company, 1992",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.85,SUP
+dataanalyses.csv,137,"Samnegard, 2017",Brassica napus,Oilseed rape,BOTH,AH,plant,Ethiopia,0,BOTH
+dataanalyses.csv,138,"Samnegard, 2017",Brassica napus,Oilseed rape,BOTH,AH,plant,Ethiopia,0,BOTH
+dataanalyses.csv,139,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.14,SUP
+dataanalyses.csv,140,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.06,SUP
+dataanalyses.csv,141,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.04,SUP
+dataanalyses.csv,142,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.12,SUP
+dataanalyses.csv,143,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.48,SUP
+dataanalyses.csv,144,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.37,SUP
+dataanalyses.csv,145,"Samnegard, 2017",Brassica napus,Oilseed rape,OP,AH,plant,Ethiopia,0.04,OP
+dataanalyses.csv,146,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.43,SUP
+dataanalyses.csv,147,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.2,SUP
+dataanalyses.csv,148,"Samnegard, 2017",Brassica napus,Oilseed rape,OP,AH,plant,Ethiopia,0.04,OP
+dataanalyses.csv,149,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.14,SUP
+dataanalyses.csv,150,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.45,SUP
+dataanalyses.csv,151,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.09,SUP
+dataanalyses.csv,152,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.34,SUP
+dataanalyses.csv,153,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.36,SUP
+dataanalyses.csv,154,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.69,SUP
+dataanalyses.csv,155,"Samnegard, 2017",Brassica napus,Oilseed rape,OP,AH,plant,Ethiopia,0.25,OP
+dataanalyses.csv,156,"Samnegard, 2017",Brassica napus,Oilseed rape,SUP,AH,plant,Ethiopia,0.4,SUP
+dataanalyses.csv,157,"Samnegard, 2017",Brassica napus,Oilseed rape,OP,AH,plant,Ethiopia,0.55,OP
+dataanalyses.csv,158,"Samnegard, 2017",Brassica napus,Oilseed rape,OP,AH,plant,Ethiopia,0.65,OP
+dataanalyses.csv,159,"Garratt, 2021d",Malus domestica,Apple,BOTH,,plant,Germany,1,BOTH
+dataanalyses.csv,160,"Garratt, 2021d",Malus domestica,Apple,BOTH,,plant,Germany,1,BOTH
+dataanalyses.csv,161,"Garratt, 2021d",Malus domestica,Apple,BOTH,,plant,Germany,1,BOTH
+dataanalyses.csv,162,"Garratt, 2021d",Malus domestica,Apple,SUP,,plant,Germany,0.43,SUP
+dataanalyses.csv,163,"Garratt, 2021d",Malus domestica,Apple,SUP,,plant,Germany,0.42,SUP
+dataanalyses.csv,164,"Garratt, 2021d",Malus domestica,Apple,SUP,,plant,Germany,0.36,SUP
+dataanalyses.csv,165,"Garratt, 2021d",Malus domestica,Apple,OP,,plant,Germany,0.34,OP
+dataanalyses.csv,166,"Garratt, 2021d",Malus domestica,Apple,SUP,,plant,Germany,0.4,SUP
+dataanalyses.csv,167,"Garratt, 2021d",Malus domestica,Apple,SUP,,plant,Germany,0.49,SUP
+dataanalyses.csv,168,"Garratt, 2021d",Malus domestica,Apple,SUP,,plant,Germany,0.71,SUP
+dataanalyses.csv,169,"Garratt, 2021d",Malus domestica,Apple,OP,,plant,Germany,0.69,OP
+dataanalyses.csv,170,"Holzschuh, 2012",Prunus avium,Sweet cherry,OP,AH,branch,Germany,0.97,OP
+dataanalyses.csv,171,"Hudewenz, 2013",Brassica napus,Oilseed rape,SUP,AH,plant,Germany,0.25,SUP
+dataanalyses.csv,172,"Hudewenz, 2013",Brassica napus,Oilseed rape,OP,AH,plant,Germany,0.24,OP
+dataanalyses.csv,173,"Hudewenz, 2013",Brassica napus,Oilseed rape,SUP,AH,plant,Germany,0.36,SUP
+dataanalyses.csv,174,"Hudewenz, 2013",Brassica napus,Oilseed rape,SUP,AH,plant,Germany,0.42,SUP
+dataanalyses.csv,175,"Osterman, 2021",Malus domestica,Apple,SUP,AH,aflower,Germany,0.99,SUP
+dataanalyses.csv,176,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,BOTH,AH,plant,Germany,1,BOTH
+dataanalyses.csv,177,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,BOTH,AH,plant,Germany,1,BOTH
+dataanalyses.csv,178,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.6,SUP
+dataanalyses.csv,179,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.55,SUP
+dataanalyses.csv,180,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Germany,0.36,OP
+dataanalyses.csv,181,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.74,SUP
+dataanalyses.csv,182,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.7,SUP
+dataanalyses.csv,183,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.51,SUP
+dataanalyses.csv,184,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.89,SUP
+dataanalyses.csv,185,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.81,SUP
+dataanalyses.csv,186,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.85,SUP
+dataanalyses.csv,187,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.73,SUP
+dataanalyses.csv,188,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.88,SUP
+dataanalyses.csv,189,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.89,SUP
+dataanalyses.csv,190,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.92,SUP
+dataanalyses.csv,191,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Germany,0.85,OP
+dataanalyses.csv,192,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Germany,0.85,OP
+dataanalyses.csv,193,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Germany,0.87,OP
+dataanalyses.csv,194,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Germany,0.94,OP
+dataanalyses.csv,195,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.95,SUP
+dataanalyses.csv,196,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Germany,0.95,OP
+dataanalyses.csv,197,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Germany,0.99,SUP
+dataanalyses.csv,198,"Wietzke, 2018",Fragaria x ananassa,Strawberry,OP,BH,aflower,Germany,0.42,OP
+dataanalyses.csv,199,"Borketey, 2018",Cucurbita pepo,Squash,BOTH,BH,aflower,Ghana,1,BOTH
+dataanalyses.csv,200,"Stout, 2018",Vitellaria paradoxa,Karite nut,SUP,AH,inflor.,Ghana,0.1,SUP
+dataanalyses.csv,201,"Stout, 2018",Vitellaria paradoxa,Karite nut,OP,AH,inflor.,Ghana,0.08,OP
+dataanalyses.csv,202,"Stout, 2018",Vitellaria paradoxa,Karite nut,OP,AH,inflor.,Ghana,0.11,OP
+dataanalyses.csv,203,"Stout, 2018",Vitellaria paradoxa,Karite nut,OP,AH,inflor.,Ghana,0.96,OP
+dataanalyses.csv,204,"Garantonakis, 2016",Citrullus lanatus,Watermelon,BOTH,AH,aflower,Greece,1,BOTH
+dataanalyses.csv,205,"Davarynejad, 2010",Prunus cerasus,Sour cherry,OP,BH,branch,Hungary,0.36,OP
+dataanalyses.csv,206,"Davarynejad, 2010",Prunus cerasus,Sour cherry,SUP,BH,branch,Hungary,0.64,SUP
+dataanalyses.csv,207,"Davarynejad, 2010",Prunus cerasus,Sour cherry,SUP,BH,branch,Hungary,0.81,SUP
+dataanalyses.csv,208,"Davarynejad, 2010",Prunus cerasus,Sour cherry,SUP,BH,branch,Hungary,0.73,SUP
+dataanalyses.csv,209,"Davarynejad, 2010",Prunus cerasus,Sour cherry,OP,BH,branch,Hungary,0.7,OP
+dataanalyses.csv,210,"Davarynejad, 2010",Prunus cerasus,Sour cherry,SUP,BH,branch,Hungary,0.84,SUP
+dataanalyses.csv,211,"Davarynejad, 2010",Prunus cerasus,Sour cherry,OP,BH,branch,Hungary,0.86,OP
+dataanalyses.csv,212,"Davarynejad, 2010",Prunus cerasus,Sour cherry,SUP,BH,branch,Hungary,0.87,SUP
+dataanalyses.csv,213,"Davarynejad, 2010",Prunus cerasus,Sour cherry,SUP,BH,branch,Hungary,0.97,SUP
+dataanalyses.csv,214,"Anooj, 2013",Luffa aegyptiaca,Smoth gourd,BOTH,BH,aflower,India,1,BOTH
+dataanalyses.csv,215,"Anooj, 2013",Luffa aegyptiaca,Smoth gourd,BOTH,BH,aflower,India,1,BOTH
+dataanalyses.csv,216,"Anooj, 2013",Luffa aegyptiaca,Smoth gourd,BOTH,BH,aflower,India,1,BOTH
+dataanalyses.csv,217,"Anooj, 2013",Luffa aegyptiaca,Smoth gourd,BOTH,BH,aflower,India,1,BOTH
+dataanalyses.csv,218,"Bakshi, 2018",Prunus avium,Sweet cherry,BOTH,BH,aflower,India,1,BOTH
+dataanalyses.csv,219,"Carr, 2015",Capsicum annuum,Chilli,OP,EH,aflower,India,0.4,OP
+dataanalyses.csv,220,"Carr, 2015",Momordica charantia,Bitter melon,OP,EH,aflower,India,1,OP
+dataanalyses.csv,221,"Carr, 2015",Momordica charantia,Bitter melon,BOTH,EH,aflower,India,1,BOTH
+dataanalyses.csv,222,"Carr, 2015",Momordica charantia,Bitter melon,BOTH,EH,aflower,India,1,BOTH
+dataanalyses.csv,223,"Carr, 2015",Momordica charantia,Bitter melon,BOTH,EH,aflower,India,1,BOTH
+dataanalyses.csv,224,"Carr, 2015",Momordica charantia,Bitter melon,BOTH,EH,aflower,India,1,BOTH
+dataanalyses.csv,225,"Carr, 2015",Solanum lycopersicum,Tomato,BOTH,EH,aflower,India,0,BOTH
+dataanalyses.csv,226,"Carr, 2015",Solanum lycopersicum,Tomato,SUP,EH,aflower,India,0.52,SUP
+dataanalyses.csv,227,"Carr, 2015",Solanum melongena,Eggplant,OP,EH,aflower,India,0.76,OP
+dataanalyses.csv,228,"Carr, 2015",Solanum melongena,Eggplant,OP,EH,aflower,India,0.77,OP
+dataanalyses.csv,229,"Carr, 2015",Solanum melongena,Eggplant,OP,EH,aflower,India,0.79,OP
+dataanalyses.csv,230,"Carr, 2015",Solanum melongena,Eggplant,SUP,EH,aflower,India,0.88,SUP
+dataanalyses.csv,231,"Carr, 2015",Trichosanthes cucumerina,Snake gourd,BOTH,EH,aflower,India,1,BOTH
+dataanalyses.csv,232,"Carr, 2015",Trichosanthes cucumerina,Snake gourd,BOTH,EH,aflower,India,1,BOTH
+dataanalyses.csv,233,"Carr, 2015",Trichosanthes cucumerina,Snake gourd,OP,EH,aflower,India,0.73,OP
+dataanalyses.csv,234,"Carr, 2015",Trichosanthes cucumerina,Snake gourd,OP,EH,aflower,India,0.92,OP
+dataanalyses.csv,235,"Das, 2009",Trichosanthes dioica,Pointed gourd,BOTH,BH,aflower,India,1,BOTH
+dataanalyses.csv,236,"Das, 2009",Trichosanthes dioica,Pointed gourd,BOTH,BH,aflower,India,1,BOTH
+dataanalyses.csv,237,"Devi, 2017",Brassica juncea,Mustard seed,OP,BEH,aflower,India,0.38,OP
+dataanalyses.csv,238,"Devi, 2017",Brassica juncea,Mustard seed,OP,BEH,aflower,India,0.38,OP
+dataanalyses.csv,239,"Dorjay, 2017",Cucumis sativus,Cucumber,SUP,EH,plant,India,0.7,SUP
+dataanalyses.csv,240,"Dorjay, 2017",Momordica charantia,Bitter melon,OP,EH,plant,India,0.68,OP
+dataanalyses.csv,241,"Jat, 2014",Trifolium alexandrinum,Berseem,OP,BH,inflor.,India,0.2,OP
+dataanalyses.csv,242,"Jat, 2014",Trifolium alexandrinum,Berseem,OP,BH,inflor.,India,0.27,OP
+dataanalyses.csv,243,"Jayanand, 2010",Helianthus annuus,Sunflower,SUP,AH,inflor.,India,0.53,SUP
+dataanalyses.csv,244,"Karimi, 2015",Punica granatum,Pomegranate,SUP,AH,aflower,India,0.37,SUP
+dataanalyses.csv,245,"Karimi, 2015",Punica granatum,Pomegranate,SUP,AH,aflower,India,0.39,SUP
+dataanalyses.csv,246,"Karimi, 2015",Punica granatum,Pomegranate,SUP,AH,aflower,India,0.44,SUP
+dataanalyses.csv,247,"Karnatak, 2010",Brassica juncea,Mustard seed,SUP,AH,aflower,India,0.34,SUP
+dataanalyses.csv,248,"Karnatak, 2010",Brassica juncea,Mustard seed,SUP,AH,aflower,India,0.48,SUP
+dataanalyses.csv,249,"Karnatak, 2010",Brassica napus,Oilseed rape,SUP,AH,aflower,India,0.23,SUP
+dataanalyses.csv,250,"Karnatak, 2010",Brassica napus,Oilseed rape,SUP,AH,aflower,India,0.27,SUP
+dataanalyses.csv,251,"Karnatak, 2010",Brassica rapa,Canola,SUP,AH,aflower,India,0.3,SUP
+dataanalyses.csv,252,"Karnatak, 2010",Brassica rapa,Canola,SUP,AH,aflower,India,0.51,SUP
+dataanalyses.csv,253,"Krishnan, 2012",Coffea canephora,Coffee,BOTH,AH,branch,India,1,BOTH
+dataanalyses.csv,254,"Lakshmi, 2016",Luffa acutangula,Chinese Okra,BOTH,AH,aflower,India,1,BOTH
+dataanalyses.csv,255,"Lakshmi, 2016",Luffa acutangula,Chinese Okra,BOTH,AH,aflower,India,1,BOTH
+dataanalyses.csv,256,"Layek, 2020a",Citrus limon,Lemon,SUP,AH,aflower,India,0.8,SUP
+dataanalyses.csv,257,"Layek, 2021",Anacardium occidentale,Cashew,BOTH,AH,aflower,India,1,BOTH
+dataanalyses.csv,258,"Rani, 2016",Cucurbita pepo,Squash,BOTH,AH,aflower,India,1,BOTH
+dataanalyses.csv,259,"Rani, 2016",Cucurbita pepo,Squash,BOTH,AH,aflower,India,1,BOTH
+dataanalyses.csv,260,"Rani, 2016",Cucurbita pepo,Squash,BOTH,AH,aflower,India,1,BOTH
+dataanalyses.csv,261,"Rani, 2016",Cucurbita pepo,Squash,BOTH,AH,aflower,India,1,BOTH
+dataanalyses.csv,262,"Revanasidda, 2019",Cucumis melo,Melon,BOTH,EH,aflower,India,1,BOTH
+dataanalyses.csv,263,"Revanasidda, 2019",Cucumis melo,Melon,BOTH,EH,aflower,India,1,BOTH
+dataanalyses.csv,264,"Siag, 2016",Actinidia chinensis var. deliciosa,Kiwifruit,BOTH,BEH,branch,India,1,BOTH
+dataanalyses.csv,265,"Siag, 2016",Actinidia chinensis var. deliciosa,Kiwifruit,BOTH,BEH,branch,India,1,BOTH
+dataanalyses.csv,266,"Siag, 2016",Actinidia chinensis var. deliciosa,Kiwifruit,BOTH,BEH,branch,India,1,BOTH
+dataanalyses.csv,267,"Siag, 2016",Actinidia chinensis var. deliciosa,Kiwifruit,BOTH,BEH,branch,India,1,BOTH
+dataanalyses.csv,268,"Singh, 2016",Cajanus cajan,Pigeon pea,OP,EH,plant,India,0.15,OP
+dataanalyses.csv,269,"Singh, 2016",Cajanus cajan,Pigeon pea,OP,EH,plant,India,0.15,OP
+dataanalyses.csv,270,"Singh, 2016",Cajanus cajan,Pigeon pea,OP,EH,plant,India,0.17,OP
+dataanalyses.csv,271,"Singh, 2016",Cajanus cajan,Pigeon pea,OP,EH,plant,India,0.17,OP
+dataanalyses.csv,272,"Singh, 2017",Cajanus cajan,Pigeon pea,OP,EH,,India,0.19,OP
+dataanalyses.csv,273,"Singh, 2017",Cajanus cajan,Pigeon pea,OP,EH,,India,0.19,OP
+dataanalyses.csv,274,"Yourstone, 2021",Capsicum annuum,Chilli,SUP,AH,plant,India,0.37,SUP
+dataanalyses.csv,275,"Yourstone, 2021",Capsicum annuum,Chilli,SUP,AH,plant,India,0.23,SUP
+dataanalyses.csv,276,"Yourstone, 2021",Capsicum annuum,Chilli,OP,AH,plant,India,0.18,OP
+dataanalyses.csv,277,"Yourstone, 2021",Capsicum annuum,Chilli,OP,AH,plant,India,0.38,OP
+dataanalyses.csv,278,"Yourstone, 2021",Capsicum annuum,Chilli,OP,AH,plant,India,0.4,OP
+dataanalyses.csv,279,"Yourstone, 2021",Capsicum annuum,Chilli,SUP,AH,plant,India,0.67,SUP
+dataanalyses.csv,280,"Yourstone, 2021",Capsicum annuum,Chilli,BOTH,AH,plant,India,0.55,BOTH
+dataanalyses.csv,281,"Yourstone, 2021",Capsicum annuum,Chilli,SUP,AH,plant,India,0.71,SUP
+dataanalyses.csv,282,"Yourstone, 2021",Capsicum annuum,Chilli,OP,AH,plant,India,0.6,OP
+dataanalyses.csv,283,"Yourstone, 2021",Capsicum annuum,Chilli,SUP,AH,plant,India,0.87,SUP
+dataanalyses.csv,284,"Yourstone, 2021",Capsicum annuum,Chilli,SUP,AH,plant,India,0.93,SUP
+dataanalyses.csv,285,"Bos, 2007",Theobroma cacao,Cocoa,BOTH,AH,plant,Indonesia,1,BOTH
+dataanalyses.csv,286,"Klein, 2003",Coffea arabica,Arabic Coffee,OP,BH,branch,Indonesia,0.36,OP
+dataanalyses.csv,287,"Klein, 2003",Coffea canephora,Coffee,BOTH,BH,branch,Indonesia,0,BOTH
+dataanalyses.csv,288,"Li, 2022 (but found y thesis 2020)",Elaeis guineensis,Oil palm,OP,AH,inflor.,Indonesia,0.81,OP
+dataanalyses.csv,289,"Tatari, 2017",Pyrus communis,Pear,SUP,BEH,aflower,Iran,0.57,SUP
+dataanalyses.csv,290,"Tatari, 2017",Pyrus communis,Pear,SUP,BEH,aflower,Iran,0.61,SUP
+dataanalyses.csv,291,"Tatari, 2017",Pyrus communis,Pear,SUP,BEH,aflower,Iran,0.69,SUP
+dataanalyses.csv,292,"Stanley, 2013",Brassica napus,Oilseed rape,SUP,AH,aflower,Ireland,0.32,SUP
+dataanalyses.csv,293,"Stanley, 2013",Brassica napus,Oilseed rape,OP,AH,aflower,Ireland,0.36,OP
+dataanalyses.csv,294,"Pisanty, 2016",Citrullus lanatus,Watermelon,OP,AH,aflower,Israel,0.87,OP
+dataanalyses.csv,295,"Samocha, 2014",Jatropha curcas,Jatrofa,SUP,AH,inflor.,Israel,0.69,SUP
+dataanalyses.csv,296,"Zaitoun, 2016",Citrullus lanatus,Watermelon,OP,AH,plant,Israel,0.77,OP
+dataanalyses.csv,297,"Zaitoun, 2016",Citrullus lanatus,Watermelon,OP,AH,plant,Israel,0.84,OP
+dataanalyses.csv,298,"Bartual, 2018",Helianthus annuus,Sunflower,SUP,AH,inflor.,Italy,0.81,SUP
+dataanalyses.csv,299,"Costa, 1993",Actinidia chinensis var. deliciosa,Kiwifruit,SUP,AH,plant,Italy,0.23,SUP
+dataanalyses.csv,300,"Costa, 1993",Actinidia chinensis var. deliciosa,Kiwifruit,SUP,AH,plant,Italy,0.3,SUP
+dataanalyses.csv,301,"Nikkeshi, 2019",Diospyros kaki f.,Persimmon,OP,AH,aflower,Japan,0.91,OP
+dataanalyses.csv,302,"Abu, 2011",Nigella sativa,Black cumin,OP,EH,aflower,Jordan,0.46,OP
+dataanalyses.csv,303,"Abu, 2011",Nigella sativa,Black cumin,OP,EH,aflower,Jordan,0.47,OP
+dataanalyses.csv,304,"Freihat, 2008",Eriobotrya japonica,Loquat,SUP,AH,inflor.,Jordan,0.73,SUP
+dataanalyses.csv,305,"Freihat, 2008",Eriobotrya japonica,Loquat,SUP,AH,inflor.,Jordan,0.76,SUP
+dataanalyses.csv,306,"Oronje, 2012",Momordica charantia,Bitter melon,BOTH,BH,aflower,Kenya,1,BOTH
+dataanalyses.csv,307,"Oronje, 2012",Momordica charantia,Bitter melon,BOTH,BH,aflower,Kenya,1,BOTH
+dataanalyses.csv,308,"Garratt, 2021a",Malus domestica,Apple,OP,,plant,Kyrgyzstan,1,OP
+dataanalyses.csv,309,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,310,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,311,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,312,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,313,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,314,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,315,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,316,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,317,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,318,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,319,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,320,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,321,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,322,"Garratt, 2021a",Malus domestica,Apple,OP,,plant,Kyrgyzstan,1,OP
+dataanalyses.csv,323,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,324,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,325,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,326,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,327,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,328,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,329,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,330,"Garratt, 2021a",Malus domestica,Apple,BOTH,,plant,Kyrgyzstan,1,BOTH
+dataanalyses.csv,331,"Garratt, 2021a",Malus domestica,Apple,SUP,,plant,Kyrgyzstan,0.4,SUP
+dataanalyses.csv,332,"Garratt, 2021a",Malus domestica,Apple,OP,,plant,Kyrgyzstan,0.69,OP
+dataanalyses.csv,333,"Negussie, 2014",Jatropha curcas,Jatrofa,SUP,AH,inflor.,Malawi,0.19,SUP
+dataanalyses.csv,334,"Huda, 2015",Mangifera indica,Mango,SUP,AH,inflor.,Malaysia,0.53,SUP
+dataanalyses.csv,335,"Huda, 2015",Mangifera indica,Mango,SUP,AH,inflor.,Malaysia,0.88,SUP
+dataanalyses.csv,336,"Aldana, 2017",Carica papaya,Papaya,OP,AH,aflower,Mexico,0.91,OP
+dataanalyses.csv,337,"Landaverde-Gonzalez, 2017",Capsicum chinense,Habanero pepper,SUP,BH,aflower,Mexico,0.85,SUP
+dataanalyses.csv,338,"Otero, 2003",Polaskia chichipe,Chichituna,OP,BH,aflower,Mexico,0.67,OP
+dataanalyses.csv,339,"Perez, 2012",Persea americana,Avocado,OP,AH,aflower,Mexico,0.86,OP
+dataanalyses.csv,340,"Velazquez-López, 2018",Gossypium hirsutum,Cottonseed,OP,BEH,aflower,Mexico,0.07,OP
+dataanalyses.csv,341,"Pudasaini, 2014",Brassica rapa,Canola,SUP,BH,plant,Nepal,0.37,SUP
+dataanalyses.csv,342,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,SUP,AH,plant,Netherlands,0.34,SUP
+dataanalyses.csv,343,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,SUP,AH,plant,Netherlands,0.41,SUP
+dataanalyses.csv,344,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,SUP,AH,plant,Netherlands,0.62,SUP
+dataanalyses.csv,345,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,OP,AH,plant,Netherlands,0.56,OP
+dataanalyses.csv,346,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,OP,AH,plant,Netherlands,0.8,OP
+dataanalyses.csv,347,"Groot, 2015",Malus domestica,Apple,SUP,AH,branch,Netherlands,0.15,SUP
+dataanalyses.csv,348,"Groot, 2015",Malus domestica,Apple,OP,AH,branch,Netherlands,0.21,OP
+dataanalyses.csv,349,"Groot, 2015",Vaccinium corymbosum,Highbush blueberry,OP,AH,branch,Netherlands,0.34,OP
+dataanalyses.csv,350,"Groot, 2015",Vaccinium corymbosum,Highbush blueberry,OP,AH,branch,Netherlands,0.47,OP
+dataanalyses.csv,351,"McLaren, 1996",Prunus armeniaca,Apricot,BOTH,BEH,aflower,New Zealand,1,BOTH
+dataanalyses.csv,352,"McLaren, 1996",Prunus armeniaca,Apricot,SUP,BEH,aflower,New Zealand,0.87,SUP
+dataanalyses.csv,353,"McLaren, 1996",Prunus armeniaca,Apricot,OP,BEH,aflower,New Zealand,0.98,OP
+dataanalyses.csv,354,"Bazo, 2018",Cucurbita moschata,Gourd,OP,AH,plant,Peru,0.7,OP
+dataanalyses.csv,355,"Castro, 2021",Actinidia chinensis,Golden Kiwifruit,SUP,AH,plant,Portugal,0.47,SUP
+dataanalyses.csv,356,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,OP,AH,plant,Portugal,0.1,OP
+dataanalyses.csv,357,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,OP,AH,plant,Portugal,0.25,OP
+dataanalyses.csv,358,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,SUP,AH,plant,Portugal,0.47,SUP
+dataanalyses.csv,359,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,SUP,AH,plant,Portugal,0.41,SUP
+dataanalyses.csv,360,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,SUP,AH,plant,Portugal,0.54,SUP
+dataanalyses.csv,361,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,SUP,AH,plant,Portugal,0.61,SUP
+dataanalyses.csv,362,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,SUP,AH,plant,Portugal,0.81,SUP
+dataanalyses.csv,363,"Abdelgadir, 2015",Jatropha curcas,Jatrofa,SUP,BH,plant,South Africa,0.87,SUP
+dataanalyses.csv,364,"Grass, 2018",Macadamia integrifolia,Macadamia,SUP,AH,aflower,South Africa,0.56,SUP
+dataanalyses.csv,365,"Klein, 2005",Prunus dulcis,Almond,SUP,AH,plant,United States of America,0.95,SUP
+dataanalyses.csv,366,"Socias, 2004",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.86,SUP
+dataanalyses.csv,367,"Socias, 2004",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.95,SUP
+dataanalyses.csv,368,"Socias, 2004",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.99,SUP
+dataanalyses.csv,369,"Miñarro, 2015",Actinidia chinensis var. deliciosa,Kiwifruit,OP,BH,aflower,Spain,0.54,OP
+dataanalyses.csv,370,"Samnegârd, 2018; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.94,SUP
+dataanalyses.csv,371,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.69,SUP
+dataanalyses.csv,372,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.62,SUP
+dataanalyses.csv,373,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.68,SUP
+dataanalyses.csv,374,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.77,SUP
+dataanalyses.csv,375,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.82,SUP
+dataanalyses.csv,376,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.77,SUP
+dataanalyses.csv,377,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.83,SUP
+dataanalyses.csv,378,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.84,SUP
+dataanalyses.csv,379,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.9,SUP
+dataanalyses.csv,380,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.91,SUP
+dataanalyses.csv,381,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.88,SUP
+dataanalyses.csv,382,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.93,SUP
+dataanalyses.csv,383,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.97,SUP
+dataanalyses.csv,384,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.89,SUP
+dataanalyses.csv,385,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.96,SUP
+dataanalyses.csv,386,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.98,SUP
+dataanalyses.csv,387,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.98,SUP
+dataanalyses.csv,388,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.99,SUP
+dataanalyses.csv,389,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.99,SUP
+dataanalyses.csv,390,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.96,SUP
+dataanalyses.csv,391,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.98,SUP
+dataanalyses.csv,392,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.99,SUP
+dataanalyses.csv,393,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.98,SUP
+dataanalyses.csv,394,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.99,SUP
+dataanalyses.csv,395,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,0.99,SUP
+dataanalyses.csv,396,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Spain,1,SUP
+dataanalyses.csv,397,"Socias, 2004",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.99,SUP
+dataanalyses.csv,398,"Socias, 2004",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.72,SUP
+dataanalyses.csv,399,"Socias, 2004",Prunus dulcis,Almond,OP,EH,aflower,Spain,0.78,OP
+dataanalyses.csv,400,"Socias, 2004",Prunus dulcis,Almond,BOTH,EH,aflower,Spain,1,BOTH
+dataanalyses.csv,401,"Socias, 2004",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.99,SUP
+dataanalyses.csv,402,"Socias, 2004",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.98,SUP
+dataanalyses.csv,403,"Socias, 2004",Prunus dulcis,Almond,OP,EH,aflower,Spain,0.97,OP
+dataanalyses.csv,404,"Socias, 2004",Prunus dulcis,Almond,OP,EH,aflower,Spain,1,OP
+dataanalyses.csv,405,"Socias, 2004",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.99,SUP
+dataanalyses.csv,406,"Socias, 2004",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.59,SUP
+dataanalyses.csv,407,"Socias, 2004",Prunus dulcis,Almond,OP,EH,aflower,Spain,0.58,OP
+dataanalyses.csv,408,"Socias, 2004",Prunus dulcis,Almond,BOTH,EH,aflower,Spain,1,BOTH
+dataanalyses.csv,409,"Socias, 2004",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.97,SUP
+dataanalyses.csv,410,"Socias, 2004",Prunus dulcis,Almond,OP,EH,aflower,Spain,0.38,OP
+dataanalyses.csv,411,"Socias, 2004",Prunus dulcis,Almond,OP,EH,aflower,Spain,0.69,OP
+dataanalyses.csv,412,"Kodad, 2008",Prunus dulcis,Almond,SUP,EH,branch,Spain,0.66,SUP
+dataanalyses.csv,413,"Kodad, 2008",Prunus dulcis,Almond,SUP,EH,branch,Spain,0.71,SUP
+dataanalyses.csv,414,"Kodad, 2008",Prunus dulcis,Almond,SUP,EH,branch,Spain,0.72,SUP
+dataanalyses.csv,415,"Socias, 2004",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.78,SUP
+dataanalyses.csv,416,"Socias, 2004",Prunus dulcis,Almond,SUP,EH,aflower,Spain,0.81,SUP
+dataanalyses.csv,417,"Perera, 2019",Abelmoschus esculentus,Okra,BOTH,BH,aflower,Sri Lanka,0,BOTH
+dataanalyses.csv,418,"Froborg, 1996",Vaccinium myrtillus,Bilberry,OP,AH,aflower,Sweden,0.93,OP
+dataanalyses.csv,419,"Froborg, 1996",Vaccinium vitis-idaea,Linganberry,OP,AH,aflower,Sweden,0.88,OP
+dataanalyses.csv,420,"Lundin, 2021",Vicia faba,Broad bean,SUP,AH,plant,Sweden,0.02,SUP
+dataanalyses.csv,421,"Lundin, 2021",Vicia faba,Broad bean,SUP,AH,plant,Sweden,0.08,SUP
+dataanalyses.csv,422,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,BOTH,AH,plant,Sweden,1,BOTH
+dataanalyses.csv,423,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Sweden,0.71,SUP
+dataanalyses.csv,424,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,BOTH,AH,plant,Sweden,1,BOTH
+dataanalyses.csv,425,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Sweden,0.36,SUP
+dataanalyses.csv,426,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Sweden,0.27,SUP
+dataanalyses.csv,427,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Sweden,0.3,OP
+dataanalyses.csv,428,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Sweden,0.3,OP
+dataanalyses.csv,429,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Sweden,0.3,OP
+dataanalyses.csv,430,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Sweden,0.34,OP
+dataanalyses.csv,431,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Sweden,0.38,SUP
+dataanalyses.csv,432,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Sweden,0.38,OP
+dataanalyses.csv,433,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Sweden,0.84,SUP
+dataanalyses.csv,434,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Sweden,0.54,SUP
+dataanalyses.csv,435,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Sweden,0.39,SUP
+dataanalyses.csv,436,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Sweden,0.52,SUP
+dataanalyses.csv,437,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Sweden,0.66,OP
+dataanalyses.csv,438,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,Sweden,0.7,SUP
+dataanalyses.csv,439,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Sweden,0.72,OP
+dataanalyses.csv,440,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Sweden,0.78,OP
+dataanalyses.csv,441,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,OP,AH,plant,Sweden,0.88,OP
+dataanalyses.csv,442,"Elisante, 2020",Phaseolus vulgaris,Bean,OP,BH,plant,Tanzania,0.19,OP
+dataanalyses.csv,443,"Mkindi, 2017",Phaseolus vulgaris,Bean,SUP,AH,plant,Tanzania,0,SUP
+dataanalyses.csv,444,"Bumrungsri, 2009",Durio zibethinus,Durian,SUP,BEH,inflor.,Thailand,0.83,SUP
+dataanalyses.csv,445,"Hansen, 2020",Psidium guajava,Guava,SUP,BH,aflower,Thailand,0.08,SUP
+dataanalyses.csv,446,"Nuanjunkong, 2019",Jatropha curcas,Jatrofa,OP,BH,aflower,Thailand,0.57,OP
+dataanalyses.csv,447,"Nuanjunkong, 2021",Jatropha curcas,Jatrofa,OP,BH,aflower,Thailand,0.57,OP
+dataanalyses.csv,448,"Shinaseni & Catterall, 2021",Litchi chinensis,Lychee,SUP,AH,inflor.,Thailand,0.81,SUP
+dataanalyses.csv,449,"Wayo, 2018",Durio zibethinus,Durian,BOTH,BEH,plant,Thailand,1,BOTH
+dataanalyses.csv,450,"Karabiyik, 2016",Diospyros kaki f.,Persimmon,BOTH,BH,aflower,Turkey,1,BOTH
+dataanalyses.csv,451,"Karabiyik, 2016",Diospyros kaki f.,Persimmon,BOTH,BH,aflower,Turkey,1,BOTH
+dataanalyses.csv,452,"Karabiyik, 2016",Diospyros kaki f.,Persimmon,SUP,BH,aflower,Turkey,0.54,SUP
+dataanalyses.csv,453,"Munyuli, 2014",Coffea canephora,Coffee,SUP,AH,branch,Uganda,0.9,SUP
+dataanalyses.csv,454,"Okullo, 2004",Vitellaria paradoxa,Karite nut,BOTH,BEH,aflower,Uganda,1,BOTH
+dataanalyses.csv,455,"Okullo, 2004",Vitellaria paradoxa,Karite nut,BOTH,BEH,aflower,Uganda,1,BOTH
+dataanalyses.csv,456,"Campbell, 2017",Malus domestica,Apple,SUP,AH,branch,United Kingdom,0.76,SUP
+dataanalyses.csv,457,"Campbell, 2017",Malus domestica,Apple,SUP,AH,branch,United Kingdom,0.9,SUP
+dataanalyses.csv,458,"Campbell, 2017",Malus domestica,Apple,SUP,AH,branch,United Kingdom,0.97,SUP
+dataanalyses.csv,459,"Campbell, 2017",Malus domestica,Apple,SUP,AH,branch,United Kingdom,0.85,SUP
+dataanalyses.csv,460,"Campbell, 2017",Malus domestica,Apple,SUP,AH,branch,United Kingdom,0.83,SUP
+dataanalyses.csv,461,"Campbell, 2017",Malus domestica,Apple,SUP,AH,branch,United Kingdom,0.76,SUP
+dataanalyses.csv,462,"Campbell, 2017",Malus domestica,Apple,SUP,AH,branch,United Kingdom,0.82,SUP
+dataanalyses.csv,463,"Campbell, 2017",Malus domestica,Apple,SUP,AH,branch,United Kingdom,0.88,SUP
+dataanalyses.csv,464,"Fountain, 2019",Pyrus communis,Pear,SUP,EH,branch,United Kingdom,0.15,SUP
+dataanalyses.csv,465,"Fountain, 2019",Pyrus communis,Pear,SUP,EH,branch,United Kingdom,0.98,SUP
+dataanalyses.csv,466,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,BOTH,BH,branch,United Kingdom,1,BOTH
+dataanalyses.csv,467,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.5,SUP
+dataanalyses.csv,468,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,OP,BH,branch,United Kingdom,0.15,OP
+dataanalyses.csv,469,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,SUP,BH,branch,United Kingdom,0.49,SUP
+dataanalyses.csv,470,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,SUP,BH,branch,United Kingdom,0.34,SUP
+dataanalyses.csv,471,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,SUP,BH,branch,United Kingdom,0.35,SUP
+dataanalyses.csv,472,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.41,SUP
+dataanalyses.csv,473,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.43,SUP
+dataanalyses.csv,474,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.43,SUP
+dataanalyses.csv,475,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.42,SUP
+dataanalyses.csv,476,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,SUP,BH,branch,United Kingdom,0.46,SUP
+dataanalyses.csv,477,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,SUP,BH,branch,United Kingdom,0.48,SUP
+dataanalyses.csv,478,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,OP,BH,branch,United Kingdom,0.48,OP
+dataanalyses.csv,479,"Garratt, 2014a; Garratt, 2021",Malus domestica,Apple,OP,BH,plant,United Kingdom,0.53,OP
+dataanalyses.csv,480,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.4,SUP
+dataanalyses.csv,481,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.37,SUP
+dataanalyses.csv,482,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.41,SUP
+dataanalyses.csv,483,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.48,SUP
+dataanalyses.csv,484,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,OP,BH,plant,United Kingdom,0.48,OP
+dataanalyses.csv,485,"Garratt, 2021",Malus domestica,Apple,BOTH,BH,plant,United Kingdom,1,BOTH
+dataanalyses.csv,486,"Garratt, 2021",Malus domestica,Apple,OP,BH,plant,United Kingdom,0.23,OP
+dataanalyses.csv,487,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.34,SUP
+dataanalyses.csv,488,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.27,SUP
+dataanalyses.csv,489,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.37,SUP
+dataanalyses.csv,490,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.5,SUP
+dataanalyses.csv,491,"Garratt, 2021",Malus domestica,Apple,OP,BH,plant,United Kingdom,0.29,OP
+dataanalyses.csv,492,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.35,SUP
+dataanalyses.csv,493,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.34,SUP
+dataanalyses.csv,494,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.45,SUP
+dataanalyses.csv,495,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.42,SUP
+dataanalyses.csv,496,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.51,SUP
+dataanalyses.csv,497,"Garratt, 2021",Malus domestica,Apple,OP,BH,plant,United Kingdom,0.4,OP
+dataanalyses.csv,498,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.41,SUP
+dataanalyses.csv,499,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.46,SUP
+dataanalyses.csv,500,"Garratt, 2021",Malus domestica,Apple,OP,BH,plant,United Kingdom,0.49,OP
+dataanalyses.csv,501,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.49,SUP
+dataanalyses.csv,502,"Garratt, 2021",Malus domestica,Apple,OP,BH,plant,United Kingdom,0.51,OP
+dataanalyses.csv,503,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.55,SUP
+dataanalyses.csv,504,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.53,SUP
+dataanalyses.csv,505,"Garratt, 2021",Malus domestica,Apple,OP,BH,plant,United Kingdom,0.63,OP
+dataanalyses.csv,506,"Garratt, 2021",Malus domestica,Apple,OP,BH,plant,United Kingdom,0.65,OP
+dataanalyses.csv,507,"Garratt, 2021",Malus domestica,Apple,SUP,BH,plant,United Kingdom,0.88,SUP
+dataanalyses.csv,508,"Garratt, 2021c",Malus domestica,Apple,SUP,,plant,United Kingdom,0.96,SUP
+dataanalyses.csv,509,"Knapp, 2017",Cucurbita pepo,Courgette,SUP,AH,aflower,United Kingdom,0.4,SUP
+dataanalyses.csv,510,"Knapp, 2018",Cucurbita pepo,Courgette,SUP,AH,aflower,United Kingdom,0.21,SUP
+dataanalyses.csv,511,"Webber, 2020; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,United Kingdom,0.52,SUP
+dataanalyses.csv,512,"Webber, 2020; Garrat, 2021",Malus domestica,Apple,SUP,AH,plant,United Kingdom,0.54,SUP
+dataanalyses.csv,513,"Abbate, 2021",Actinidia chinensis,Golden Kiwifruit,SUP,AH,plant,United States of America,0.62,SUP
+dataanalyses.csv,514,"Abbate, 2021",Actinidia chinensis,Golden Kiwifruit,SUP,AH,plant,United States of America,0.87,SUP
+dataanalyses.csv,515,"Campbell, 2018",Vaccinium corymbosum,Highbush blueberry,SUP,BH,inflor.,United States of America,0.76,SUP
+dataanalyses.csv,516,"Chao, 2005",Citrus clementina,Clementine,BOTH,BEH,aflower,United States of America,1,BOTH
+dataanalyses.csv,517,"Chao, 2005",Citrus clementina,Clementine,SUP,BEH,aflower,United States of America,0.67,SUP
+dataanalyses.csv,518,"Chao, 2005",Citrus clementina,Clementine,SUP,BEH,aflower,United States of America,0.97,SUP
+dataanalyses.csv,519,"Conelly, 2015",Fragaria x ananassa,Strawberry,SUP,AH,inflor.,United States of America,0.49,SUP
+dataanalyses.csv,520,"Cusser, 2016",Gossypium hirsutum,Cottonseed,SUP,AH,aflower,United States of America,0.25,SUP
+dataanalyses.csv,521,"El-Sawa, 1998",Artocarpus heterophyllus,Jackfruit,OP,BH,inflor.,United States of America,0.79,OP
+dataanalyses.csv,522,"El-Sawa, 1998",Artocarpus heterophyllus,Jackfruit,OP,BH,inflor.,United States of America,0.88,OP
+dataanalyses.csv,523,"Gibbs, 2015",Vaccinium corymbosum,Highbush blueberry,SUP,AH,inflor.,United States of America,0.4,SUP
+dataanalyses.csv,524,"Guerrero, 1984",Prunus avium,Sweet cherry,SUP,AH,branch,United States of America,0.49,SUP
+dataanalyses.csv,525,"Norfolk, 2016",Prunus dulcis,Almond,OP,AH,branch,Egypt,0.91,OP
+dataanalyses.csv,526,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,SUP,BEH,inflor.,United States of America,0.28,SUP
+dataanalyses.csv,527,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,OP,BEH,inflor.,United States of America,0.33,OP
+dataanalyses.csv,528,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,OP,BEH,inflor.,United States of America,0.33,OP
+dataanalyses.csv,529,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,SUP,BEH,inflor.,United States of America,0.61,SUP
+dataanalyses.csv,530,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,OP,BEH,inflor.,United States of America,0.64,OP
+dataanalyses.csv,531,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,OP,BEH,inflor.,United States of America,0.7,OP
+dataanalyses.csv,532,"Mallinger, 2017",Helianthus annuus,Sunflower,OP,BH,plant,United States of America,0.08,OP
+dataanalyses.csv,533,"Mallinger, 2017",Helianthus annuus,Sunflower,OP,BH,plant,United States of America,0.31,OP
+dataanalyses.csv,534,"Mallinger, 2017",Helianthus annuus,Sunflower,SUP,BH,plant,United States of America,0.61,SUP
+dataanalyses.csv,535,"Mallinger, 2017",Helianthus annuus,Sunflower,OP,BH,plant,United States of America,0.48,OP
+dataanalyses.csv,536,"Mallinger, 2017",Helianthus annuus,Sunflower,OP,BH,plant,United States of America,0.54,OP
+dataanalyses.csv,537,"Moffett, 1979",Citrus paradisi,Grapefruit,BOTH,EH,aflower,United States of America,1,BOTH
+dataanalyses.csv,538,"Moffett, 1979",Citrus paradisi,Grapefruit,SUP,EH,aflower,United States of America,0.61,SUP
+dataanalyses.csv,539,"Moffett, 1979",Citrus paradisi,Grapefruit,SUP,EH,aflower,United States of America,0.62,SUP
+dataanalyses.csv,540,"Moffett, 1979",Citrus paradisi,Grapefruit,SUP,EH,aflower,United States of America,0.57,SUP
+dataanalyses.csv,541,"Moffett, 1979",Citrus paradisi,Grapefruit,SUP,EH,aflower,United States of America,0.58,SUP
+dataanalyses.csv,542,"Moffett, 1979",Citrus paradisi,Grapefruit,SUP,EH,aflower,United States of America,0.57,SUP
+dataanalyses.csv,543,"Moffett, 1979",Citrus paradisi,Grapefruit,SUP,EH,aflower,United States of America,0.6,SUP
+dataanalyses.csv,544,"Moffett, 1979",Citrus paradisi,Grapefruit,SUP,EH,aflower,United States of America,0.58,SUP
+dataanalyses.csv,545,"Moffett, 1979",Citrus paradisi,Grapefruit,SUP,EH,aflower,United States of America,0.59,SUP
+dataanalyses.csv,546,"Moffett, 1979",Citrus paradisi,Grapefruit,SUP,EH,aflower,United States of America,0.56,SUP
+dataanalyses.csv,547,"Moffett, 1979",Citrus paradisi,Grapefruit,OP,EH,aflower,United States of America,0.53,OP
+dataanalyses.csv,548,"Moffett, 1979",Citrus paradisi,Grapefruit,SUP,EH,aflower,United States of America,0.62,SUP
+dataanalyses.csv,549,"Moffett, 1979",Citrus paradisi,Grapefruit,SUP,EH,aflower,United States of America,0.95,SUP
+dataanalyses.csv,550,"Nishida, 1958",Passiflora edulis,Passion fruit,BOTH,AH,aflower,United States of America,1,BOTH
+dataanalyses.csv,551,"Nishida, 1958",Passiflora edulis,Passion fruit,BOTH,AH,aflower,United States of America,1,BOTH
+dataanalyses.csv,552,"Nishida, 1958",Passiflora edulis,Passion fruit,BOTH,AH,aflower,United States of America,1,BOTH
+dataanalyses.csv,553,"Nishida, 1958",Passiflora edulis,Passion fruit,BOTH,AH,aflower,United States of America,1,BOTH
+dataanalyses.csv,554,"Norman, 1992",Asimina parviflora,Pawpaw,BOTH,BEH,aflower,United States of America,1,BOTH
+dataanalyses.csv,555,"Norman, 1992",Asimina parviflora,Pawpaw,BOTH,BEH,aflower,United States of America,1,BOTH
+dataanalyses.csv,556,"Norman, 1992",,Asimina parviflora,SUP,BEH,aflower,United States of America,0.57,SUP
+dataanalyses.csv,557,"Potter, 2015",Solanum lycopersicum,Tomato,OP,BH,inflor.,United States of America,0.28,OP
+dataanalyses.csv,558,"Woodburn, 1996",Diospyros kaki f.,Persimmon,SUP,BH,aflower,United States of America,0.33,SUP
+dataanalyses.csv,559,"Woodburn, 1996",Diospyros kaki f.,Persimmon,SUP,BH,aflower,United States of America,0.39,SUP
+dataanalyses.csv,560,"Woodburn, 1996",Diospyros kaki f.,Persimmon,SUP,BH,aflower,United States of America,0.56,SUP
+dataanalyses.csv,561,"Kouonon, 2009",Cucumis melo,Melon,BOTH,BEH,aflower,West Africa,1,BOTH
+dataanalyses.csv,562,"Kouonon, 2009",Cucumis melo,Melon,BOTH,BEH,aflower,West Africa,1,BOTH
+dataanalyses.csv,563,"Negussie, 2014",Jatropha curcas,Jatrofa,SUP,AH,inflor.,Zambia,0.54,SUP
+dataanalyses.csv,564,"Negussie, 2014",Jatropha curcas,Jatrofa,OP,AH,inflor.,Zambia,0.57,OP
+dpsupdpnat.csv,2,"Abbate, 2021",Actinidia chinensis,Golden Kiwifruit,dp_nat,,,,0.44,dp_nat
+dpsupdpnat.csv,3,"Abbate, 2021",Actinidia chinensis,Golden Kiwifruit,dp_nat,,,,0.73,dp_nat
+dpsupdpnat.csv,4,"Abdelgadir, 2015",Jatropha curcas,Jatrofa,dp_nat,,,,0.82,dp_nat
+dpsupdpnat.csv,5,"Abu, 2011",Nigella sativa,Black cumin,dp_nat,,,,0.46,dp_nat
+dpsupdpnat.csv,6,"Abu, 2011",Nigella sativa,Black cumin,dp_nat,,,,0.47,dp_nat
+dpsupdpnat.csv,7,"Aldana, 2017",Carica papaya,Papaya,dp_nat,,,,0.91,dp_nat
+dpsupdpnat.csv,8,"Andrade, 2014",Sesamum indicum,Sesame seed,dp_nat,,,,0.01,dp_nat
+dpsupdpnat.csv,9,"Anooj, 2013",Luffa aegyptiaca,Smoth gourd,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,10,"Anooj, 2013",Luffa aegyptiaca,Smoth gourd,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,11,"Anooj, 2013",Luffa aegyptiaca,Smoth gourd,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,12,"Anooj, 2013",Luffa aegyptiaca,Smoth gourd,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,13,"Arias-Suarez, 2014",Passiflora edulis,Passion fruit,dp_nat,,,,0.97,dp_nat
+dpsupdpnat.csv,14,"Atawia, 2016",Citrus clementina,Clementine,dp_nat,,,,0.68,dp_nat
+dpsupdpnat.csv,15,"Atawia, 2016",Citrus clementina,Clementine,dp_nat,,,,0.69,dp_nat
+dpsupdpnat.csv,16,"Bakshi, 2018",Prunus avium,Sweet cherry,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,17,"Bartual, 2018",Helianthus annuus,Sunflower,dp_nat,,,,0.8,dp_nat
+dpsupdpnat.csv,18,"Bazo, 2018",Cucurbita moschata,Gourd,dp_nat,,,,0.7,dp_nat
+dpsupdpnat.csv,19,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.25,dp_nat
+dpsupdpnat.csv,20,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.38,dp_nat
+dpsupdpnat.csv,21,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.53,dp_nat
+dpsupdpnat.csv,22,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.56,dp_nat
+dpsupdpnat.csv,23,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.8,dp_nat
+dpsupdpnat.csv,24,"Blochtein, 2014",Brassica napus,Oilseed rape,dp_nat,,,,0.2,dp_nat
+dpsupdpnat.csv,25,"Blochtein, 2014",Brassica napus,Oilseed rape,dp_nat,,,,0.21,dp_nat
+dpsupdpnat.csv,26,"Blochtein, 2014",Brassica napus,Oilseed rape,dp_nat,,,,0.62,dp_nat
+dpsupdpnat.csv,27,"Borketey, 2018",Cucurbita pepo,Squash,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,28,"Bos, 2007",Passiflora edulis,Passion fruit,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,29,"Bos, 2007",Theobroma cacao,Cocoa,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,30,"Brown, 2006",Vaccinium macrocarpon,Cranberry,dp_nat,,,,0.56,dp_nat
+dpsupdpnat.csv,31,"Bumrungsri, 2009",Durio zibethinus,Durian,dp_nat,,,,0.76,dp_nat
+dpsupdpnat.csv,32,"Button, 2014",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.57,dp_nat
+dpsupdpnat.csv,33,"Button, 2014",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.57,dp_nat
+dpsupdpnat.csv,34,"Campbell, 2017",Malus domestica,Apple,dp_nat,,,,0.27,dp_nat
+dpsupdpnat.csv,35,"Campbell, 2017",Malus domestica,Apple,dp_nat,,,,0.32,dp_nat
+dpsupdpnat.csv,36,"Campbell, 2017",Malus domestica,Apple,dp_nat,,,,0.41,dp_nat
+dpsupdpnat.csv,37,"Campbell, 2017",Malus domestica,Apple,dp_nat,,,,0.46,dp_nat
+dpsupdpnat.csv,38,"Campbell, 2017",Malus domestica,Apple,dp_nat,,,,0.51,dp_nat
+dpsupdpnat.csv,39,"Campbell, 2017",Malus domestica,Apple,dp_nat,,,,0.58,dp_nat
+dpsupdpnat.csv,40,"Campbell, 2017",Malus domestica,Apple,dp_nat,,,,0.62,dp_nat
+dpsupdpnat.csv,41,"Campbell, 2017",Euterpe oleracea,Acaí,dp_nat,,,,0.74,dp_nat
+dpsupdpnat.csv,42,"Campbell, 2017",Malus domestica,Apple,dp_nat,,,,0.77,dp_nat
+dpsupdpnat.csv,43,"Campbell, 2018",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.72,dp_nat
+dpsupdpnat.csv,44,"Cao, 2020",Paeonia ostii,Peony,dp_nat,,,,0.52,dp_nat
+dpsupdpnat.csv,45,"Carr, 2015",Solanum lycopersicum,Tomato,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,46,"Carr, 2015",Solanum lycopersicum,Tomato,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,47,"Carr, 2015",Momordica charantia,Bitter melon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,48,"Carr, 2015",Momordica charantia,Bitter melon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,49,"Carr, 2015",Momordica charantia,Bitter melon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,50,"Carr, 2015",Momordica charantia,Bitter melon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,51,"Carr, 2015",Trichosanthes cucumerina,Snake gourd,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,52,"Carr, 2015",Trichosanthes cucumerina,Snake gourd,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,53,"Carr, 2015",Momordica charantia,Bitter melon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,54,"Carr, 2015",Capsicum annuum,Chilli,dp_nat,,,,0.4,dp_nat
+dpsupdpnat.csv,55,"Carr, 2015",Trichosanthes cucumerina,Snake gourd,dp_nat,,,,0.73,dp_nat
+dpsupdpnat.csv,56,"Carr, 2015",Solanum melongena,Eggplant,dp_nat,,,,0.76,dp_nat
+dpsupdpnat.csv,57,"Carr, 2015",Solanum melongena,Eggplant,dp_nat,,,,0.77,dp_nat
+dpsupdpnat.csv,58,"Carr, 2015",Solanum melongena,Eggplant,dp_nat,,,,0.79,dp_nat
+dpsupdpnat.csv,59,"Carr, 2015",Solanum melongena,Eggplant,dp_nat,,,,0.88,dp_nat
+dpsupdpnat.csv,60,"Carr, 2015",Trichosanthes cucumerina,Snake gourd,dp_nat,,,,0.92,dp_nat
+dpsupdpnat.csv,61,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,0.1,dp_nat
+dpsupdpnat.csv,62,"Castro, 2021",Actinidia chinensis,Golden Kiwifruit,dp_nat,,,,0.24,dp_nat
+dpsupdpnat.csv,63,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,0.25,dp_nat
+dpsupdpnat.csv,64,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,0.31,dp_nat
+dpsupdpnat.csv,65,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,0.32,dp_nat
+dpsupdpnat.csv,66,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,0.37,dp_nat
+dpsupdpnat.csv,67,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,0.51,dp_nat
+dpsupdpnat.csv,68,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,0.77,dp_nat
+dpsupdpnat.csv,69,"Cavalcante, 2009",Annona crassiflora,Custard Apple_Marolo,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,70,"Cavalcante, 2009",Annona crassiflora,Custard Apple_Marolo,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,71,"Cavalcante, 2012",Bertholletia excelsa,Brazil nut,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,72,"Chacoff, 2007a",Citrus paradisi,Grapefruit,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,73,"Chacoff, 2007a",Citrus paradisi,Grapefruit,dp_nat,,,,0.93,dp_nat
+dpsupdpnat.csv,74,"Chao, 2005",Citrus clementina,Clementine,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,75,"Chao, 2005",Citrus clementina,Clementine,dp_nat,,,,0.43,dp_nat
+dpsupdpnat.csv,76,"Chao, 2005",Citrus clementina,Clementine,dp_nat,,,,0.67,dp_nat
+dpsupdpnat.csv,77,"Chauta-Mellizo, 2012",Physalis peruviana,Golden berry,dp_nat,,,,0.35,dp_nat
+dpsupdpnat.csv,78,"Company, 1992",Prunus dulcis,Almond,dp_nat,,,,0.8,dp_nat
+dpsupdpnat.csv,79,"Conelly, 2015",Fragaria x ananassa,Strawberry,dp_nat,,,,0.35,dp_nat
+dpsupdpnat.csv,80,"Costa, 1993",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,0.09,dp_nat
+dpsupdpnat.csv,81,"Costa, 1993",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,0.12,dp_nat
+dpsupdpnat.csv,82,"Cusser, 2016",Gossypium hirsutum,Cottonseed,dp_nat,,,,0.12,dp_nat
+dpsupdpnat.csv,83,"Das, 2009",Trichosanthes dioica,Pointed gourd,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,84,"Das, 2009",Trichosanthes dioica,Pointed gourd,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,85,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_nat,,,,0.36,dp_nat
+dpsupdpnat.csv,86,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_nat,,,,0.54,dp_nat
+dpsupdpnat.csv,87,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_nat,,,,0.66,dp_nat
+dpsupdpnat.csv,88,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_nat,,,,0.66,dp_nat
+dpsupdpnat.csv,89,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_nat,,,,0.7,dp_nat
+dpsupdpnat.csv,90,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_nat,,,,0.82,dp_nat
+dpsupdpnat.csv,91,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_nat,,,,0.86,dp_nat
+dpsupdpnat.csv,92,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_nat,,,,0.87,dp_nat
+dpsupdpnat.csv,93,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_nat,,,,0.96,dp_nat
+dpsupdpnat.csv,94,"Devi, 2017",Brassica juncea,Mustard seed,dp_nat,,,,0.38,dp_nat
+dpsupdpnat.csv,95,"Devi, 2017",Brassica juncea,Mustard seed,dp_nat,,,,0.38,dp_nat
+dpsupdpnat.csv,96,"Dorjay, 2017",Momordica charantia,Bitter melon,dp_nat,,,,0.68,dp_nat
+dpsupdpnat.csv,97,"Dorjay, 2017",Cucumis sativus,Cucumber,dp_nat,,,,0.7,dp_nat
+dpsupdpnat.csv,98,"Elisante, 2020",Phaseolus vulgaris,Bean,dp_nat,,,,0.19,dp_nat
+dpsupdpnat.csv,99,"El-Sawa, 1998",Artocarpus heterophyllus,Jackfruit,dp_nat,,,,0.79,dp_nat
+dpsupdpnat.csv,100,"El-Sawa, 1998",Artocarpus heterophyllus,Jackfruit,dp_nat,,,,0.88,dp_nat
+dpsupdpnat.csv,101,"Faoro, 2010",Pyrus communis,Pear,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,102,"Figueiredo, 2020",Physalis angulata,Camapu,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,103,"Fountain, 2019",Pyrus communis,Pear,dp_nat,,,,0.01,dp_nat
+dpsupdpnat.csv,104,"Fountain, 2019",Pyrus communis,Pear,dp_nat,,,,0.97,dp_nat
+dpsupdpnat.csv,105,"Freihat, 2008",Eriobotrya japonica,Loquat,dp_nat,,,,0.73,dp_nat
+dpsupdpnat.csv,106,"Freihat, 2008",Eriobotrya japonica,Loquat,dp_nat,,,,0.74,dp_nat
+dpsupdpnat.csv,107,"Freitas, 1996",Anacardium occidentale,Cashew,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,108,"Freitas, 1999",Malpighia emarginata,Acerola cherry,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,109,"Froborg, 1996",Vaccinium vitis-idaea,Linganberry,dp_nat,,,,0.88,dp_nat
+dpsupdpnat.csv,110,"Froborg, 1996",Vaccinium myrtillus,Bilberry,dp_nat,,,,0.93,dp_nat
+dpsupdpnat.csv,111,"Garantonakis, 2016",Citrullus lanatus,Watermelon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,112,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,113,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.15,dp_nat
+dpsupdpnat.csv,114,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.23,dp_nat
+dpsupdpnat.csv,115,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.24,dp_nat
+dpsupdpnat.csv,116,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.29,dp_nat
+dpsupdpnat.csv,117,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.41,dp_nat
+dpsupdpnat.csv,118,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.45,dp_nat
+dpsupdpnat.csv,119,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.48,dp_nat
+dpsupdpnat.csv,120,"Garrat, 2014b; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.12,dp_nat
+dpsupdpnat.csv,121,"Garrat, 2014b; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.3,dp_nat
+dpsupdpnat.csv,122,"Garrat, 2014b; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.3,dp_nat
+dpsupdpnat.csv,123,"Garrat, 2014b; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.32,dp_nat
+dpsupdpnat.csv,124,"Garrat, 2014b; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.4,dp_nat
+dpsupdpnat.csv,125,"Garrat, 2014b; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.53,dp_nat
+dpsupdpnat.csv,126,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,127,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,128,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,129,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,130,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,131,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,132,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,133,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,134,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,135,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,136,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,137,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,138,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,139,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,140,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,141,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,142,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,143,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,144,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,145,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,146,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,147,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,148,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,149,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,150,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,151,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,152,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,153,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,154,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,155,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,156,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,157,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,158,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,159,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,160,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,161,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,162,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.08,dp_nat
+dpsupdpnat.csv,163,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.28,dp_nat
+dpsupdpnat.csv,164,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.3,dp_nat
+dpsupdpnat.csv,165,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.33,dp_nat
+dpsupdpnat.csv,166,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.34,dp_nat
+dpsupdpnat.csv,167,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.36,dp_nat
+dpsupdpnat.csv,168,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.42,dp_nat
+dpsupdpnat.csv,169,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.68,dp_nat
+dpsupdpnat.csv,170,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.69,dp_nat
+dpsupdpnat.csv,171,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.69,dp_nat
+dpsupdpnat.csv,172,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.92,dp_nat
+dpsupdpnat.csv,173,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.93,dp_nat
+dpsupdpnat.csv,174,"Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.93,dp_nat
+dpsupdpnat.csv,175,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.19,dp_nat
+dpsupdpnat.csv,176,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.22,dp_nat
+dpsupdpnat.csv,177,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.28,dp_nat
+dpsupdpnat.csv,178,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.32,dp_nat
+dpsupdpnat.csv,179,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.39,dp_nat
+dpsupdpnat.csv,180,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.48,dp_nat
+dpsupdpnat.csv,181,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,182,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.23,dp_nat
+dpsupdpnat.csv,183,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.24,dp_nat
+dpsupdpnat.csv,184,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.25,dp_nat
+dpsupdpnat.csv,185,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.28,dp_nat
+dpsupdpnat.csv,186,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.29,dp_nat
+dpsupdpnat.csv,187,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.29,dp_nat
+dpsupdpnat.csv,188,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.32,dp_nat
+dpsupdpnat.csv,189,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.37,dp_nat
+dpsupdpnat.csv,190,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.38,dp_nat
+dpsupdpnat.csv,191,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.39,dp_nat
+dpsupdpnat.csv,192,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.4,dp_nat
+dpsupdpnat.csv,193,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.41,dp_nat
+dpsupdpnat.csv,194,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.43,dp_nat
+dpsupdpnat.csv,195,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.49,dp_nat
+dpsupdpnat.csv,196,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.49,dp_nat
+dpsupdpnat.csv,197,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.51,dp_nat
+dpsupdpnat.csv,198,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.51,dp_nat
+dpsupdpnat.csv,199,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.52,dp_nat
+dpsupdpnat.csv,200,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.63,dp_nat
+dpsupdpnat.csv,201,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.65,dp_nat
+dpsupdpnat.csv,202,"Garratt, 2021",Malus domestica,Apple,dp_nat,,,,0.84,dp_nat
+dpsupdpnat.csv,203,"George, 1993",Diospyros kaki f.,Persimmon,dp_nat,,,,0.13,dp_nat
+dpsupdpnat.csv,204,"George, 1993",Diospyros kaki f.,Persimmon,dp_nat,,,,0.16,dp_nat
+dpsupdpnat.csv,205,"Gibbs, 2015",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.26,dp_nat
+dpsupdpnat.csv,206,"Gibbs, 2015",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.39,dp_nat
+dpsupdpnat.csv,207,"Grass, 2018",Macadamia integrifolia,Macadamia,dp_nat,,,,0.37,dp_nat
+dpsupdpnat.csv,208,"Groot, 2015",Malus domestica,Apple,dp_nat,,,,0.14,dp_nat
+dpsupdpnat.csv,209,"Groot, 2015",Malus domestica,Apple,dp_nat,,,,0.21,dp_nat
+dpsupdpnat.csv,210,"Groot, 2015",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.34,dp_nat
+dpsupdpnat.csv,211,"Groot, 2015",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.47,dp_nat
+dpsupdpnat.csv,212,"Guerrero, 1984",Prunus avium,Sweet cherry,dp_nat,,,,0.41,dp_nat
+dpsupdpnat.csv,213,"Gutiérrez-Chacón, 2018",Passiflora ligularis,Granadilla,dp_nat,,,,0.98,dp_nat
+dpsupdpnat.csv,214,"Hansen, 2020",Psidium guajava,Guava,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,215,"Hickel, 2000",Acca sellowiana,Feijoa,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,216,"Hickel, 2000",Acca sellowiana,Feijoa,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,217,"Hickel, 2000",Acca sellowiana,Feijoa,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,218,"Hickel, 2000",Acca sellowiana,Feijoa,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,219,"Hickel, 2000",Acca sellowiana,Feijoa,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,220,"Hickel, 2000",Acca sellowiana,Feijoa,dp_nat,,,,0.67,dp_nat
+dpsupdpnat.csv,221,"Hickel, 2000",Acca sellowiana,Feijoa,dp_nat,,,,0.77,dp_nat
+dpsupdpnat.csv,222,"Holzschuh, 2012",Prunus avium,Sweet cherry,dp_nat,,,,0.97,dp_nat
+dpsupdpnat.csv,223,"Hossain, 2018",Cucumis sativus,Cucumber,dp_nat,,,,0.21,dp_nat
+dpsupdpnat.csv,224,"Howell, 2016",Macadamia sp.,Macadamia1,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,225,"Howlett, 2019",Macadamia integrifolia,Macadamia,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,226,"Howlett, 2019",Macadamia integrifolia,Macadamia,dp_nat,,,,0.81,dp_nat
+dpsupdpnat.csv,227,"Huda, 2015",Mangifera indica,Mango,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,228,"Huda, 2015",Mangifera indica,Mango,dp_nat,,,,0.83,dp_nat
+dpsupdpnat.csv,229,"Hudewenz, 2013",Brassica napus,Oilseed rape,dp_nat,,,,0.17,dp_nat
+dpsupdpnat.csv,230,"Hudewenz, 2013",Brassica napus,Oilseed rape,dp_nat,,,,0.24,dp_nat
+dpsupdpnat.csv,231,"Hudewenz, 2013",Brassica napus,Oilseed rape,dp_nat,,,,0.32,dp_nat
+dpsupdpnat.csv,232,"Hudewenz, 2013",Brassica napus,Oilseed rape,dp_nat,,,,0.36,dp_nat
+dpsupdpnat.csv,233,"Jat, 2014",Trifolium alexandrinum,Berseem,dp_nat,,,,0.2,dp_nat
+dpsupdpnat.csv,234,"Jat, 2014",Trifolium alexandrinum,Berseem,dp_nat,,,,0.27,dp_nat
+dpsupdpnat.csv,235,"Jayanand, 2010",Helianthus annuus,Sunflower,dp_nat,,,,0.38,dp_nat
+dpsupdpnat.csv,236,"Karabiyik, 2016",Diospyros kaki f.,Persimmon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,237,"Karabiyik, 2016",Diospyros kaki f.,Persimmon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,238,"Karabiyik, 2016",Diospyros kaki f.,Persimmon,dp_nat,,,,0.52,dp_nat
+dpsupdpnat.csv,239,"Karimi, 2015",Punica granatum,Pomegranate,dp_nat,,,,0.11,dp_nat
+dpsupdpnat.csv,240,"Karimi, 2015",Punica granatum,Pomegranate,dp_nat,,,,0.18,dp_nat
+dpsupdpnat.csv,241,"Karimi, 2015",Punica granatum,Pomegranate,dp_nat,,,,0.19,dp_nat
+dpsupdpnat.csv,242,"Karnatak, 2010",Brassica napus,Oilseed rape,dp_nat,,,,0.09,dp_nat
+dpsupdpnat.csv,243,"Karnatak, 2010",Brassica napus,Oilseed rape,dp_nat,,,,0.16,dp_nat
+dpsupdpnat.csv,244,"Karnatak, 2010",Brassica rapa,Canola,dp_nat,,,,0.17,dp_nat
+dpsupdpnat.csv,245,"Karnatak, 2010",Brassica juncea,Mustard seed,dp_nat,,,,0.18,dp_nat
+dpsupdpnat.csv,246,"Karnatak, 2010",Brassica juncea,Mustard seed,dp_nat,,,,0.3,dp_nat
+dpsupdpnat.csv,247,"Karnatak, 2010",Brassica rapa,Canola,dp_nat,,,,0.35,dp_nat
+dpsupdpnat.csv,248,"Kendall, 2020",Vaccinium virgatum,Rabbit-eye blueberry,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,249,"Kendall, 2020",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.51,dp_nat
+dpsupdpnat.csv,250,"Kendall, 2020",Vaccinium virgatum,Rabbit-eye blueberry,dp_nat,,,,0.53,dp_nat
+dpsupdpnat.csv,251,"Kendall, 2020",Vaccinium virgatum,Rabbit-eye blueberry,dp_nat,,,,0.61,dp_nat
+dpsupdpnat.csv,252,"Kendall, 2020",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.91,dp_nat
+dpsupdpnat.csv,253,"Kendall, 2020",Vaccinium virgatum,Rabbit-eye blueberry,dp_nat,,,,0.96,dp_nat
+dpsupdpnat.csv,254,"Klein, 2003",Coffea canephora,Coffee,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,255,"Klein, 2003",Coffea arabica,Arabic Coffee,dp_nat,,,,0.36,dp_nat
+dpsupdpnat.csv,256,"Klein, 2005",Prunus dulcis,Almond,dp_nat,,,,0.93,dp_nat
+dpsupdpnat.csv,257,"Knapp, 2017",Cucurbita pepo,Courgette,dp_nat,,,,0.37,dp_nat
+dpsupdpnat.csv,258,"Knapp, 2018",Cucurbita pepo,Courgette,dp_nat,,,,0.21,dp_nat
+dpsupdpnat.csv,259,"Kodad, 2008",Prunus dulcis,Almond,dp_nat,,,,0.55,dp_nat
+dpsupdpnat.csv,260,"Kodad, 2008",Prunus dulcis,Almond,dp_nat,,,,0.6,dp_nat
+dpsupdpnat.csv,261,"Kodad, 2008",Prunus dulcis,Almond,dp_nat,,,,0.67,dp_nat
+dpsupdpnat.csv,262,"Kouonon, 2009",Cucumis melo,Melon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,263,"Kouonon, 2009",Cucumis melo,Melon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,264,"Krishnan, 2012",Coffea canephora,Coffee,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,265,"Lakshmi, 2016",Luffa acutangula,Chinese Okra,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,266,"Lakshmi, 2016",Luffa acutangula,Chinese Okra,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,267,"Landaverde-Gonzalez, 2017",Capsicum chinense,Habanero pepper,dp_nat,,,,0.82,dp_nat
+dpsupdpnat.csv,268,"Langridge & Goodman, 1981",Helianthus annuus,Sunflower,dp_nat,,,,0.93,dp_nat
+dpsupdpnat.csv,269,"Latet, 1998",Ribes rubrum,Currant,dp_nat,,,,0.41,dp_nat
+dpsupdpnat.csv,270,"Layek, 2020a",Citrus limon,Lemon,dp_nat,,,,0.56,dp_nat
+dpsupdpnat.csv,271,"Layek, 2021",Anacardium occidentale,Cashew,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,272,"Li, 2022 (but found y thesis 2020)",Elaeis guineensis,Oil palm,dp_nat,,,,0.81,dp_nat
+dpsupdpnat.csv,273,"Lobaton, 2021",Malus domestica,Apple,dp_nat,,,,0.93,dp_nat
+dpsupdpnat.csv,274,"Lundin, 2021",Vicia faba,Broad bean,dp_nat,,,,0.01,dp_nat
+dpsupdpnat.csv,275,"Lundin, 2021",Vicia faba,Broad bean,dp_nat,,,,0.07,dp_nat
+dpsupdpnat.csv,276,"Maciel, 2019",Cucurbita moschata,Gourd,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,277,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.28,dp_nat
+dpsupdpnat.csv,278,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.33,dp_nat
+dpsupdpnat.csv,279,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.33,dp_nat
+dpsupdpnat.csv,280,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.51,dp_nat
+dpsupdpnat.csv,281,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.64,dp_nat
+dpsupdpnat.csv,282,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,dp_nat,,,,0.7,dp_nat
+dpsupdpnat.csv,283,"Maclnnis, 2018",Fragaria x ananassa,Strawberry,dp_nat,,,,0.64,dp_nat
+dpsupdpnat.csv,284,"Mallinger, 2017",Helianthus annuus,Sunflower,dp_nat,,,,0.08,dp_nat
+dpsupdpnat.csv,285,"Mallinger, 2017",Helianthus annuus,Sunflower,dp_nat,,,,0.31,dp_nat
+dpsupdpnat.csv,286,"Mallinger, 2017",Helianthus annuus,Sunflower,dp_nat,,,,0.45,dp_nat
+dpsupdpnat.csv,287,"Mallinger, 2017",Helianthus annuus,Sunflower,dp_nat,,,,0.48,dp_nat
+dpsupdpnat.csv,288,"Mallinger, 2017",Helianthus annuus,Sunflower,dp_nat,,,,0.54,dp_nat
+dpsupdpnat.csv,289,"Mascena, 2011",Gossypium hirsutum,Cottonseed,dp_nat,,,,0.27,dp_nat
+dpsupdpnat.csv,290,"McLaren, 1996",Prunus armeniaca,Apricot,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,291,"McLaren, 1996",Prunus armeniaca,Apricot,dp_nat,,,,0.8,dp_nat
+dpsupdpnat.csv,292,"McLaren, 1996",Prunus armeniaca,Apricot,dp_nat,,,,0.98,dp_nat
+dpsupdpnat.csv,293,"Mélo, 2010",Cucurbita moschata,Gourd,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,294,"Mendes, 2012",Annona squamosa,Sugar Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,295,"Mesquita, 2008",Bixa orellana,Annatto,dp_nat,,,,0.97,dp_nat
+dpsupdpnat.csv,296,"Miñarro, 2015",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,0.53,dp_nat
+dpsupdpnat.csv,297,"Mkindi, 2017",Phaseolus vulgaris,Bean,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,298,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,299,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,0.08,dp_nat
+dpsupdpnat.csv,300,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,0.08,dp_nat
+dpsupdpnat.csv,301,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,0.08,dp_nat
+dpsupdpnat.csv,302,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,0.08,dp_nat
+dpsupdpnat.csv,303,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,0.08,dp_nat
+dpsupdpnat.csv,304,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,0.28,dp_nat
+dpsupdpnat.csv,305,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,0.43,dp_nat
+dpsupdpnat.csv,306,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,0.48,dp_nat
+dpsupdpnat.csv,307,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,0.52,dp_nat
+dpsupdpnat.csv,308,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,0.53,dp_nat
+dpsupdpnat.csv,309,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,0.54,dp_nat
+dpsupdpnat.csv,310,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_nat,,,,0.67,dp_nat
+dpsupdpnat.csv,311,"Morales, 2009",Rubus idaeus,Raspberry,dp_nat,,,,0.07,dp_nat
+dpsupdpnat.csv,312,"Munyuli, 2014",Coffea canephora,Coffee,dp_nat,,,,0.86,dp_nat
+dpsupdpnat.csv,313,"Mussury, 2000",Brassica napus,Oilseed rape,dp_nat,,,,0.16,dp_nat
+dpsupdpnat.csv,314,"Negussie, 2014",Jatropha curcas,Jatrofa,dp_nat,,,,0.16,dp_nat
+dpsupdpnat.csv,315,"Negussie, 2014",Jatropha curcas,Jatrofa,dp_nat,,,,0.51,dp_nat
+dpsupdpnat.csv,316,"Negussie, 2014",Jatropha curcas,Jatrofa,dp_nat,,,,0.57,dp_nat
+dpsupdpnat.csv,317,"Neto, 2002",Anacardium occidentale,Cashew,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,318,"Neto, 2002",Anacardium occidentale,Cashew,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,319,"Neto, 2010",Coffea arabica,Arabic Coffee,dp_nat,,,,0.2,dp_nat
+dpsupdpnat.csv,320,"Neto, 2010",Coffea arabica,Arabic Coffee,dp_nat,,,,0.37,dp_nat
+dpsupdpnat.csv,321,"Nikkeshi, 2019",Diospyros kaki f.,Persimmon,dp_nat,,,,0.91,dp_nat
+dpsupdpnat.csv,322,"Nishida, 1958",Passiflora edulis,Passion fruit,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,323,"Nishida, 1958",Passiflora edulis,Passion fruit,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,324,"Nishida, 1958",Passiflora edulis,Passion fruit,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,325,"Nishida, 1958",Passiflora edulis,Passion fruit,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,326,"Norfolk, 2016",Prunus dulcis,Almond,dp_nat,,,,0.91,dp_nat
+dpsupdpnat.csv,327,"Norman, 1992",Asimina parviflora,Pawpaw,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,328,"Norman, 1992",Asimina parviflora,Pawpaw,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,329,"Norman, 1992",Asimina parviflora,Pawpaw,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,330,"Nuanjunkong, 2019",Jatropha curcas,Jatrofa,dp_nat,,,,0.57,dp_nat
+dpsupdpnat.csv,331,"Nuanjunkong, 2021",Jatropha curcas,Jatrofa,dp_nat,,,,0.57,dp_nat
+dpsupdpnat.csv,332,"Okullo, 2004",Vitellaria paradoxa,Karite nut,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,333,"Okullo, 2004",Vitellaria paradoxa,Karite nut,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,334,"Oliveira, 2007",Capsicum annuum,Chilli,dp_nat,,,,0.14,dp_nat
+dpsupdpnat.csv,335,"Oliveira, 2010",Spondias mombin,Hog plum,dp_nat,,,,0.65,dp_nat
+dpsupdpnat.csv,336,"Oliveira, 2012",Malpighia emarginata,Acerola cherry,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,337,"Oronje, 2012",Momordica charantia,Bitter melon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,338,"Oronje, 2012",Momordica charantia,Bitter melon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,339,"Osterman, 2021",Malus domestica,Apple,dp_nat,,,,0.97,dp_nat
+dpsupdpnat.csv,340,"Otero, 2003",Polaskia chichipe,Chichituna,dp_nat,,,,0.67,dp_nat
+dpsupdpnat.csv,341,"Ouvrard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.12,dp_nat
+dpsupdpnat.csv,342,"Patricio, 2012",Solanum melongena,Eggplant,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,343,"Patricio, 2012",Solanum melongena,Eggplant,dp_nat,,,,0.74,dp_nat
+dpsupdpnat.csv,344,"Patricio, 2012",Solanum melongena,Eggplant,dp_nat,,,,0.74,dp_nat
+dpsupdpnat.csv,345,"Patricio, 2012",Solanum melongena,Eggplant,dp_nat,,,,0.98,dp_nat
+dpsupdpnat.csv,346,"Pavanelo, 2019",Physalis peruviana,Golden berry,dp_nat,,,,0.32,dp_nat
+dpsupdpnat.csv,347,"Perera, 2019",Abelmoschus esculentus,Okra,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,348,"Perez, 2012",Persea americana,Avocado,dp_nat,,,,0.86,dp_nat
+dpsupdpnat.csv,349,"Pisanty, 2016",Citrullus lanatus,Watermelon,dp_nat,,,,0.87,dp_nat
+dpsupdpnat.csv,350,"Potter, 2015",Solanum lycopersicum,Tomato,dp_nat,,,,0.28,dp_nat
+dpsupdpnat.csv,351,"Pritchard, 2005",Annona sp.,Custard Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,352,"Pritchard, 2005",Annona sp.,Custard Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,353,"Pritchard, 2005",Annona sp.,Custard Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,354,"Pritchard, 2005",Annona sp.,Custard Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,355,"Pritchard, 2005",Annona sp.,Custard Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,356,"Pudasaini, 2014",Brassica rapa,Canola,dp_nat,,,,0.33,dp_nat
+dpsupdpnat.csv,357,"Rani, 2016",Cucurbita pepo,Squash,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,358,"Rani, 2016",Cucurbita pepo,Squash,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,359,"Rani, 2016",Cucurbita pepo,Squash,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,360,"Rani, 2016",Cucurbita pepo,Squash,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,361,"Revanasidda, 2019",Cucumis melo,Melon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,362,"Revanasidda, 2019",Cucumis melo,Melon,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,363,"Rizzardo, 2012",Ricinus communis,Castor bean,dp_nat,,,,0.81,dp_nat
+dpsupdpnat.csv,364,"Rizzardo, 2012b",Jatropha curcas,Jatrofa,dp_nat,,,,0.67,dp_nat
+dpsupdpnat.csv,365,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,366,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,367,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,368,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.01,dp_nat
+dpsupdpnat.csv,369,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.01,dp_nat
+dpsupdpnat.csv,370,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.02,dp_nat
+dpsupdpnat.csv,371,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.02,dp_nat
+dpsupdpnat.csv,372,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.03,dp_nat
+dpsupdpnat.csv,373,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.04,dp_nat
+dpsupdpnat.csv,374,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.04,dp_nat
+dpsupdpnat.csv,375,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.04,dp_nat
+dpsupdpnat.csv,376,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.04,dp_nat
+dpsupdpnat.csv,377,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.04,dp_nat
+dpsupdpnat.csv,378,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.06,dp_nat
+dpsupdpnat.csv,379,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.09,dp_nat
+dpsupdpnat.csv,380,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.1,dp_nat
+dpsupdpnat.csv,381,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.18,dp_nat
+dpsupdpnat.csv,382,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.25,dp_nat
+dpsupdpnat.csv,383,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.25,dp_nat
+dpsupdpnat.csv,384,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.29,dp_nat
+dpsupdpnat.csv,385,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.55,dp_nat
+dpsupdpnat.csv,386,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_nat,,,,0.65,dp_nat
+dpsupdpnat.csv,387,"Samnegârd, 2018; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.88,dp_nat
+dpsupdpnat.csv,388,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,389,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,390,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,391,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,392,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,393,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.05,dp_nat
+dpsupdpnat.csv,394,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.08,dp_nat
+dpsupdpnat.csv,395,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.2,dp_nat
+dpsupdpnat.csv,396,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.2,dp_nat
+dpsupdpnat.csv,397,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.25,dp_nat
+dpsupdpnat.csv,398,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.26,dp_nat
+dpsupdpnat.csv,399,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.27,dp_nat
+dpsupdpnat.csv,400,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.3,dp_nat
+dpsupdpnat.csv,401,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.3,dp_nat
+dpsupdpnat.csv,402,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.34,dp_nat
+dpsupdpnat.csv,403,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.36,dp_nat
+dpsupdpnat.csv,404,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.37,dp_nat
+dpsupdpnat.csv,405,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.38,dp_nat
+dpsupdpnat.csv,406,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.39,dp_nat
+dpsupdpnat.csv,407,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.4,dp_nat
+dpsupdpnat.csv,408,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.44,dp_nat
+dpsupdpnat.csv,409,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.47,dp_nat
+dpsupdpnat.csv,410,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.48,dp_nat
+dpsupdpnat.csv,411,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.48,dp_nat
+dpsupdpnat.csv,412,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.49,dp_nat
+dpsupdpnat.csv,413,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.52,dp_nat
+dpsupdpnat.csv,414,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.53,dp_nat
+dpsupdpnat.csv,415,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.59,dp_nat
+dpsupdpnat.csv,416,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.59,dp_nat
+dpsupdpnat.csv,417,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.6,dp_nat
+dpsupdpnat.csv,418,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.65,dp_nat
+dpsupdpnat.csv,419,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.66,dp_nat
+dpsupdpnat.csv,420,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.67,dp_nat
+dpsupdpnat.csv,421,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.68,dp_nat
+dpsupdpnat.csv,422,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.69,dp_nat
+dpsupdpnat.csv,423,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.72,dp_nat
+dpsupdpnat.csv,424,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.72,dp_nat
+dpsupdpnat.csv,425,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.73,dp_nat
+dpsupdpnat.csv,426,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.76,dp_nat
+dpsupdpnat.csv,427,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.76,dp_nat
+dpsupdpnat.csv,428,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.78,dp_nat
+dpsupdpnat.csv,429,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.82,dp_nat
+dpsupdpnat.csv,430,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.82,dp_nat
+dpsupdpnat.csv,431,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.82,dp_nat
+dpsupdpnat.csv,432,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.82,dp_nat
+dpsupdpnat.csv,433,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.83,dp_nat
+dpsupdpnat.csv,434,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.84,dp_nat
+dpsupdpnat.csv,435,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.84,dp_nat
+dpsupdpnat.csv,436,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.85,dp_nat
+dpsupdpnat.csv,437,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.85,dp_nat
+dpsupdpnat.csv,438,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.87,dp_nat
+dpsupdpnat.csv,439,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.88,dp_nat
+dpsupdpnat.csv,440,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.89,dp_nat
+dpsupdpnat.csv,441,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.93,dp_nat
+dpsupdpnat.csv,442,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.94,dp_nat
+dpsupdpnat.csv,443,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.95,dp_nat
+dpsupdpnat.csv,444,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.95,dp_nat
+dpsupdpnat.csv,445,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.95,dp_nat
+dpsupdpnat.csv,446,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.96,dp_nat
+dpsupdpnat.csv,447,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.96,dp_nat
+dpsupdpnat.csv,448,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.96,dp_nat
+dpsupdpnat.csv,449,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.97,dp_nat
+dpsupdpnat.csv,450,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.98,dp_nat
+dpsupdpnat.csv,451,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.98,dp_nat
+dpsupdpnat.csv,452,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.98,dp_nat
+dpsupdpnat.csv,453,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.98,dp_nat
+dpsupdpnat.csv,454,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.98,dp_nat
+dpsupdpnat.csv,455,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.99,dp_nat
+dpsupdpnat.csv,456,"Samocha, 2014",Jatropha curcas,Jatrofa,dp_nat,,,,0.68,dp_nat
+dpsupdpnat.csv,457,"Santos, 2016",Macadamia integrifolia,Macadamia,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,458,"Santos, 2020",Macadamia integrifolia,Macadamia,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,459,"Santos, 2021",C. clementina hort. × (C. paradisi × C. reticulata Blanco),Tangelo,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,460,"Santos, 2021",C. clementina hort. × (C. paradisi × C. reticulata Blanco),Tangelo,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,461,"Sezerino, 2015",Pyrus communis,Pear,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,462,"Sezerino, 2015",Pyrus communis,Pear,dp_nat,,,,0.64,dp_nat
+dpsupdpnat.csv,463,"Shi, 2005",Castanea mollissima,Chestnut,dp_nat,,,,0.02,dp_nat
+dpsupdpnat.csv,464,"Shi, 2005",Castanea mollissima,Chestnut,dp_nat,,,,0.02,dp_nat
+dpsupdpnat.csv,465,"Shi, 2005",Castanea mollissima,Chestnut,dp_nat,,,,0.12,dp_nat
+dpsupdpnat.csv,466,"Shinaseni & Catterall, 2021",Litchi chinensis,Lychee,dp_nat,,,,0.81,dp_nat
+dpsupdpnat.csv,467,"Siag, 2016",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,468,"Siag, 2016",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,469,"Siag, 2016",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,470,"Siag, 2016",Actinidia chinensis var. deliciosa,Kiwifruit,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,471,"Silva, 2005",Capsicum annuum,Chilli,dp_nat,,,,0.09,dp_nat
+dpsupdpnat.csv,472,"Silva, 2007",Gossypium hirsutum,Cottonseed,dp_nat,,,,0.07,dp_nat
+dpsupdpnat.csv,473,"Silva, 2007",Gossypium hirsutum,Cottonseed,dp_nat,,,,0.19,dp_nat
+dpsupdpnat.csv,474,"Silveira, 2012",Passiflora edulis f. flavicarpa,Yellow Passion fruit,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,475,"Singh, 2016",Cajanus cajan,Pigeon pea,dp_nat,,,,0.15,dp_nat
+dpsupdpnat.csv,476,"Singh, 2016",Cajanus cajan,Pigeon pea,dp_nat,,,,0.15,dp_nat
+dpsupdpnat.csv,477,"Singh, 2016",Cajanus cajan,Pigeon pea,dp_nat,,,,0.17,dp_nat
+dpsupdpnat.csv,478,"Singh, 2016",Cajanus cajan,Pigeon pea,dp_nat,,,,0.17,dp_nat
+dpsupdpnat.csv,479,"Singh, 2017",Cajanus cajan,Pigeon pea,dp_nat,,,,0.19,dp_nat
+dpsupdpnat.csv,480,"Singh, 2017",Cajanus cajan,Pigeon pea,dp_nat,,,,0.19,dp_nat
+dpsupdpnat.csv,481,"Siqueira, 2011",Malpighia emarginata,Acerola cherry,dp_nat,,,,0.57,dp_nat
+dpsupdpnat.csv,482,"Siqueira, 2011",Malpighia emarginata,Acerola cherry,dp_nat,,,,0.74,dp_nat
+dpsupdpnat.csv,483,"Siqueira, 2011",Malpighia emarginata,Acerola cherry,dp_nat,,,,0.88,dp_nat
+dpsupdpnat.csv,484,"Soares, 2015",Passiflora edulis f. flavicarpa,Yellow Passion fruit,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,485,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,486,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,487,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,488,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.09,dp_nat
+dpsupdpnat.csv,489,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.13,dp_nat
+dpsupdpnat.csv,490,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.38,dp_nat
+dpsupdpnat.csv,491,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.58,dp_nat
+dpsupdpnat.csv,492,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.69,dp_nat
+dpsupdpnat.csv,493,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.74,dp_nat
+dpsupdpnat.csv,494,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.78,dp_nat
+dpsupdpnat.csv,495,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.79,dp_nat
+dpsupdpnat.csv,496,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.82,dp_nat
+dpsupdpnat.csv,497,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.9,dp_nat
+dpsupdpnat.csv,498,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.95,dp_nat
+dpsupdpnat.csv,499,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.96,dp_nat
+dpsupdpnat.csv,500,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.97,dp_nat
+dpsupdpnat.csv,501,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.98,dp_nat
+dpsupdpnat.csv,502,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.99,dp_nat
+dpsupdpnat.csv,503,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.99,dp_nat
+dpsupdpnat.csv,504,"Socias, 2004",Prunus dulcis,Almond,dp_nat,,,,0.99,dp_nat
+dpsupdpnat.csv,505,"Stanley, 2013",Brassica napus,Oilseed rape,dp_nat,,,,0.31,dp_nat
+dpsupdpnat.csv,506,"Stanley, 2013",Brassica napus,Oilseed rape,dp_nat,,,,0.36,dp_nat
+dpsupdpnat.csv,507,"Stout, 2018",Vitellaria paradoxa,Karite nut,dp_nat,,,,0.04,dp_nat
+dpsupdpnat.csv,508,"Stout, 2018",Vitellaria paradoxa,Karite nut,dp_nat,,,,0.08,dp_nat
+dpsupdpnat.csv,509,"Stout, 2018",Vitellaria paradoxa,Karite nut,dp_nat,,,,0.11,dp_nat
+dpsupdpnat.csv,510,"Stout, 2018",Vitellaria paradoxa,Karite nut,dp_nat,,,,0.96,dp_nat
+dpsupdpnat.csv,511,"Tatari, 2017",Pyrus communis,Pear,dp_nat,,,,0.46,dp_nat
+dpsupdpnat.csv,512,"Tatari, 2017",Pyrus communis,Pear,dp_nat,,,,0.49,dp_nat
+dpsupdpnat.csv,513,"Tatari, 2017",Pyrus communis,Pear,dp_nat,,,,0.61,dp_nat
+dpsupdpnat.csv,514,"Trans, 2014",Selenicereus spp.,Red-peel pitaya1,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,515,"Trans, 2014",Selenicereus monacanthus,Red-peel pitaya2,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,516,"Trans, 2014",Selenicereus spp.,Red-peel pitaya1,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,517,"Trans, 2014",Selenicereus undatus,White-fleshed pitahaya,dp_nat,,,,0.22,dp_nat
+dpsupdpnat.csv,518,"Velazquez-López, 2018",Gossypium hirsutum,Cottonseed,dp_nat,,,,0.07,dp_nat
+dpsupdpnat.csv,519,"Vladek, 2018",Lonicera caerulea,Honeysuckle,dp_nat,,,,0.62,dp_nat
+dpsupdpnat.csv,520,"Vladek, 2018",Lonicera caerulea,Honeysuckle,dp_nat,,,,0.65,dp_nat
+dpsupdpnat.csv,521,Wallace 1996,Macadamia sp.,Macadamia1,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,522,Wallace 1996,Macadamia sp.,Macadamia1,dp_nat,,,,0.15,dp_nat
+dpsupdpnat.csv,523,Wallace 1996,Macadamia sp.,Macadamia1,dp_nat,,,,0.49,dp_nat
+dpsupdpnat.csv,524,Wallace 1996,Macadamia sp.,Macadamia1,dp_nat,,,,0.6,dp_nat
+dpsupdpnat.csv,525,Wallace 1996,Macadamia sp.,Macadamia1,dp_nat,,,,0.66,dp_nat
+dpsupdpnat.csv,526,Wallace 1996,Macadamia sp.,Macadamia1,dp_nat,,,,0.85,dp_nat
+dpsupdpnat.csv,527,Wallace 1996,Macadamia sp.,Macadamia1,dp_nat,,,,0.9,dp_nat
+dpsupdpnat.csv,528,"Wayo, 2018",Durio zibethinus,Durian,dp_nat,,,,1,dp_nat
+dpsupdpnat.csv,529,"Webber, 2020; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.47,dp_nat
+dpsupdpnat.csv,530,"Webber, 2020; Garrat, 2021",Malus domestica,Apple,dp_nat,,,,0.52,dp_nat
+dpsupdpnat.csv,531,"Wietzke, 2018",Fragaria x ananassa,Strawberry,dp_nat,,,,0.42,dp_nat
+dpsupdpnat.csv,532,"Witte, 1995",Malus domestica,Apple,dp_nat,,,,0.04,dp_nat
+dpsupdpnat.csv,533,"Witte, 1995",Malus domestica,Apple,dp_nat,,,,0.45,dp_nat
+dpsupdpnat.csv,534,"Witte, 1995",Malus domestica,Apple,dp_nat,,,,0.46,dp_nat
+dpsupdpnat.csv,535,"Witte, 1995",Malus domestica,Apple,dp_nat,,,,0.48,dp_nat
+dpsupdpnat.csv,536,"Witte, 1995",Malus domestica,Apple,dp_nat,,,,0.59,dp_nat
+dpsupdpnat.csv,537,"Witte, 1995",Malus domestica,Apple,dp_nat,,,,0.66,dp_nat
+dpsupdpnat.csv,538,"Witte, 1995",Malus domestica,Apple,dp_nat,,,,0.72,dp_nat
+dpsupdpnat.csv,539,"Witte, 1995",Malus domestica,Apple,dp_nat,,,,0.75,dp_nat
+dpsupdpnat.csv,540,"Witte, 1995",Malus domestica,Apple,dp_nat,,,,0.77,dp_nat
+dpsupdpnat.csv,541,"Witte, 1995",Malus domestica,Apple,dp_nat,,,,0.83,dp_nat
+dpsupdpnat.csv,542,"Witte, 1995",Malus domestica,Apple,dp_nat,,,,0.89,dp_nat
+dpsupdpnat.csv,543,"Witte, 1995",Malus domestica,Apple,dp_nat,,,,0.91,dp_nat
+dpsupdpnat.csv,544,"Woodburn, 1996",Diospyros kaki f.,Persimmon,dp_nat,,,,0.11,dp_nat
+dpsupdpnat.csv,545,"Woodburn, 1996",Diospyros kaki f.,Persimmon,dp_nat,,,,0.33,dp_nat
+dpsupdpnat.csv,546,"Woodburn, 1996",Diospyros kaki f.,Persimmon,dp_nat,,,,0.48,dp_nat
+dpsupdpnat.csv,547,"Wu, 2021",Malus domestica,Apple,dp_nat,,,,0.49,dp_nat
+dpsupdpnat.csv,548,"Xie, 2013",Camellia oleifera,Camellia,dp_nat,,,,0,dp_nat
+dpsupdpnat.csv,549,"Xie, 2013",Camellia oleifera,Camellia,dp_nat,,,,0.65,dp_nat
+dpsupdpnat.csv,550,"Xie, 2013",Camellia oleifera,Camellia,dp_nat,,,,0.93,dp_nat
+dpsupdpnat.csv,551,"Yourstone, 2021",Capsicum annuum,Chilli,dp_nat,,,,0.06,dp_nat
+dpsupdpnat.csv,552,"Yourstone, 2021",Capsicum annuum,Chilli,dp_nat,,,,0.18,dp_nat
+dpsupdpnat.csv,553,"Yourstone, 2021",Capsicum annuum,Chilli,dp_nat,,,,0.18,dp_nat
+dpsupdpnat.csv,554,"Yourstone, 2021",Capsicum annuum,Chilli,dp_nat,,,,0.38,dp_nat
+dpsupdpnat.csv,555,"Yourstone, 2021",Capsicum annuum,Chilli,dp_nat,,,,0.4,dp_nat
+dpsupdpnat.csv,556,"Yourstone, 2021",Capsicum annuum,Chilli,dp_nat,,,,0.52,dp_nat
+dpsupdpnat.csv,557,"Yourstone, 2021",Capsicum annuum,Chilli,dp_nat,,,,0.55,dp_nat
+dpsupdpnat.csv,558,"Yourstone, 2021",Capsicum annuum,Chilli,dp_nat,,,,0.6,dp_nat
+dpsupdpnat.csv,559,"Yourstone, 2021",Capsicum annuum,Chilli,dp_nat,,,,0.6,dp_nat
+dpsupdpnat.csv,560,"Yourstone, 2021",Capsicum annuum,Chilli,dp_nat,,,,0.86,dp_nat
+dpsupdpnat.csv,561,"Yourstone, 2021",Capsicum annuum,Chilli,dp_nat,,,,0.88,dp_nat
+dpsupdpnat.csv,562,"Zaitoun, 2016",Citrullus lanatus,Watermelon,dp_nat,,,,0.77,dp_nat
+dpsupdpnat.csv,563,"Zaitoun, 2016",Citrullus lanatus,Watermelon,dp_nat,,,,0.84,dp_nat
+dpsupdpnat.csv,564,"Zhang, 2009",Capparis spinosa,Caper,dp_nat,,,,0.83,dp_nat
+dpsupdpnat.csv,565,"Abbate, 2021",Actinidia chinensis,Golden Kiwifruit,dp_sup,,,,0.62,dp_sup
+dpsupdpnat.csv,566,"Abbate, 2021",Actinidia chinensis,Golden Kiwifruit,dp_sup,,,,0.87,dp_sup
+dpsupdpnat.csv,567,"Abdelgadir, 2015",Jatropha curcas,Jatrofa,dp_sup,,,,0.87,dp_sup
+dpsupdpnat.csv,568,"Abu, 2011",Nigella sativa,Black cumin,dp_sup,,,,0.41,dp_sup
+dpsupdpnat.csv,569,"Abu, 2011",Nigella sativa,Black cumin,dp_sup,,,,0.41,dp_sup
+dpsupdpnat.csv,570,"Aldana, 2017",Carica papaya,Papaya,dp_sup,,,,0.85,dp_sup
+dpsupdpnat.csv,571,"Andrade, 2014",Sesamum indicum,Sesame seed,dp_sup,,,,0.01,dp_sup
+dpsupdpnat.csv,572,"Anooj, 2013",Luffa aegyptiaca,Smoth gourd,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,573,"Anooj, 2013",Luffa aegyptiaca,Smoth gourd,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,574,"Anooj, 2013",Luffa aegyptiaca,Smoth gourd,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,575,"Anooj, 2013",Luffa aegyptiaca,Smoth gourd,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,576,"Arias-Suarez, 2014",Passiflora edulis,Passion fruit,dp_sup,,,,0.95,dp_sup
+dpsupdpnat.csv,577,"Atawia, 2016",Citrus clementina,Clementine,dp_sup,,,,0.73,dp_sup
+dpsupdpnat.csv,578,"Atawia, 2016",Citrus clementina,Clementine,dp_sup,,,,0.74,dp_sup
+dpsupdpnat.csv,579,"Bakshi, 2018",Prunus avium,Sweet cherry,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,580,"Bartual, 2018",Helianthus annuus,Sunflower,dp_sup,,,,0.81,dp_sup
+dpsupdpnat.csv,581,"Bazo, 2018",Cucurbita moschata,Gourd,dp_sup,,,,0.67,dp_sup
+dpsupdpnat.csv,582,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.34,dp_sup
+dpsupdpnat.csv,583,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.41,dp_sup
+dpsupdpnat.csv,584,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.62,dp_sup
+dpsupdpnat.csv,585,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.36,dp_sup
+dpsupdpnat.csv,586,"Bes, 2016",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.79,dp_sup
+dpsupdpnat.csv,587,"Blochtein, 2014",Brassica napus,Oilseed rape,dp_sup,,,,0.1,dp_sup
+dpsupdpnat.csv,588,"Blochtein, 2014",Brassica napus,Oilseed rape,dp_sup,,,,0.12,dp_sup
+dpsupdpnat.csv,589,"Blochtein, 2014",Brassica napus,Oilseed rape,dp_sup,,,,0.62,dp_sup
+dpsupdpnat.csv,590,"Borketey, 2018",Cucurbita pepo,Squash,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,591,"Bos, 2007",Passiflora edulis,Passion fruit,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,592,"Bos, 2007",Theobroma cacao,Cocoa,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,593,"Brown, 2006",Vaccinium macrocarpon,Cranberry,dp_sup,,,,0.58,dp_sup
+dpsupdpnat.csv,594,"Bumrungsri, 2009",Durio zibethinus,Durian,dp_sup,,,,0.83,dp_sup
+dpsupdpnat.csv,595,"Button, 2014",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.58,dp_sup
+dpsupdpnat.csv,596,"Button, 2014",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.62,dp_sup
+dpsupdpnat.csv,597,"Campbell, 2017",Malus domestica,Apple,dp_sup,,,,0.76,dp_sup
+dpsupdpnat.csv,598,"Campbell, 2017",Malus domestica,Apple,dp_sup,,,,0.9,dp_sup
+dpsupdpnat.csv,599,"Campbell, 2017",Malus domestica,Apple,dp_sup,,,,0.97,dp_sup
+dpsupdpnat.csv,600,"Campbell, 2017",Malus domestica,Apple,dp_sup,,,,0.85,dp_sup
+dpsupdpnat.csv,601,"Campbell, 2017",Malus domestica,Apple,dp_sup,,,,0.83,dp_sup
+dpsupdpnat.csv,602,"Campbell, 2017",Malus domestica,Apple,dp_sup,,,,0.76,dp_sup
+dpsupdpnat.csv,603,"Campbell, 2017",Malus domestica,Apple,dp_sup,,,,0.82,dp_sup
+dpsupdpnat.csv,604,"Campbell, 2017",Euterpe oleracea,Acaí,dp_sup,,,,0.84,dp_sup
+dpsupdpnat.csv,605,"Campbell, 2017",Malus domestica,Apple,dp_sup,,,,0.88,dp_sup
+dpsupdpnat.csv,606,"Campbell, 2018",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.76,dp_sup
+dpsupdpnat.csv,607,"Cao, 2020",Paeonia ostii,Peony,dp_sup,,,,0.52,dp_sup
+dpsupdpnat.csv,608,"Carr, 2015",Solanum lycopersicum,Tomato,dp_sup,,,,0.52,dp_sup
+dpsupdpnat.csv,609,"Carr, 2015",Solanum lycopersicum,Tomato,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,610,"Carr, 2015",Momordica charantia,Bitter melon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,611,"Carr, 2015",Momordica charantia,Bitter melon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,612,"Carr, 2015",Momordica charantia,Bitter melon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,613,"Carr, 2015",Momordica charantia,Bitter melon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,614,"Carr, 2015",Trichosanthes cucumerina,Snake gourd,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,615,"Carr, 2015",Trichosanthes cucumerina,Snake gourd,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,616,"Carr, 2015",Momordica charantia,Bitter melon,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,617,"Carr, 2015",Capsicum annuum,Chilli,dp_sup,,,,0.28,dp_sup
+dpsupdpnat.csv,618,"Carr, 2015",Trichosanthes cucumerina,Snake gourd,dp_sup,,,,0.63,dp_sup
+dpsupdpnat.csv,619,"Carr, 2015",Solanum melongena,Eggplant,dp_sup,,,,0.74,dp_sup
+dpsupdpnat.csv,620,"Carr, 2015",Solanum melongena,Eggplant,dp_sup,,,,0.7,dp_sup
+dpsupdpnat.csv,621,"Carr, 2015",Solanum melongena,Eggplant,dp_sup,,,,0.65,dp_sup
+dpsupdpnat.csv,622,"Carr, 2015",Solanum melongena,Eggplant,dp_sup,,,,0.88,dp_sup
+dpsupdpnat.csv,623,"Carr, 2015",Trichosanthes cucumerina,Snake gourd,dp_sup,,,,0.87,dp_sup
+dpsupdpnat.csv,624,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,0.04,dp_sup
+dpsupdpnat.csv,625,"Castro, 2021",Actinidia chinensis,Golden Kiwifruit,dp_sup,,,,0.47,dp_sup
+dpsupdpnat.csv,626,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,0.24,dp_sup
+dpsupdpnat.csv,627,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,0.47,dp_sup
+dpsupdpnat.csv,628,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,0.41,dp_sup
+dpsupdpnat.csv,629,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,0.54,dp_sup
+dpsupdpnat.csv,630,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,0.61,dp_sup
+dpsupdpnat.csv,631,"Castro, 2021",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,0.81,dp_sup
+dpsupdpnat.csv,632,"Cavalcante, 2009",Annona crassiflora,Custard Apple_Marolo,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,633,"Cavalcante, 2009",Annona crassiflora,Custard Apple_Marolo,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,634,"Cavalcante, 2012",Bertholletia excelsa,Brazil nut,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,635,"Chacoff, 2007a",Citrus paradisi,Grapefruit,dp_sup,,,,0.16,dp_sup
+dpsupdpnat.csv,636,"Chacoff, 2007a",Citrus paradisi,Grapefruit,dp_sup,,,,0.94,dp_sup
+dpsupdpnat.csv,637,"Chao, 2005",Citrus clementina,Clementine,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,638,"Chao, 2005",Citrus clementina,Clementine,dp_sup,,,,0.67,dp_sup
+dpsupdpnat.csv,639,"Chao, 2005",Citrus clementina,Clementine,dp_sup,,,,0.97,dp_sup
+dpsupdpnat.csv,640,"Chauta-Mellizo, 2012",Physalis peruviana,Golden berry,dp_sup,,,,0.18,dp_sup
+dpsupdpnat.csv,641,"Company, 1992",Prunus dulcis,Almond,dp_sup,,,,0.85,dp_sup
+dpsupdpnat.csv,642,"Conelly, 2015",Fragaria x ananassa,Strawberry,dp_sup,,,,0.49,dp_sup
+dpsupdpnat.csv,643,"Costa, 1993",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,0.23,dp_sup
+dpsupdpnat.csv,644,"Costa, 1993",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,0.3,dp_sup
+dpsupdpnat.csv,645,"Cusser, 2016",Gossypium hirsutum,Cottonseed,dp_sup,,,,0.25,dp_sup
+dpsupdpnat.csv,646,"Das, 2009",Trichosanthes dioica,Pointed gourd,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,647,"Das, 2009",Trichosanthes dioica,Pointed gourd,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,648,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_sup,,,,0.18,dp_sup
+dpsupdpnat.csv,649,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_sup,,,,0.64,dp_sup
+dpsupdpnat.csv,650,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_sup,,,,0.73,dp_sup
+dpsupdpnat.csv,651,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_sup,,,,0.81,dp_sup
+dpsupdpnat.csv,652,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_sup,,,,0.63,dp_sup
+dpsupdpnat.csv,653,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_sup,,,,0.84,dp_sup
+dpsupdpnat.csv,654,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_sup,,,,0.75,dp_sup
+dpsupdpnat.csv,655,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_sup,,,,0.87,dp_sup
+dpsupdpnat.csv,656,"Davarynejad, 2010",Prunus cerasus,Sour cherry,dp_sup,,,,0.97,dp_sup
+dpsupdpnat.csv,657,"Devi, 2017",Brassica juncea,Mustard seed,dp_sup,,,,0.3,dp_sup
+dpsupdpnat.csv,658,"Devi, 2017",Brassica juncea,Mustard seed,dp_sup,,,,0.29,dp_sup
+dpsupdpnat.csv,659,"Dorjay, 2017",Momordica charantia,Bitter melon,dp_sup,,,,0.66,dp_sup
+dpsupdpnat.csv,660,"Dorjay, 2017",Cucumis sativus,Cucumber,dp_sup,,,,0.7,dp_sup
+dpsupdpnat.csv,661,"Elisante, 2020",Phaseolus vulgaris,Bean,dp_sup,,,,0.12,dp_sup
+dpsupdpnat.csv,662,"El-Sawa, 1998",Artocarpus heterophyllus,Jackfruit,dp_sup,,,,0.79,dp_sup
+dpsupdpnat.csv,663,"El-Sawa, 1998",Artocarpus heterophyllus,Jackfruit,dp_sup,,,,0.83,dp_sup
+dpsupdpnat.csv,664,"Faoro, 2010",Pyrus communis,Pear,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,665,"Figueiredo, 2020",Physalis angulata,Camapu,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,666,"Fountain, 2019",Pyrus communis,Pear,dp_sup,,,,0.15,dp_sup
+dpsupdpnat.csv,667,"Fountain, 2019",Pyrus communis,Pear,dp_sup,,,,0.98,dp_sup
+dpsupdpnat.csv,668,"Freihat, 2008",Eriobotrya japonica,Loquat,dp_sup,,,,0.73,dp_sup
+dpsupdpnat.csv,669,"Freihat, 2008",Eriobotrya japonica,Loquat,dp_sup,,,,0.76,dp_sup
+dpsupdpnat.csv,670,"Freitas, 1996",Anacardium occidentale,Cashew,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,671,"Freitas, 1999",Malpighia emarginata,Acerola cherry,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,672,"Froborg, 1996",Vaccinium vitis-idaea,Linganberry,dp_sup,,,,0.83,dp_sup
+dpsupdpnat.csv,673,"Froborg, 1996",Vaccinium myrtillus,Bilberry,dp_sup,,,,0.92,dp_sup
+dpsupdpnat.csv,674,"Garantonakis, 2016",Citrullus lanatus,Watermelon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,675,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,676,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.07,dp_sup
+dpsupdpnat.csv,677,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.49,dp_sup
+dpsupdpnat.csv,678,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.34,dp_sup
+dpsupdpnat.csv,679,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.35,dp_sup
+dpsupdpnat.csv,680,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.46,dp_sup
+dpsupdpnat.csv,681,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.48,dp_sup
+dpsupdpnat.csv,682,"Garrat, 2014a; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.34,dp_sup
+dpsupdpnat.csv,683,"Garrat, 2014b; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.5,dp_sup
+dpsupdpnat.csv,684,"Garrat, 2014b; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.41,dp_sup
+dpsupdpnat.csv,685,"Garrat, 2014b; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.43,dp_sup
+dpsupdpnat.csv,686,"Garrat, 2014b; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.43,dp_sup
+dpsupdpnat.csv,687,"Garrat, 2014b; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.42,dp_sup
+dpsupdpnat.csv,688,"Garrat, 2014b; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.49,dp_sup
+dpsupdpnat.csv,689,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,690,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,691,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,692,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,693,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,694,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,695,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,696,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,697,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,698,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,699,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,700,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,701,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,702,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,703,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,704,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,705,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,706,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,707,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,708,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,709,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,710,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,711,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,712,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,713,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,714,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,715,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,716,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,717,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,718,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,719,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,720,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,721,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,722,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,723,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,724,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,725,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.4,dp_sup
+dpsupdpnat.csv,726,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.43,dp_sup
+dpsupdpnat.csv,727,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.42,dp_sup
+dpsupdpnat.csv,728,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.36,dp_sup
+dpsupdpnat.csv,729,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.31,dp_sup
+dpsupdpnat.csv,730,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.4,dp_sup
+dpsupdpnat.csv,731,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.49,dp_sup
+dpsupdpnat.csv,732,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.71,dp_sup
+dpsupdpnat.csv,733,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.69,dp_sup
+dpsupdpnat.csv,734,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.64,dp_sup
+dpsupdpnat.csv,735,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.96,dp_sup
+dpsupdpnat.csv,736,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.91,dp_sup
+dpsupdpnat.csv,737,"Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.93,dp_sup
+dpsupdpnat.csv,738,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.4,dp_sup
+dpsupdpnat.csv,739,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.37,dp_sup
+dpsupdpnat.csv,740,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.41,dp_sup
+dpsupdpnat.csv,741,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.35,dp_sup
+dpsupdpnat.csv,742,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.48,dp_sup
+dpsupdpnat.csv,743,"Garratt, 2016; Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.39,dp_sup
+dpsupdpnat.csv,744,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,745,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.21,dp_sup
+dpsupdpnat.csv,746,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.34,dp_sup
+dpsupdpnat.csv,747,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.27,dp_sup
+dpsupdpnat.csv,748,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.37,dp_sup
+dpsupdpnat.csv,749,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.5,dp_sup
+dpsupdpnat.csv,750,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.27,dp_sup
+dpsupdpnat.csv,751,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.34,dp_sup
+dpsupdpnat.csv,752,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.45,dp_sup
+dpsupdpnat.csv,753,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.42,dp_sup
+dpsupdpnat.csv,754,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.51,dp_sup
+dpsupdpnat.csv,755,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.39,dp_sup
+dpsupdpnat.csv,756,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.41,dp_sup
+dpsupdpnat.csv,757,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.46,dp_sup
+dpsupdpnat.csv,758,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.47,dp_sup
+dpsupdpnat.csv,759,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.49,dp_sup
+dpsupdpnat.csv,760,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.45,dp_sup
+dpsupdpnat.csv,761,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.55,dp_sup
+dpsupdpnat.csv,762,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.53,dp_sup
+dpsupdpnat.csv,763,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.61,dp_sup
+dpsupdpnat.csv,764,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.6,dp_sup
+dpsupdpnat.csv,765,"Garratt, 2021",Malus domestica,Apple,dp_sup,,,,0.88,dp_sup
+dpsupdpnat.csv,766,"George, 1993",Diospyros kaki f.,Persimmon,dp_sup,,,,0.21,dp_sup
+dpsupdpnat.csv,767,"George, 1993",Diospyros kaki f.,Persimmon,dp_sup,,,,0.45,dp_sup
+dpsupdpnat.csv,768,"Gibbs, 2015",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.34,dp_sup
+dpsupdpnat.csv,769,"Gibbs, 2015",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.4,dp_sup
+dpsupdpnat.csv,770,"Grass, 2018",Macadamia integrifolia,Macadamia,dp_sup,,,,0.56,dp_sup
+dpsupdpnat.csv,771,"Groot, 2015",Malus domestica,Apple,dp_sup,,,,0.15,dp_sup
+dpsupdpnat.csv,772,"Groot, 2015",Malus domestica,Apple,dp_sup,,,,0.17,dp_sup
+dpsupdpnat.csv,773,"Groot, 2015",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.34,dp_sup
+dpsupdpnat.csv,774,"Groot, 2015",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.41,dp_sup
+dpsupdpnat.csv,775,"Guerrero, 1984",Prunus avium,Sweet cherry,dp_sup,,,,0.49,dp_sup
+dpsupdpnat.csv,776,"Gutiérrez-Chacón, 2018",Passiflora ligularis,Granadilla,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,777,"Hansen, 2020",Psidium guajava,Guava,dp_sup,,,,0.08,dp_sup
+dpsupdpnat.csv,778,"Hickel, 2000",Acca sellowiana,Feijoa,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,779,"Hickel, 2000",Acca sellowiana,Feijoa,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,780,"Hickel, 2000",Acca sellowiana,Feijoa,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,781,"Hickel, 2000",Acca sellowiana,Feijoa,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,782,"Hickel, 2000",Acca sellowiana,Feijoa,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,783,"Hickel, 2000",Acca sellowiana,Feijoa,dp_sup,,,,0.79,dp_sup
+dpsupdpnat.csv,784,"Hickel, 2000",Acca sellowiana,Feijoa,dp_sup,,,,0.84,dp_sup
+dpsupdpnat.csv,785,"Holzschuh, 2012",Prunus avium,Sweet cherry,dp_sup,,,,0.97,dp_sup
+dpsupdpnat.csv,786,"Hossain, 2018",Cucumis sativus,Cucumber,dp_sup,,,,0.26,dp_sup
+dpsupdpnat.csv,787,"Howell, 2016",Macadamia sp.,Macadamia1,dp_sup,,,,0.07,dp_sup
+dpsupdpnat.csv,788,"Howlett, 2019",Macadamia integrifolia,Macadamia,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,789,"Howlett, 2019",Macadamia integrifolia,Macadamia,dp_sup,,,,0.97,dp_sup
+dpsupdpnat.csv,790,"Huda, 2015",Mangifera indica,Mango,dp_sup,,,,0.53,dp_sup
+dpsupdpnat.csv,791,"Huda, 2015",Mangifera indica,Mango,dp_sup,,,,0.88,dp_sup
+dpsupdpnat.csv,792,"Hudewenz, 2013",Brassica napus,Oilseed rape,dp_sup,,,,0.25,dp_sup
+dpsupdpnat.csv,793,"Hudewenz, 2013",Brassica napus,Oilseed rape,dp_sup,,,,0.22,dp_sup
+dpsupdpnat.csv,794,"Hudewenz, 2013",Brassica napus,Oilseed rape,dp_sup,,,,0.36,dp_sup
+dpsupdpnat.csv,795,"Hudewenz, 2013",Brassica napus,Oilseed rape,dp_sup,,,,0.42,dp_sup
+dpsupdpnat.csv,796,"Jat, 2014",Trifolium alexandrinum,Berseem,dp_sup,,,,0.17,dp_sup
+dpsupdpnat.csv,797,"Jat, 2014",Trifolium alexandrinum,Berseem,dp_sup,,,,0.23,dp_sup
+dpsupdpnat.csv,798,"Jayanand, 2010",Helianthus annuus,Sunflower,dp_sup,,,,0.53,dp_sup
+dpsupdpnat.csv,799,"Karabiyik, 2016",Diospyros kaki f.,Persimmon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,800,"Karabiyik, 2016",Diospyros kaki f.,Persimmon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,801,"Karabiyik, 2016",Diospyros kaki f.,Persimmon,dp_sup,,,,0.54,dp_sup
+dpsupdpnat.csv,802,"Karimi, 2015",Punica granatum,Pomegranate,dp_sup,,,,0.37,dp_sup
+dpsupdpnat.csv,803,"Karimi, 2015",Punica granatum,Pomegranate,dp_sup,,,,0.39,dp_sup
+dpsupdpnat.csv,804,"Karimi, 2015",Punica granatum,Pomegranate,dp_sup,,,,0.44,dp_sup
+dpsupdpnat.csv,805,"Karnatak, 2010",Brassica napus,Oilseed rape,dp_sup,,,,0.23,dp_sup
+dpsupdpnat.csv,806,"Karnatak, 2010",Brassica napus,Oilseed rape,dp_sup,,,,0.27,dp_sup
+dpsupdpnat.csv,807,"Karnatak, 2010",Brassica rapa,Canola,dp_sup,,,,0.3,dp_sup
+dpsupdpnat.csv,808,"Karnatak, 2010",Brassica juncea,Mustard seed,dp_sup,,,,0.34,dp_sup
+dpsupdpnat.csv,809,"Karnatak, 2010",Brassica juncea,Mustard seed,dp_sup,,,,0.48,dp_sup
+dpsupdpnat.csv,810,"Karnatak, 2010",Brassica rapa,Canola,dp_sup,,,,0.51,dp_sup
+dpsupdpnat.csv,811,"Kendall, 2020",Vaccinium virgatum,Rabbit-eye blueberry,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,812,"Kendall, 2020",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.54,dp_sup
+dpsupdpnat.csv,813,"Kendall, 2020",Vaccinium virgatum,Rabbit-eye blueberry,dp_sup,,,,0.6,dp_sup
+dpsupdpnat.csv,814,"Kendall, 2020",Vaccinium virgatum,Rabbit-eye blueberry,dp_sup,,,,0.57,dp_sup
+dpsupdpnat.csv,815,"Kendall, 2020",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.92,dp_sup
+dpsupdpnat.csv,816,"Kendall, 2020",Vaccinium virgatum,Rabbit-eye blueberry,dp_sup,,,,0.96,dp_sup
+dpsupdpnat.csv,817,"Klein, 2003",Coffea canephora,Coffee,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,818,"Klein, 2003",Coffea arabica,Arabic Coffee,dp_sup,,,,0.36,dp_sup
+dpsupdpnat.csv,819,"Klein, 2005",Prunus dulcis,Almond,dp_sup,,,,0.95,dp_sup
+dpsupdpnat.csv,820,"Knapp, 2017",Cucurbita pepo,Courgette,dp_sup,,,,0.4,dp_sup
+dpsupdpnat.csv,821,"Knapp, 2018",Cucurbita pepo,Courgette,dp_sup,,,,0.21,dp_sup
+dpsupdpnat.csv,822,"Kodad, 2008",Prunus dulcis,Almond,dp_sup,,,,0.66,dp_sup
+dpsupdpnat.csv,823,"Kodad, 2008",Prunus dulcis,Almond,dp_sup,,,,0.71,dp_sup
+dpsupdpnat.csv,824,"Kodad, 2008",Prunus dulcis,Almond,dp_sup,,,,0.72,dp_sup
+dpsupdpnat.csv,825,"Kouonon, 2009",Cucumis melo,Melon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,826,"Kouonon, 2009",Cucumis melo,Melon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,827,"Krishnan, 2012",Coffea canephora,Coffee,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,828,"Lakshmi, 2016",Luffa acutangula,Chinese Okra,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,829,"Lakshmi, 2016",Luffa acutangula,Chinese Okra,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,830,"Landaverde-Gonzalez, 2017",Capsicum chinense,Habanero pepper,dp_sup,,,,0.85,dp_sup
+dpsupdpnat.csv,831,"Langridge & Goodman, 1981",Helianthus annuus,Sunflower,dp_sup,,,,0.93,dp_sup
+dpsupdpnat.csv,832,"Latet, 1998",Ribes rubrum,Currant,dp_sup,,,,0.42,dp_sup
+dpsupdpnat.csv,833,"Layek, 2020a",Citrus limon,Lemon,dp_sup,,,,0.8,dp_sup
+dpsupdpnat.csv,834,"Layek, 2021",Anacardium occidentale,Cashew,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,835,"Li, 2022 (but found y thesis 2020)",Elaeis guineensis,Oil palm,dp_sup,,,,0.81,dp_sup
+dpsupdpnat.csv,836,"Lobaton, 2021",Malus domestica,Apple,dp_sup,,,,0.97,dp_sup
+dpsupdpnat.csv,837,"Lundin, 2021",Vicia faba,Broad bean,dp_sup,,,,0.02,dp_sup
+dpsupdpnat.csv,838,"Lundin, 2021",Vicia faba,Broad bean,dp_sup,,,,0.08,dp_sup
+dpsupdpnat.csv,839,"Maciel, 2019",Cucurbita moschata,Gourd,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,840,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.28,dp_sup
+dpsupdpnat.csv,841,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.1,dp_sup
+dpsupdpnat.csv,842,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.26,dp_sup
+dpsupdpnat.csv,843,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.61,dp_sup
+dpsupdpnat.csv,844,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.58,dp_sup
+dpsupdpnat.csv,845,"MacKenzie, 1997",Vaccinium corymbosum,Highbush blueberry,dp_sup,,,,0.66,dp_sup
+dpsupdpnat.csv,846,"Maclnnis, 2018",Fragaria x ananassa,Strawberry,dp_sup,,,,0.71,dp_sup
+dpsupdpnat.csv,847,"Mallinger, 2017",Helianthus annuus,Sunflower,dp_sup,,,,0.06,dp_sup
+dpsupdpnat.csv,848,"Mallinger, 2017",Helianthus annuus,Sunflower,dp_sup,,,,0.19,dp_sup
+dpsupdpnat.csv,849,"Mallinger, 2017",Helianthus annuus,Sunflower,dp_sup,,,,0.61,dp_sup
+dpsupdpnat.csv,850,"Mallinger, 2017",Helianthus annuus,Sunflower,dp_sup,,,,0.46,dp_sup
+dpsupdpnat.csv,851,"Mallinger, 2017",Helianthus annuus,Sunflower,dp_sup,,,,0.45,dp_sup
+dpsupdpnat.csv,852,"Mascena, 2011",Gossypium hirsutum,Cottonseed,dp_sup,,,,0.21,dp_sup
+dpsupdpnat.csv,853,"McLaren, 1996",Prunus armeniaca,Apricot,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,854,"McLaren, 1996",Prunus armeniaca,Apricot,dp_sup,,,,0.87,dp_sup
+dpsupdpnat.csv,855,"McLaren, 1996",Prunus armeniaca,Apricot,dp_sup,,,,0.95,dp_sup
+dpsupdpnat.csv,856,"Mélo, 2010",Cucurbita moschata,Gourd,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,857,"Mendes, 2012",Annona squamosa,Sugar Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,858,"Mesquita, 2008",Bixa orellana,Annatto,dp_sup,,,,0.98,dp_sup
+dpsupdpnat.csv,859,"Miñarro, 2015",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,0.51,dp_sup
+dpsupdpnat.csv,860,"Mkindi, 2017",Phaseolus vulgaris,Bean,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,861,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,862,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,0.61,dp_sup
+dpsupdpnat.csv,863,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,0.62,dp_sup
+dpsupdpnat.csv,864,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,0.57,dp_sup
+dpsupdpnat.csv,865,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,0.58,dp_sup
+dpsupdpnat.csv,866,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,0.57,dp_sup
+dpsupdpnat.csv,867,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,0.6,dp_sup
+dpsupdpnat.csv,868,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,0.58,dp_sup
+dpsupdpnat.csv,869,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,0.59,dp_sup
+dpsupdpnat.csv,870,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,0.56,dp_sup
+dpsupdpnat.csv,871,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,0.53,dp_sup
+dpsupdpnat.csv,872,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,0.62,dp_sup
+dpsupdpnat.csv,873,"Moffett, 1979",Citrus paradisi,Grapefruit,dp_sup,,,,0.95,dp_sup
+dpsupdpnat.csv,874,"Morales, 2009",Rubus idaeus,Raspberry,dp_sup,,,,0.03,dp_sup
+dpsupdpnat.csv,875,"Munyuli, 2014",Coffea canephora,Coffee,dp_sup,,,,0.9,dp_sup
+dpsupdpnat.csv,876,"Mussury, 2000",Brassica napus,Oilseed rape,dp_sup,,,,0.05,dp_sup
+dpsupdpnat.csv,877,"Negussie, 2014",Jatropha curcas,Jatrofa,dp_sup,,,,0.19,dp_sup
+dpsupdpnat.csv,878,"Negussie, 2014",Jatropha curcas,Jatrofa,dp_sup,,,,0.54,dp_sup
+dpsupdpnat.csv,879,"Negussie, 2014",Jatropha curcas,Jatrofa,dp_sup,,,,0.54,dp_sup
+dpsupdpnat.csv,880,"Neto, 2002",Anacardium occidentale,Cashew,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,881,"Neto, 2002",Anacardium occidentale,Cashew,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,882,"Neto, 2010",Coffea arabica,Arabic Coffee,dp_sup,,,,0.21,dp_sup
+dpsupdpnat.csv,883,"Neto, 2010",Coffea arabica,Arabic Coffee,dp_sup,,,,0.29,dp_sup
+dpsupdpnat.csv,884,"Nikkeshi, 2019",Diospyros kaki f.,Persimmon,dp_sup,,,,0.9,dp_sup
+dpsupdpnat.csv,885,"Nishida, 1958",Passiflora edulis,Passion fruit,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,886,"Nishida, 1958",Passiflora edulis,Passion fruit,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,887,"Nishida, 1958",Passiflora edulis,Passion fruit,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,888,"Nishida, 1958",Passiflora edulis,Passion fruit,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,889,"Norfolk, 2016",Prunus dulcis,Almond,dp_sup,,,,0.9,dp_sup
+dpsupdpnat.csv,890,"Norman, 1992",Asimina parviflora,Pawpaw,dp_sup,,,,0.57,dp_sup
+dpsupdpnat.csv,891,"Norman, 1992",Asimina parviflora,Pawpaw,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,892,"Norman, 1992",Asimina parviflora,Pawpaw,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,893,"Nuanjunkong, 2019",Jatropha curcas,Jatrofa,dp_sup,,,,0.43,dp_sup
+dpsupdpnat.csv,894,"Nuanjunkong, 2021",Jatropha curcas,Jatrofa,dp_sup,,,,0.43,dp_sup
+dpsupdpnat.csv,895,"Okullo, 2004",Vitellaria paradoxa,Karite nut,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,896,"Okullo, 2004",Vitellaria paradoxa,Karite nut,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,897,"Oliveira, 2007",Capsicum annuum,Chilli,dp_sup,,,,0.29,dp_sup
+dpsupdpnat.csv,898,"Oliveira, 2010",Spondias mombin,Hog plum,dp_sup,,,,0.78,dp_sup
+dpsupdpnat.csv,899,"Oliveira, 2012",Malpighia emarginata,Acerola cherry,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,900,"Oronje, 2012",Momordica charantia,Bitter melon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,901,"Oronje, 2012",Momordica charantia,Bitter melon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,902,"Osterman, 2021",Malus domestica,Apple,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,903,"Otero, 2003",Polaskia chichipe,Chichituna,dp_sup,,,,0.45,dp_sup
+dpsupdpnat.csv,904,"Ouvrard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.1,dp_sup
+dpsupdpnat.csv,905,"Patricio, 2012",Solanum melongena,Eggplant,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,906,"Patricio, 2012",Solanum melongena,Eggplant,dp_sup,,,,0.74,dp_sup
+dpsupdpnat.csv,907,"Patricio, 2012",Solanum melongena,Eggplant,dp_sup,,,,0.74,dp_sup
+dpsupdpnat.csv,908,"Patricio, 2012",Solanum melongena,Eggplant,dp_sup,,,,0.98,dp_sup
+dpsupdpnat.csv,909,"Pavanelo, 2019",Physalis peruviana,Golden berry,dp_sup,,,,0.21,dp_sup
+dpsupdpnat.csv,910,"Perera, 2019",Abelmoschus esculentus,Okra,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,911,"Perez, 2012",Persea americana,Avocado,dp_sup,,,,0.85,dp_sup
+dpsupdpnat.csv,912,"Pisanty, 2016",Citrullus lanatus,Watermelon,dp_sup,,,,0.84,dp_sup
+dpsupdpnat.csv,913,"Potter, 2015",Solanum lycopersicum,Tomato,dp_sup,,,,0.16,dp_sup
+dpsupdpnat.csv,914,"Pritchard, 2005",Annona sp.,Custard Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,915,"Pritchard, 2005",Annona sp.,Custard Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,916,"Pritchard, 2005",Annona sp.,Custard Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,917,"Pritchard, 2005",Annona sp.,Custard Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,918,"Pritchard, 2005",Annona sp.,Custard Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,919,"Pudasaini, 2014",Brassica rapa,Canola,dp_sup,,,,0.37,dp_sup
+dpsupdpnat.csv,920,"Rani, 2016",Cucurbita pepo,Squash,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,921,"Rani, 2016",Cucurbita pepo,Squash,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,922,"Rani, 2016",Cucurbita pepo,Squash,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,923,"Rani, 2016",Cucurbita pepo,Squash,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,924,"Revanasidda, 2019",Cucumis melo,Melon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,925,"Revanasidda, 2019",Cucumis melo,Melon,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,926,"Rizzardo, 2012",Ricinus communis,Castor bean,dp_sup,,,,0.81,dp_sup
+dpsupdpnat.csv,927,"Rizzardo, 2012b",Jatropha curcas,Jatrofa,dp_sup,,,,0.65,dp_sup
+dpsupdpnat.csv,928,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,929,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,930,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.14,dp_sup
+dpsupdpnat.csv,931,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.06,dp_sup
+dpsupdpnat.csv,932,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.04,dp_sup
+dpsupdpnat.csv,933,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.12,dp_sup
+dpsupdpnat.csv,934,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.48,dp_sup
+dpsupdpnat.csv,935,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.37,dp_sup
+dpsupdpnat.csv,936,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,937,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.43,dp_sup
+dpsupdpnat.csv,938,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.2,dp_sup
+dpsupdpnat.csv,939,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.03,dp_sup
+dpsupdpnat.csv,940,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.14,dp_sup
+dpsupdpnat.csv,941,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.45,dp_sup
+dpsupdpnat.csv,942,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.09,dp_sup
+dpsupdpnat.csv,943,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.34,dp_sup
+dpsupdpnat.csv,944,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.36,dp_sup
+dpsupdpnat.csv,945,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.69,dp_sup
+dpsupdpnat.csv,946,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.24,dp_sup
+dpsupdpnat.csv,947,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.4,dp_sup
+dpsupdpnat.csv,948,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.54,dp_sup
+dpsupdpnat.csv,949,"Samnegard, 2017",Brassica napus,Oilseed rape,dp_sup,,,,0.63,dp_sup
+dpsupdpnat.csv,950,"Samnegârd, 2018; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.94,dp_sup
+dpsupdpnat.csv,951,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,952,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,953,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,954,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,955,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,956,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.6,dp_sup
+dpsupdpnat.csv,957,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.55,dp_sup
+dpsupdpnat.csv,958,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.69,dp_sup
+dpsupdpnat.csv,959,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.36,dp_sup
+dpsupdpnat.csv,960,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.62,dp_sup
+dpsupdpnat.csv,961,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.27,dp_sup
+dpsupdpnat.csv,962,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.39,dp_sup
+dpsupdpnat.csv,963,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.2,dp_sup
+dpsupdpnat.csv,964,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.12,dp_sup
+dpsupdpnat.csv,965,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.18,dp_sup
+dpsupdpnat.csv,966,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.23,dp_sup
+dpsupdpnat.csv,967,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.38,dp_sup
+dpsupdpnat.csv,968,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.35,dp_sup
+dpsupdpnat.csv,969,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.74,dp_sup
+dpsupdpnat.csv,970,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.84,dp_sup
+dpsupdpnat.csv,971,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.54,dp_sup
+dpsupdpnat.csv,972,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.68,dp_sup
+dpsupdpnat.csv,973,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.7,dp_sup
+dpsupdpnat.csv,974,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.52,dp_sup
+dpsupdpnat.csv,975,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.51,dp_sup
+dpsupdpnat.csv,976,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.77,dp_sup
+dpsupdpnat.csv,977,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.82,dp_sup
+dpsupdpnat.csv,978,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.77,dp_sup
+dpsupdpnat.csv,979,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.71,dp_sup
+dpsupdpnat.csv,980,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.83,dp_sup
+dpsupdpnat.csv,981,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.84,dp_sup
+dpsupdpnat.csv,982,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,983,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.89,dp_sup
+dpsupdpnat.csv,984,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.81,dp_sup
+dpsupdpnat.csv,985,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.7,dp_sup
+dpsupdpnat.csv,986,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.85,dp_sup
+dpsupdpnat.csv,987,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.68,dp_sup
+dpsupdpnat.csv,988,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.73,dp_sup
+dpsupdpnat.csv,989,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.9,dp_sup
+dpsupdpnat.csv,990,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.91,dp_sup
+dpsupdpnat.csv,991,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,992,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.88,dp_sup
+dpsupdpnat.csv,993,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.88,dp_sup
+dpsupdpnat.csv,994,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.93,dp_sup
+dpsupdpnat.csv,995,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.97,dp_sup
+dpsupdpnat.csv,996,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.89,dp_sup
+dpsupdpnat.csv,997,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.89,dp_sup
+dpsupdpnat.csv,998,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.92,dp_sup
+dpsupdpnat.csv,999,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.79,dp_sup
+dpsupdpnat.csv,1000,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.81,dp_sup
+dpsupdpnat.csv,1001,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.5,dp_sup
+dpsupdpnat.csv,1002,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.87,dp_sup
+dpsupdpnat.csv,1003,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.96,dp_sup
+dpsupdpnat.csv,1004,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.98,dp_sup
+dpsupdpnat.csv,1005,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.94,dp_sup
+dpsupdpnat.csv,1006,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.95,dp_sup
+dpsupdpnat.csv,1007,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.87,dp_sup
+dpsupdpnat.csv,1008,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.98,dp_sup
+dpsupdpnat.csv,1009,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,1010,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,1011,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.96,dp_sup
+dpsupdpnat.csv,1012,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.98,dp_sup
+dpsupdpnat.csv,1013,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,1014,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,1015,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.98,dp_sup
+dpsupdpnat.csv,1016,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,1017,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,1018,"Samnegârd, 2019; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1019,"Samocha, 2014",Jatropha curcas,Jatrofa,dp_sup,,,,0.69,dp_sup
+dpsupdpnat.csv,1020,"Santos, 2016",Macadamia integrifolia,Macadamia,dp_sup,,,,0.65,dp_sup
+dpsupdpnat.csv,1021,"Santos, 2020",Macadamia integrifolia,Macadamia,dp_sup,,,,0.37,dp_sup
+dpsupdpnat.csv,1022,"Santos, 2021",C. clementina hort. × (C. paradisi × C. reticulata Blanco),Tangelo,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1023,"Santos, 2021",C. clementina hort. × (C. paradisi × C. reticulata Blanco),Tangelo,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1024,"Sezerino, 2015",Pyrus communis,Pear,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,1025,"Sezerino, 2015",Pyrus communis,Pear,dp_sup,,,,0.92,dp_sup
+dpsupdpnat.csv,1026,"Shi, 2005",Castanea mollissima,Chestnut,dp_sup,,,,0,dp_sup
+dpsupdpnat.csv,1027,"Shi, 2005",Castanea mollissima,Chestnut,dp_sup,,,,0.04,dp_sup
+dpsupdpnat.csv,1028,"Shi, 2005",Castanea mollissima,Chestnut,dp_sup,,,,0.02,dp_sup
+dpsupdpnat.csv,1029,"Shinaseni & Catterall, 2021",Litchi chinensis,Lychee,dp_sup,,,,0.81,dp_sup
+dpsupdpnat.csv,1030,"Siag, 2016",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1031,"Siag, 2016",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1032,"Siag, 2016",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1033,"Siag, 2016",Actinidia chinensis var. deliciosa,Kiwifruit,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1034,"Silva, 2005",Capsicum annuum,Chilli,dp_sup,,,,0.1,dp_sup
+dpsupdpnat.csv,1035,"Silva, 2007",Gossypium hirsutum,Cottonseed,dp_sup,,,,0.04,dp_sup
+dpsupdpnat.csv,1036,"Silva, 2007",Gossypium hirsutum,Cottonseed,dp_sup,,,,0.15,dp_sup
+dpsupdpnat.csv,1037,"Silveira, 2012",Passiflora edulis f. flavicarpa,Yellow Passion fruit,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1038,"Singh, 2016",Cajanus cajan,Pigeon pea,dp_sup,,,,0.14,dp_sup
+dpsupdpnat.csv,1039,"Singh, 2016",Cajanus cajan,Pigeon pea,dp_sup,,,,0.14,dp_sup
+dpsupdpnat.csv,1040,"Singh, 2016",Cajanus cajan,Pigeon pea,dp_sup,,,,0.14,dp_sup
+dpsupdpnat.csv,1041,"Singh, 2016",Cajanus cajan,Pigeon pea,dp_sup,,,,0.14,dp_sup
+dpsupdpnat.csv,1042,"Singh, 2017",Cajanus cajan,Pigeon pea,dp_sup,,,,0.15,dp_sup
+dpsupdpnat.csv,1043,"Singh, 2017",Cajanus cajan,Pigeon pea,dp_sup,,,,0.15,dp_sup
+dpsupdpnat.csv,1044,"Siqueira, 2011",Malpighia emarginata,Acerola cherry,dp_sup,,,,0.66,dp_sup
+dpsupdpnat.csv,1045,"Siqueira, 2011",Malpighia emarginata,Acerola cherry,dp_sup,,,,0.68,dp_sup
+dpsupdpnat.csv,1046,"Siqueira, 2011",Malpighia emarginata,Acerola cherry,dp_sup,,,,0.88,dp_sup
+dpsupdpnat.csv,1047,"Soares, 2015",Passiflora edulis f. flavicarpa,Yellow Passion fruit,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1048,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1049,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1050,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1051,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.72,dp_sup
+dpsupdpnat.csv,1052,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.59,dp_sup
+dpsupdpnat.csv,1053,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.15,dp_sup
+dpsupdpnat.csv,1054,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.21,dp_sup
+dpsupdpnat.csv,1055,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.16,dp_sup
+dpsupdpnat.csv,1056,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.78,dp_sup
+dpsupdpnat.csv,1057,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.23,dp_sup
+dpsupdpnat.csv,1058,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.81,dp_sup
+dpsupdpnat.csv,1059,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.86,dp_sup
+dpsupdpnat.csv,1060,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.97,dp_sup
+dpsupdpnat.csv,1061,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.95,dp_sup
+dpsupdpnat.csv,1062,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.98,dp_sup
+dpsupdpnat.csv,1063,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.97,dp_sup
+dpsupdpnat.csv,1064,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,1065,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,1066,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,1067,"Socias, 2004",Prunus dulcis,Almond,dp_sup,,,,0.99,dp_sup
+dpsupdpnat.csv,1068,"Stanley, 2013",Brassica napus,Oilseed rape,dp_sup,,,,0.32,dp_sup
+dpsupdpnat.csv,1069,"Stanley, 2013",Brassica napus,Oilseed rape,dp_sup,,,,0.19,dp_sup
+dpsupdpnat.csv,1070,"Stout, 2018",Vitellaria paradoxa,Karite nut,dp_sup,,,,0.1,dp_sup
+dpsupdpnat.csv,1071,"Stout, 2018",Vitellaria paradoxa,Karite nut,dp_sup,,,,0.03,dp_sup
+dpsupdpnat.csv,1072,"Stout, 2018",Vitellaria paradoxa,Karite nut,dp_sup,,,,0.08,dp_sup
+dpsupdpnat.csv,1073,"Stout, 2018",Vitellaria paradoxa,Karite nut,dp_sup,,,,0.95,dp_sup
+dpsupdpnat.csv,1074,"Tatari, 2017",Pyrus communis,Pear,dp_sup,,,,0.57,dp_sup
+dpsupdpnat.csv,1075,"Tatari, 2017",Pyrus communis,Pear,dp_sup,,,,0.61,dp_sup
+dpsupdpnat.csv,1076,"Tatari, 2017",Pyrus communis,Pear,dp_sup,,,,0.69,dp_sup
+dpsupdpnat.csv,1077,"Trans, 2014",Selenicereus spp.,Red-peel pitaya1,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1078,"Trans, 2014",Selenicereus monacanthus,Red-peel pitaya2,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1079,"Trans, 2014",Selenicereus spp.,Red-peel pitaya1,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1080,"Trans, 2014",Selenicereus undatus,White-fleshed pitahaya,dp_sup,,,,0.11,dp_sup
+dpsupdpnat.csv,1081,"Velazquez-López, 2018",Gossypium hirsutum,Cottonseed,dp_sup,,,,0.04,dp_sup
+dpsupdpnat.csv,1082,"Vladek, 2018",Lonicera caerulea,Honeysuckle,dp_sup,,,,0.53,dp_sup
+dpsupdpnat.csv,1083,"Vladek, 2018",Lonicera caerulea,Honeysuckle,dp_sup,,,,0.42,dp_sup
+dpsupdpnat.csv,1084,Wallace 1996,Macadamia sp.,Macadamia1,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1085,Wallace 1996,Macadamia sp.,Macadamia1,dp_sup,,,,0.56,dp_sup
+dpsupdpnat.csv,1086,Wallace 1996,Macadamia sp.,Macadamia1,dp_sup,,,,0.4,dp_sup
+dpsupdpnat.csv,1087,Wallace 1996,Macadamia sp.,Macadamia1,dp_sup,,,,0.43,dp_sup
+dpsupdpnat.csv,1088,Wallace 1996,Macadamia sp.,Macadamia1,dp_sup,,,,0.78,dp_sup
+dpsupdpnat.csv,1089,Wallace 1996,Macadamia sp.,Macadamia1,dp_sup,,,,0.87,dp_sup
+dpsupdpnat.csv,1090,Wallace 1996,Macadamia sp.,Macadamia1,dp_sup,,,,0.92,dp_sup
+dpsupdpnat.csv,1091,"Wayo, 2018",Durio zibethinus,Durian,dp_sup,,,,1,dp_sup
+dpsupdpnat.csv,1092,"Webber, 2020; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.52,dp_sup
+dpsupdpnat.csv,1093,"Webber, 2020; Garrat, 2021",Malus domestica,Apple,dp_sup,,,,0.54,dp_sup
+dpsupdpnat.csv,1094,"Wietzke, 2018",Fragaria x ananassa,Strawberry,dp_sup,,,,0.36,dp_sup
+dpsupdpnat.csv,1095,"Witte, 1995",Malus domestica,Apple,dp_sup,,,,0.66,dp_sup
+dpsupdpnat.csv,1096,"Witte, 1995",Malus domestica,Apple,dp_sup,,,,0.6,dp_sup
+dpsupdpnat.csv,1097,"Witte, 1995",Malus domestica,Apple,dp_sup,,,,0.44,dp_sup
+dpsupdpnat.csv,1098,"Witte, 1995",Malus domestica,Apple,dp_sup,,,,0.65,dp_sup
+dpsupdpnat.csv,1099,"Witte, 1995",Malus domestica,Apple,dp_sup,,,,0.79,dp_sup
+dpsupdpnat.csv,1100,"Witte, 1995",Malus domestica,Apple,dp_sup,,,,0.67,dp_sup
+dpsupdpnat.csv,1101,"Witte, 1995",Malus domestica,Apple,dp_sup,,,,0.77,dp_sup
+dpsupdpnat.csv,1102,"Witte, 1995",Malus domestica,Apple,dp_sup,,,,0.83,dp_sup
+dpsupdpnat.csv,1103,"Witte, 1995",Malus domestica,Apple,dp_sup,,,,0.87,dp_sup
+dpsupdpnat.csv,1104,"Witte, 1995",Malus domestica,Apple,dp_sup,,,,0.91,dp_sup
+dpsupdpnat.csv,1105,"Witte, 1995",Malus domestica,Apple,dp_sup,,,,0.92,dp_sup
+dpsupdpnat.csv,1106,"Witte, 1995",Malus domestica,Apple,dp_sup,,,,0.95,dp_sup
+dpsupdpnat.csv,1107,"Woodburn, 1996",Diospyros kaki f.,Persimmon,dp_sup,,,,0.33,dp_sup
+dpsupdpnat.csv,1108,"Woodburn, 1996",Diospyros kaki f.,Persimmon,dp_sup,,,,0.39,dp_sup
+dpsupdpnat.csv,1109,"Woodburn, 1996",Diospyros kaki f.,Persimmon,dp_sup,,,,0.56,dp_sup
+dpsupdpnat.csv,1110,"Wu, 2021",Malus domestica,Apple,dp_sup,,,,0.51,dp_sup
+dpsupdpnat.csv,1111,"Xie, 2013",Camellia oleifera,Camellia,dp_sup,,,,0.81,dp_sup
+dpsupdpnat.csv,1112,"Xie, 2013",Camellia oleifera,Camellia,dp_sup,,,,0.86,dp_sup
+dpsupdpnat.csv,1113,"Xie, 2013",Camellia oleifera,Camellia,dp_sup,,,,0.94,dp_sup
+dpsupdpnat.csv,1114,"Yourstone, 2021",Capsicum annuum,Chilli,dp_sup,,,,0.37,dp_sup
+dpsupdpnat.csv,1115,"Yourstone, 2021",Capsicum annuum,Chilli,dp_sup,,,,0.23,dp_sup
+dpsupdpnat.csv,1116,"Yourstone, 2021",Capsicum annuum,Chilli,dp_sup,,,,0.13,dp_sup
+dpsupdpnat.csv,1117,"Yourstone, 2021",Capsicum annuum,Chilli,dp_sup,,,,0.33,dp_sup
+dpsupdpnat.csv,1118,"Yourstone, 2021",Capsicum annuum,Chilli,dp_sup,,,,0.34,dp_sup
+dpsupdpnat.csv,1119,"Yourstone, 2021",Capsicum annuum,Chilli,dp_sup,,,,0.67,dp_sup
+dpsupdpnat.csv,1120,"Yourstone, 2021",Capsicum annuum,Chilli,dp_sup,,,,0.55,dp_sup
+dpsupdpnat.csv,1121,"Yourstone, 2021",Capsicum annuum,Chilli,dp_sup,,,,0.71,dp_sup
+dpsupdpnat.csv,1122,"Yourstone, 2021",Capsicum annuum,Chilli,dp_sup,,,,0.51,dp_sup
+dpsupdpnat.csv,1123,"Yourstone, 2021",Capsicum annuum,Chilli,dp_sup,,,,0.87,dp_sup
+dpsupdpnat.csv,1124,"Yourstone, 2021",Capsicum annuum,Chilli,dp_sup,,,,0.93,dp_sup
+dpsupdpnat.csv,1125,"Zaitoun, 2016",Citrullus lanatus,Watermelon,dp_sup,,,,0.52,dp_sup
+dpsupdpnat.csv,1126,"Zaitoun, 2016",Citrullus lanatus,Watermelon,dp_sup,,,,0.73,dp_sup
+dpsupdpnat.csv,1127,"Zhang, 2009",Capparis spinosa,Caper,dp_sup,,,,0.74,dp_sup
+dpvaluesextra.csv,2,"Azo, 2011",Abelmoschus esculentus,Okra,seed per pod,NAT,plant,Cameroon,0.074119077,NAT2
+dpvaluesextra.csv,3,"Azo, 2011",Abelmoschus esculentus,Okra,seed per pod,NAT,plant,Cameroon,0.116827438,NAT2
+dpvaluesextra.csv,4,"Lee, 2019",Actinidia chinensis,Golden kiwifruit,fruit set,BOTH,branch,Korea,0.886574074,SUP2
+dpvaluesextra.csv,5,"Lee, 2019",Actinidia chinensis,Golden kiwifruit,fruit weight,BOTH,branch,Korea,1,SUP2
+dpvaluesextra.csv,6,"Rabanales, 2015",Nephelium lappaceum,Rambutan,fruit set,NAT,,Mexico,0.92768595,NAT2
+dpvaluesextra.csv,7,"Rabanales, 2015",Nephelium lappaceum,Rambutan,fruit set,NAT,,Mexico,0.949137148,NAT2
+dpvaluesextra.csv,8,"Rabanales, 2015",Nephelium lappaceum,Rambutan,fruit weight,NAT,,Mexico,0.109677419,NAT2
+dpvaluesextra.csv,9,"Rabanales, 2015",Nephelium lappaceum,Rambutan,fruit weight,NAT,,Mexico,0.165562914,NAT2
+dpvaluesextra.csv,10,"Schurr, 2022",Foeniculum vulgare,Fennel,fruit set,BOTH,umbel,France,0.843410853,NAT2
+dpvaluesextra.csv,11,"Schurr, 2022",Foeniculum vulgare,Fennel,fruit weight per umbel,BOTH,umbel,France,0.8984375,NAT2
+dpvaluesextra.csv,12,"Rai, 2008",Cucumis sativus,Cucumber,yield,NAT,plant,India,0.805278286,NAT2
+dpvaluesextra.csv,13,"Vanlalhmangaiha, 2022",Citrus sinensis,Orange,fruit set,NAT,branch,India,0.090537138,NAT2
+dpvaluesextra.csv,14,"Vanlalhmangaiha, 2022",Citrus sinensis,Orange,fruit set,NAT,branch,India,0.217213661,NAT2
+dpvaluesextra.csv,15,"Vanlalhmangaiha, 2022",Citrus sinensis,Orange,fruit set,NAT,branch,India,0.131678298,NAT2
+dpvaluesextra.csv,16,"Vanlalhmangaiha, 2022",Citrus sinensis,Orange,fruit set,NAT,branch,India,0.216629868,NAT2
+dpvaluesextra.csv,17,"Vanlalhmangaiha, 2022",Citrus sinensis,Orange,fruit set,NAT,branch,India,0.205430742,NAT2
+dpvaluesextra.csv,18,"Vanlalhmangaiha, 2022",Citrus sinensis,Orange,fruit set,NAT,branch,India,0.300680911,NAT2
+dpvaluesextra.csv,19,"Vanlalhmangaiha, 2022",Citrus sinensis,Orange,fruit weight,NAT,branch,India,0.103265812,NAT2
+dpvaluesextra.csv,20,"Vanlalhmangaiha, 2022",Citrus sinensis,Orange,fruit weight,NAT,branch,India,0.181324952,NAT2
+dpvaluesextra.csv,21,"Vanlalhmangaiha, 2022",Citrus sinensis,Orange,fruit weight,NAT,branch,India,0.149127272,NAT2
+dpvaluesextra.csv,22,"Vanlalhmangaiha, 2022",Citrus sinensis,Orange,fruit weight,NAT,branch,India,0.325941606,NAT2
+dpvaluesextra.csv,23,"Vanlalhmangaiha, 2022",Citrus sinensis,Orange,fruit weight,NAT,branch,India,0.354852547,NAT2
+dpvaluesextra.csv,24,"Vanlalhmangaiha, 2022",Citrus sinensis,Orange,fruit weight,NAT,branch,India,0.318732505,NAT2
+dpvaluesextra.csv,25,"Higuchi, 2014",Anonna cherimoya,Cherimoya,fruit set,SUP,flower,Japan,1,SUP2
+dpvaluesextra.csv,26,"El-Wahab, 2012",Pimpinella anisum,Anise,fruit set,NAT,plant,Egypt,0.608674523,NAT2
+dpvaluesextra.csv,27,"Lanridge & Goodman, 1974",Brassica rapa,Canola,yield,NAT,plant,Australia,0.375172414,NAT2
+dpvaluesextra.csv,28,"Knight, 1965",Averrhoa carambola,Carambola,fruit set,SUP,plant,United States of America,0.93067591,SUP2
+dpvaluesextra.csv,29,"El-Wahab, 2012",Pimpinella anisum,Anise,fruit set,NAT,plant,Egypt,0.516875373,NAT2
+dpvaluesextra.csv,30,"El-Wahab, 2012",Pimpinella anisum,Anise,seed number per plant,NAT,plant,Egypt,0.730951463,NAT2
+dpvaluesextra.csv,31,"El-Wahab, 2012",Pimpinella anisum,Anise,seed number per plant,NAT,plant,Egypt,0.663720124,NAT2
+dpvaluesextra.csv,32,"El-Wahab, 2012",Pimpinella anisum,Anise,seed weight,NAT,plant,Egypt,0.083333333,NAT2
+dpvaluesextra.csv,33,"El-Wahab, 2012",Pimpinella anisum,Anise,seed weight,NAT,plant,Egypt,0.12,NAT2
+dpvaluesextra.csv,34,"Kendall, 1976",Phaseolus coccineus,Runner bean,fruit set,SUP,plant,England,0.945205479,SUP2
+dpvaluesextra.csv,35,"Quagliotti, 1987",Phaseolus coccineus,Runner bean,yield,NAT,plant,Italy,0.444316877,NAT2
+dpvaluesextra.csv,36,"Quagliotti, 1987",Phaseolus coccineus,Runner bean,yield,NAT,plant,Italy,0.968801314,NAT2
+dpvaluesextra.csv,37,"Williams, 1975",Phaseolus coccineus,Runner bean,fruit set,SUP,plant,England,1,SUP2
+dpvaluesextra.csv,38,"Williams, 1975",Phaseolus coccineus,Runner bean,fruit set,SUP,plant,England,0.785714286,SUP2
+dpvaluesextra.csv,39,"Williams, 1975",Phaseolus coccineus,Runner bean,fruit set,SUP,plant,England,0.848484848,SUP2
+dpvaluesextra.csv,40,"Williams, 1975",Phaseolus coccineus,Runner bean,fruit set,SUP,plant,England,0.878787879,SUP2
+dpvaluesextra.csv,41,"Williams, 1975",Phaseolus coccineus,Runner bean,seed number per pod,SUP,plant,England,0.264705882,SUP2
+dpvaluesextra.csv,42,"Williams, 1975",Phaseolus coccineus,Runner bean,seed number per pod,SUP,plant,England,0.333333333,SUP2
+dpvaluesextra.csv,43,"Pinzauti, 1997",Rubus fruticosus,Blackberry,druplet number,NAT,inflorescence,Italy,0.512773723,NAT2
+dpvaluesextra.csv,44,"Pinzauti, 1997",Rubus fruticosus,Blackberry,berry wegith,NAT,inflorescence,Italy,0.389645777,NAT2
+dpvaluesextra.csv,45,Toivonen 2022,Carum carvi,Caraway seed,fruit set,NAT,plant,Finland,0.108761767,NAT2
+dpvaluesextra.csv,46,Toivonen 2022,Carum carvi,Caraway seed,seed yield,NAT,plant,Finland,0.297959184,NAT2
+dpvaluesextra.csv,47,"Chaudhary, 2000",Elettaria cardamomum,Cardamom,seed/panicle,NAT,inflorescence,India,0.98366112,NAT2
+dpvaluesextra.csv,48,"Chaudhary, 2000",Elettaria cardamomum,Cardamom,seed weight,NAT,inflorescence,India,0.959349593,NAT2
+dpvaluesextra.csv,49,"Kuriakose, 2009",Elettaria cardamomum,Cardamom,fruit set,SUP,flower,India,1,SUP2
+dpvaluesextra.csv,50,"Larue, 2021",Castanea sativa x Castanea crenata,Chestnut,fruit set,NAT,branch,France,0.718673354,NAT2
+dpvaluesextra.csv,51,"Larue, 2021",Castanea sativa x Castanea crenata,Chestnut,fruit set,NAT,branch,France,0.861015768,NAT2
+dpvaluesextra.csv,52,"Larue, 2021",Castanea sativa x Castanea crenata,Chestnut,fruit set,NAT,branch,France,0.636864434,NAT2
+dpvaluesextra.csv,53,"Larue, 2021",Castanea sativa x Castanea crenata,Chestnut,fruit set,NAT,branch,France,0.545478312,NAT2
+dpvaluesextra.csv,54,"Larue, 2021",Castanea sativa x Castanea crenata,Chestnut,fruit set,NAT,branch,France,0.603838473,NAT2
+dpvaluesextra.csv,55,"Larue, 2021",Castanea sativa x Castanea crenata,Chestnut,fruit set,NAT,branch,France,0.636234947,NAT2
+dpvaluesextra.csv,56,"Oliveira, 2001",Castanea sativa,Chestnut,fruit set,NAT,branch,Portugal,0.40861519,NAT2
+dpvaluesextra.csv,57,"Oliveira, 2001",Castanea sativa x Castanea crenata,Chestnut,fruit set,NAT,branch,Portugal,0.886156552,NAT2
+dpvaluesextra.csv,58,"Oliveira, 2001",Castanea sativa,Chestnut,fruit set,NAT,branch,Portugal,0.039109737,NAT2
+dpvaluesextra.csv,59,"Oliveira, 2001",Castanea sativa,Chestnut,fruit set,NAT,branch,Portugal,0.634518034,NAT2
+dpvaluesextra.csv,60,"Oliveira, 2001",Castanea sativa,Chestnut,fruit set,NAT,branch,Portugal,0.49032727,NAT2
+dpvaluesextra.csv,61,"Oliveira, 2001",Castanea sativa,Chestnut,fruit set,NAT,branch,Portugal,0.079909122,NAT2
+dpvaluesextra.csv,62,"Oliveira, 2001",Castanea sativa,Chestnut,fruit set,NAT,branch,Portugal,0.344439127,NAT2
+dpvaluesextra.csv,63,"Oliveira, 2001",Castanea sativa,Chestnut,fruit set,NAT,branch,Portugal,0.399285348,NAT2
+dpvaluesextra.csv,64,"Manino, 1991",Castanea crenata,Chestnut,nut weight,NAT,branch,Italy,0.858940882,NAT2
+dpvaluesextra.csv,65,"Manino, 1991",Castanea crenata,Chestnut,nut weight,NAT,branch,Italy,0.84826489,NAT2
+dpvaluesextra.csv,66,"Manino, 1991",Castanea sativa x Castanea crenata,Chestnut,nut weight,NAT,branch,Italy,0.937126464,NAT2
+dpvaluesextra.csv,67,"Manino, 1991",Castanea crenata,Chestnut,nut weight,NAT,branch,Italy,0.594369135,NAT2
+dpvaluesextra.csv,68,"Manino, 1991",Castanea sativa x Castanea crenata,Chestnut,nut weight,NAT,branch,Italy,0.933810817,NAT2
+dpvaluesextra.csv,69,"Manino, 1991",Castanea sativa x Castanea crenata,Chestnut,nut weight,NAT,branch,Italy,0.786185611,NAT2
+dpvaluesextra.csv,70,"Manino, 1991",Castanea sativa,Chestnut,nut weight,NAT,branch,Italy,0.385054736,NAT2
+dpvaluesextra.csv,71,"Monasterolo, 2022",Citrus reticulata,Mandarim,fruit set,NAT,branch,Argentina,0.65,NAT2
+dpvaluesextra.csv,72,"Monasterolo, 2022",Citrus reticulata,Mandarim,fruit weight,NAT,branch,Argentina,-0.01005988,NAT2
+dpvaluesextra.csv,73,"Barbir, 2015",Coriandrum sativum,Coriander,seed set,NAT,plant,Spain,0.79860661,NAT2
+dpvaluesextra.csv,74,"Tesfaye, 2020",Coriandrum sativum,Coriander,seed yield,NAT,plant,Ethiopia,0.143452381,NAT2
+dpvaluesextra.csv,75,"Vaz, 1998",Vigna unguiculata,Cowpea,fruit set,NAT,plant,Brasil,0.075449102,NAT2
+dpvaluesextra.csv,76,"Vaz, 1998",Vigna unguiculata,Cowpea,seed number per pod,NAT,plant,Brasil,-0.008838384,NAT2
+dpvaluesextra.csv,77,"Dan, 2019",Vigna unguiculata,Cowpea,pod weight,NAT,plant,Kenya,0.204134367,NAT2
+dpvaluesextra.csv,78,"Dan, 2019",Vigna unguiculata,Cowpea,seed number per pod,NAT,plant,Kenya,0.148296593,NAT2
+dpvaluesextra.csv,79,"Dan, 2019",Vigna unguiculata,Cowpea,seed weight,NAT,plant,Kenya,0.289772727,NAT2
+dpvaluesextra.csv,80,"Dan, 2019",Vigna unguiculata,Cowpea,pod weight,NAT,plant,Kenya,0.477511244,NAT2
+dpvaluesextra.csv,81,"Dan, 2019",Vigna unguiculata,Cowpea,seed number per pod,NAT,plant,Kenya,0.264258555,NAT2
+dpvaluesextra.csv,82,"Dan, 2019",Vigna unguiculata,Cowpea,seed weight,NAT,plant,Kenya,0.522857143,NAT2
+dpvaluesextra.csv,83,"Dan, 2019",Cucumis sativus,Cucumber,fruit weight,NAT,plant,Kenya,0.418604651,NAT2
+dpvaluesextra.csv,84,"Dan, 2019",Cucumis sativus,Cucumber,fruit weight,NAT,plant,Kenya,0.61971831,NAT2
+dpvaluesextra.csv,85,"Meena, 2018",Cuminum cyminum,Cumin,seed yield,NAT,plant,India,0.292645061,NAT2
+dpvaluesextra.csv,86,"Hssaini, 2022",Ficus carica,Fig,seed yield,SUP,branch,Morocco,0.324047522,SUP2
+dpvaluesextra.csv,87,"Williams, 1991",Linum usitatissimum,Linseed,seed number per capsule,NAT,plant,England,-0.009852217,NAT2
+dpvaluesextra.csv,88,"Williams, 1991",Linum usitatissimum,Linseed,seed number per capsule,NAT,plant,England,-0.0013947,NAT2
+dpvaluesextra.csv,89,"Williams, 1991",Linum usitatissimum,Linseed,yield,NAT,plant,England,0.113924051,NAT2
+dpvaluesextra.csv,90,"Williams, 1991",Linum usitatissimum,Linseed,yield,NAT,plant,England,-0.176923077,NAT2
+dpvaluesextra.csv,91,"Pham, 2012",Ziziphus jujuba,Jujube,fruit set,NAT,flower,Vietnam,0.967213115,NAT2
+dpvaluesextra.csv,92,"Free, 1966",Phaseolus coccineus,Runner bean,pod yield,NAT,plant,England,0.917279412,NAT2
+dpvaluesextra.csv,93,"Free, 1966",Phaseolus coccineus,Runner bean,seed yield,NAT,plant,England,0.880668258,NAT2
+dpvaluesextra.csv,94,"Free, 1966",Phaseolus vulgaris,Bean,pod yield,NAT,plant,England,0.554359526,NAT2
+dpvaluesextra.csv,95,"Free, 1966",Phaseolus vulgaris,Bean,seed yield,NAT,plant,England,0.179930796,NAT2
+dpvaluesextra.csv,96,"Pandey, 1970",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,0.978439425,NAT2
+dpvaluesextra.csv,97,"Pandey, 1970",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,0.982624113,NAT2
+dpvaluesextra.csv,98,"Pandey, 1970",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,0.990334572,NAT2
+dpvaluesextra.csv,99,"Pandey, 1970",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,0.979045093,NAT2
+dpvaluesextra.csv,100,"Lal, 2021",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,1,NAT2
+dpvaluesextra.csv,101,"Lal, 2021",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,1,NAT2
+dpvaluesextra.csv,102,"Lal, 2021",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,1,NAT2
+dpvaluesextra.csv,103,"Lal, 2021",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,1,NAT2
+dpvaluesextra.csv,104,"Lal, 2021",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,1,NAT2
+dpvaluesextra.csv,105,"Lal, 2021",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,0.196078431,NAT2
+dpvaluesextra.csv,106,"Lal, 2021",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,0.269896194,NAT2
+dpvaluesextra.csv,107,"Lal, 2021",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,1,NAT2
+dpvaluesextra.csv,108,"Lal, 2021",Litchi chinensis,Litchi,fruit set,NAT,inflorescence,India,0.698924731,NAT2
+dpvaluesextra.csv,109,"Lal, 2021",Litchi chinensis,Litchi,fruit weight,NAT,inflorescence,India,0.083410997,NAT2
+dpvaluesextra.csv,110,"Lal, 2021",Litchi chinensis,Litchi,fruit weight,NAT,inflorescence,India,0.072655866,NAT2
+dpvaluesextra.csv,111,"Lal, 2021",Litchi chinensis,Litchi,fruit weight,NAT,inflorescence,India,0.084432718,NAT2
+dpvaluesextra.csv,112,"Blanche, 2006",Dimocarpus longan,Longan,fruit set,NAT,inflorescence,Australia,0.5,NAT2
+dpvaluesextra.csv,113,"Bala, 1993",Manilkara achras,Sapodilla,fruit set,NAT,flower,Malaysia,0.897748399,NAT2
+dpvaluesextra.csv,114,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.079166667,NAT2
+dpvaluesextra.csv,115,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.213114754,NAT2
+dpvaluesextra.csv,116,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.46746988,NAT2
+dpvaluesextra.csv,117,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.093663912,NAT2
+dpvaluesextra.csv,118,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.135135135,NAT2
+dpvaluesextra.csv,119,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.430232558,NAT2
+dpvaluesextra.csv,120,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.082706767,NAT2
+dpvaluesextra.csv,121,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.728813559,NAT2
+dpvaluesextra.csv,122,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.464285714,NAT2
+dpvaluesextra.csv,123,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.312335958,NAT2
+dpvaluesextra.csv,124,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.475059382,NAT2
+dpvaluesextra.csv,125,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.536585366,NAT2
+dpvaluesextra.csv,126,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.52559727,NAT2
+dpvaluesextra.csv,127,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.58778626,NAT2
+dpvaluesextra.csv,128,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.356020942,NAT2
+dpvaluesextra.csv,129,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.529411765,NAT2
+dpvaluesextra.csv,130,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.584474886,NAT2
+dpvaluesextra.csv,131,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.249169435,NAT2
+dpvaluesextra.csv,132,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.15034965,NAT2
+dpvaluesextra.csv,133,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.475471698,NAT2
+dpvaluesextra.csv,134,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.528645833,NAT2
+dpvaluesextra.csv,135,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.337563452,NAT2
+dpvaluesextra.csv,136,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.412073491,NAT2
+dpvaluesextra.csv,137,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.379501385,NAT2
+dpvaluesextra.csv,138,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.386440678,NAT2
+dpvaluesextra.csv,139,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.100775194,NAT2
+dpvaluesextra.csv,140,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.33988764,NAT2
+dpvaluesextra.csv,141,"Nyeki, 1996",Prunus persica,Peach,fruit set,NAT,flower,Hungary,0.160337553,NAT2
+dpvaluesextra.csv,142,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.529715762,NAT2
+dpvaluesextra.csv,143,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.556650246,NAT2
+dpvaluesextra.csv,144,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.619489559,NAT2
+dpvaluesextra.csv,145,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.239795918,NAT2
+dpvaluesextra.csv,146,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.398989899,NAT2
+dpvaluesextra.csv,147,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.534391534,NAT2
+dpvaluesextra.csv,148,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.504983389,NAT2
+dpvaluesextra.csv,149,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.373239437,NAT2
+dpvaluesextra.csv,150,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.125,NAT2
+dpvaluesextra.csv,151,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.38225256,NAT2
+dpvaluesextra.csv,152,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.318897638,NAT2
+dpvaluesextra.csv,153,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.277777778,NAT2
+dpvaluesextra.csv,154,"Nyeki, 1996",Prunus persica,Nectarine,fruit set,NAT,flower,Hungary,0.432773109,NAT2
+dpvaluesextra.csv,155,"Malerbo-Souza, 2004",Citrus sinensis,Orange,fruit weight,NAT,flower,Brasil,0.064979746,NAT2
+dpvaluesextra.csv,156,"Mota, 2002",Prunus persica,Peach,fruit set,NAT,flower,Brasil,0.179328087,NAT2
+dpvaluesextra.csv,157,"Mota, 2002",Prunus persica,Peach,fruit weigt,NAT,flower,Brasil,0.038461538,NAT2
+dpvaluesextra.csv,158,"Langridge, 1979",Prunus persica,Peach,fruit set,NAT,plant,Australia,0.175572519,NAT2
+dpvaluesextra.csv,159,"Langridge, 1979",Prunus persica,Peach,fruit weight,NAT,plant,Australia,0.282003711,NAT2
+dpvaluesextra.csv,160,"Verde, 2011",Opuntia ficus-indica,Cactus pear,fruit weight,NAT,flower,Italy,0.363537118,NAT2
+dpvaluesextra.csv,161,"Verde, 2011",Opuntia ficus-indica,Cactus pear,fruit weight,NAT,flower,Italy,0.569444444,NAT2
+dpvaluesextra.csv,162,"Verde, 2011",Opuntia ficus-indica,Cactus pear,fruit weight,NAT,flower,Italy,0.4,NAT2
+dpvaluesextra.csv,163,"Verde, 2011",Opuntia ficus-indica,Cactus pear,fruit weight,NAT,flower,Italy,0.551020408,NAT2
+dpvaluesextra.csv,164,"Verde, 2011",Opuntia ficus-indica,Cactus pear,fruit weight,NAT,flower,Italy,0.173611111,NAT2
+dpvaluesextra.csv,165,"Andrikopoulos, 2018",Rubus idaeus,Raspberry,seed number,SUP,plant,United States of America,0.452615539,SUP2
+dpvaluesextra.csv,166,"Andrikopoulos, 2018",Rubus idaeus,Raspberry,seed number,SUP,plant,United States of America,0.701726678,SUP2
+dpvaluesextra.csv,167,"Andrikopoulos, 2018",Rubus idaeus,Raspberry,seed number,SUP,plant,United States of America,0.663353143,SUP2
+dpvaluesextra.csv,168,"Andrikopoulos, 2018",Rubus idaeus,Raspberry,seed number,SUP,plant,United States of America,0.689407821,SUP2
+dpvaluesextra.csv,169,"Andrikopoulos, 2018",Rubus idaeus,Raspberry,seed number,SUP,plant,United States of America,0.648260502,SUP2
+dpvaluesextra.csv,170,"Andrikopoulos, 2018",Rubus idaeus,Raspberry,seed number,SUP,plant,United States of America,0.547020309,SUP2
+dpvaluesextra.csv,171,"Pandey, 2007",Carthamus tinctorius,Safflower,seed number,NAT,inflorescence,India,0.582412914,NAT2
+dpvaluesextra.csv,172,"Stein, 2017",Gossypium hirsutum,Cotton seed,fruit set,SUP,plant,Germany,0.192191544,SUP2
+dpvaluesextra.csv,173,"Stein, 2017",Sesamum indicum,Sesame seed,fruit set,SUP,plant,Germany,0.309830508,SUP2
+dpvaluesextra.csv,174,"Stein, 2017",Gossypium hirsutum,Cotton seed,seed weight,SUP,plant,Germany,0.531353135,SUP2
+dpvaluesextra.csv,175,"Stein, 2017",Sesamum indicum,Sesame seed,seed weight,SUP,plant,Germany,0.708333333,SUP2
+dpvaluesextra.csv,176,"Stein, 2017",Gossypium hirsutum,Cotton seed,seed number,SUP,plant,Germany,0.387258687,SUP2
+dpvaluesextra.csv,177,"Stein, 2017",Sesamum indicum,Sesame seed,seed number,SUP,plant,Germany,0.452566096,SUP2
+dpvaluesextra.csv,178,"Blettler, 2018",Glycine max,Soybean,yield,NAT,plant,Argentina,0.154862175,NAT2
+dpvaluesextra.csv,179,"Blettler, 2018",Glycine max,Soybean,yield,NAT,plant,Argentina,-0.028601695,NAT2
+dpvaluesextra.csv,180,"Chiari, 2005",Glycine max,Soybean,yield,NAT,plant,Brasil,0.366010061,NAT2
+dpvaluesextra.csv,181,"Milfont, 2013",Glycine max,Soybean,yield,NAT,plant,Brasil,0.059701493,NAT2
+dpvaluesextra.csv,182,"Moffett, 1981",Citrus reticulata,Tangerine,fruit set,SUP,flower,United States of America,1,NAT2
+dpvaluesextra.csv,183,"Srivastava, 2017",Litchi chinensis,Litchi,fruit set,NAT,plant,,0.801169591,NAT2
+dpvaluesextra.csv,184,"Srivastava, 2017",Litchi chinensis,Litchi,fruit weight,NAT,plant,,0.319708029,NAT2
+dpvaluesextra.csv,185,"Taimanga, 2018",Glycine max,Soybean,fruit set,NAT,plant,Cameroun,0.379204893,NAT2
+dpvaluesextra.csv,186,"Taimanga, 2018",Glycine max,Soybean,seed per pod,NAT,plant,Cameroun,0.134751773,NAT2
+dpvaluesextra.csv,187,"Taimanga, 2018",Glycine max,Soybean,fruit set,NAT,plant,Cameroun,0.419007661,NAT2
+dpvaluesextra.csv,188,"Taimanga, 2018",Glycine max,Soybean,seed per pod,NAT,plant,Cameroun,0.12601626,NAT2
+dpvaluesextra.csv,189,"Nissar, 2006",Vanilla planifolia,Vanilla,fruit set,NAT,flower,,,NAT2
+dpvaluesextra.csv,190,"Benedek,2001",Cydonia oblonga,Quince,yield,NAT,flower,Hungary,1,NAT2
+dpvaluesextra.csv,191,"Benedek,2001",Cydonia oblonga,Quince,yield,NAT,flower,Hungary,1,NAT2
+dpvaluesextra.csv,192,"Benedek,2001",Cydonia oblonga,Quince,yield,NAT,flower,Hungary,1,NAT2
+dpvaluesextra.csv,193,"Benedek,2001",Cydonia oblonga,Quince,yield,NAT,flower,Hungary,1,NAT2
+dpvaluesextra.csv,194,"Benedek,2001",Cydonia oblonga,Quince,yield,NAT,flower,Hungary,1,NAT2
+dpvaluesextra.csv,195,"Benedek,2001",Cydonia oblonga,Quince,yield,NAT,flower,Hungary,1,NAT2
+dpvaluesextra.csv,196,"Benedek,2001",Cydonia oblonga,Quince,yield,NAT,flower,Hungary,1,NAT2
+dpvaluesextra.csv,197,"Benedek,2001",Cydonia oblonga,Quince,yield,NAT,flower,Hungary,1,NAT2
+dpvaluesextra.csv,198,"Benedek,2001",Cydonia oblonga,Quince,yield,NAT,flower,Hungary,1,NAT2
+dpvaluesextra.csv,199,"Benedek,2001",Cydonia oblonga,Quince,yield,NAT,flower,Hungary,1,NAT2
+dpvaluesextra.csv,200,"Benedek,2001",Cydonia oblonga,Quince,yield,NAT,flower,Hungary,1,NAT2
+dpvaluesextra.csv,201,"Gavilanez-Slone, 2000",Cucurbita maxima,Pumpkin,yield,BEE,plant,USA,1,BEE2

@@ -1,0 +1,14 @@
+﻿Field,Meaning,Example,Purpose
+Evidence_ID,Unique internal evidence identifier,TOM-002,Primary audit key
+Crop,Internal crop key,Tomato,Links evidence to analysis
+Scientific_name,Scientific taxon,Solanum lycopersicum,Taxonomic traceability
+Reference,Original scientific reference,Giannini et al. (2015),Human-readable provenance
+DOI,Persistent publication identifier,10.1093/jee/tov093,Persistent provenance
+Geographic_scope,Scale represented by evidence,Brazil,Prevents silent geographic generalization
+Dependence_class,Dependence class,Great,Scientific interpretation
+DR,Representative dependence ratio,0.65,Calculation parameter
+Evidence_type,Quantitative / Supporting,Quantitative,Controls calculation eligibility
+Evidence_lineage,Independent / Derived,Independent,Prevents double counting
+Source_database,Where record was curated/obtained,Curated scientific library V1,Data provenance
+Validation_status,Curation state,Verified,Quality control
+Selectable_for_calculation,Can change calculations,Yes,Decision rule

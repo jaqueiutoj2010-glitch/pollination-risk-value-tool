@@ -1,0 +1,10 @@
+# Expanded-crop registry: existing evidence is retained; article 4M is not modified.
+e <- read.csv("data/crop_evidence_database.csv", stringsAsFactors=FALSE, check.names=FALSE)
+a <- read.csv("data/article_4M.csv", stringsAsFactors=FALSE, check.names=FALSE)
+r <- read.csv("data/expanded_crop_registry.csv", stringsAsFactors=FALSE, check.names=FALSE)
+expected <- c("COF-001","COF-002","APP-001","APP-002","TOM-001","TOM-002","PAS-001")
+stopifnot(all(expected %in% e$Evidence_ID), !anyDuplicated(e$Evidence_ID))
+stopifnot(all(c("Coffee","Apple","Tomato","Passion fruit") %in% r$Crop))
+stopifnot(setequal(e$DR[e$Crop=="Tomato" & e$Evidence_ID %in% expected], c(0.05,0.65)))
+stopifnot(nrow(a)==4, all(c("Melon","Watermelon","Mango","Papaya") %in% a$Crop))
+cat("Expanded crop registry and 4M isolation checks passed.\n")
