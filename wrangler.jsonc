@@ -1,0 +1,16 @@
+// Cloudflare Workers — configuração do site estático do Pollination Risk and Value Tool.
+// Cloudflare Workers — static website configuration for the Pollination Risk and Value Tool.
+//
+// Só a pasta ./site é publicada. A versão R/Shiny (shiny-app/) e a documentação (docs/)
+// ficam no repositório, mas não são enviadas ao Cloudflare.
+// Only the ./site folder is published. The R/Shiny version (shiny-app/) and docs/ stay in the repository but are not uploaded.
+{
+  // Deve ser igual ao nome do Worker criado no painel do Cloudflare.
+  // Must match the Worker name created in the Cloudflare dashboard.
+  "name": "pollination-risk-and-value-tool",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./site",
+    "not_found_handling": "404-page"
+  }
+}
