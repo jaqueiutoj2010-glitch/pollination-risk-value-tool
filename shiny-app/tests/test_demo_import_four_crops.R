@@ -1,0 +1,10 @@
+# Demonstration data: fictional economic inputs, registered scientific DRs.
+x <- read.csv("data/DEMONSTRACAO_QUATRO_CULTURAS_NAO_CITAR.csv", stringsAsFactors=FALSE, check.names=FALSE, fileEncoding="UTF-8-BOM")
+stopifnot(nrow(x)==4L, setequal(x$Crop,c("Coffee","Apple","Tomato","Passion fruit")))
+stopifnot(all(c("Crop","Production_1000_t","Production_Value_USD_M","Pollination_Dependence") %in% names(x)))
+stopifnot(all(x$Pollination_Dependence>=0 & x$Pollination_Dependence<=1))
+stopifnot(x$Pollination_Dependence[x$Crop=="Tomato"]==0.05)
+e <- read.csv("data/crop_evidence_database.csv", stringsAsFactors=FALSE)
+stopifnot(setequal(e$DR[e$Crop=="Tomato"],c(0.05,0.65)))
+stopifnot(all(grepl("FICTITIOUS",x$Notes,fixed=TRUE)))
+cat("PASS: four-crop demonstration import schema and evidence checks\n")

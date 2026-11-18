@@ -1,0 +1,7 @@
+Management_ID,Module,Action,Action_PT,Evidence_strength
+M01,Habitat conservation,Conserve natural and semi-natural vegetation,Conservar vegetação natural e seminatural,High
+M02,Habitat restoration,Restore degraded habitat strategically,Restaurar áreas degradadas de forma estratégica,Moderate-High
+M03,Landscape diversification,Increase local and landscape heterogeneity,Aumentar a heterogeneidade local e da paisagem,High
+M04,Floral resources,Establish or maintain high-quality floral resources,Implantar ou manter recursos florais de alta qualidade,High / context-dependent
+M05,Connectivity,Maintain or improve ecological connectivity where context supports it,Manter ou melhorar a conectividade ecológica quando o contexto justificar,Moderate
+M06,IPPM,Adopt Integrated Pest and Pollinator Management (IPPM),Adotar Manejo Integrado de Pragas e Polinizadores (IPPM),High

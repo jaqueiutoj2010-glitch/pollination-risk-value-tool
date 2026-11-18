@@ -1,0 +1,20 @@
+# Confere o site estático (pasta site/) a cada alteração.
+# Checks the static website (site/ folder) on every change.
+name: Website check
+
+on:
+  push:
+    paths: ["site/**", "shiny-app/data/**", "tools/check_site.mjs", "wrangler.jsonc", ".github/workflows/site-check.yaml"]
+  pull_request:
+    paths: ["site/**", "shiny-app/data/**", "tools/check_site.mjs", "wrangler.jsonc", ".github/workflows/site-check.yaml"]
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node tools/check_site.mjs
