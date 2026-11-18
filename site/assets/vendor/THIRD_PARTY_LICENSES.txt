@@ -1,0 +1,6 @@
+Third-party components bundled with the Pollination Risk and Value Tool website
+
+- PapaParse (assets/vendor/papaparse.min.js) — MIT License — https://www.papaparse.com
+- SheetJS Community Edition 0.18.5 (assets/vendor/xlsx.full.min.js) — Apache License 2.0 — https://sheetjs.com
+- Fonts in assets/fonts/ — SIL Open Font License 1.1 (see assets/fonts/OFL.txt):
+  Newsreader, Schibsted Grotesk, Fredoka, Inter, Caveat (files from the Fontsource project, https://fontsource.org)

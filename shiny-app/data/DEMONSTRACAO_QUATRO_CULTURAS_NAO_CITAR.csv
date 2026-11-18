@@ -1,0 +1,5 @@
+﻿Crop,Crop_PT,Scientific_name,Year,Location,Production_1000_t,Production_Value_USD_M,Export_Volume_1000_t,Export_Value_USD_M,Pollination_Dependence,Evidence_Reference,Notes
+Coffee,Café,Coffea arabica,2024,DEMONSTRATION ONLY,100,100,20,20,0.25,Klein et al. (2007),FICTITIOUS ECONOMIC DATA - DO NOT CITE
+Apple,Maçã,Malus domestica,2024,DEMONSTRATION ONLY,50,80,10,15,0.65,Klein et al. (2007),FICTITIOUS ECONOMIC DATA - DO NOT CITE
+Tomato,Tomate,Solanum lycopersicum,2024,DEMONSTRATION ONLY,90,60,5,8,0.05,Klein et al. (2007),FICTITIOUS ECONOMIC DATA - DO NOT CITE; ALTERNATIVE DR 0.65
+Passion fruit,Maracujá,Passiflora edulis,2024,DEMONSTRATION ONLY,30,40,3,4,0.95,Klein et al. (2007),FICTITIOUS ECONOMIC DATA - DO NOT CITE

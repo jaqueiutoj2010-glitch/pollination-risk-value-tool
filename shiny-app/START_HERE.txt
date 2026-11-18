@@ -1,0 +1,19 @@
+POLLINATION RISK AND VALUE TOOL — V2.41 PUBLIC REVIEW RELEASE
+
+LOCAL USE
+1. Download or clone the complete repository.
+2. Open shiny-app/PollinationRiskTool.Rproj in RStudio.
+3. Open OPEN_APP.R and click Source.
+4. The application opens in the browser.
+
+PEER-REVIEW STATUS
+- The 4M analytical dataset is frozen for reproducibility.
+- The expanded Scientific Catalogue is complementary and is not automatically used in economic calculations.
+- The release submitted for review is preserved unchanged in the Git tag v2.41-review.
+
+PUBLIC WEB ACCESS
+Browser version without installation: ../site/ (see ../docs/web/DEPLOY_CLOUDFLARE.md).
+shinyapps.io copy of this R version: ../docs/shiny/DEPLOY_SHINYAPPS.md.
+
+TESTS
+Optional, from this folder: source("run_tests.R")

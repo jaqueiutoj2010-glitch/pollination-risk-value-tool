@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pollination Risk and Value Tool</title>
+<meta name="description" content="Valoração econômica dos serviços de polinização: valor, dependência e exposição da produção e das exportações agrícolas, com evidências rastreáveis e jogos educativos.">
+<meta name="theme-color" content="#1B2A22">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pollination Risk and Value Tool">
+<meta property="og:description" content="Valoração econômica dos serviços de polinização, com evidências rastreáveis e jogos educativos.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/fonts/game-fonts.css">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}
+img{max-width:100%}
+[hidden]:not([hidden=until-found i]){display:none!important}
+.topbar{top:env(safe-area-inset-top,0px)}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Pular para o conteúdo</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#painel" aria-label="Pollination Risk and Value Tool — início">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <path d="M20 2 35.6 11v18L20 38 4.4 29V11Z" fill="#F2B705"/>
+        <circle cx="20" cy="20" r="5.2" fill="#1B2A22"/>
+        <path d="M20 9.5v5M20 25.5v5M10.9 14.7l4.4 2.6M24.7 22.7l4.4 2.6M10.9 25.3l4.4-2.6M24.7 17.3l4.4-2.6" stroke="#1B2A22" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-text">Pollination Risk<br>and Value Tool</span>
+    </a>
+    <nav class="mainnav" id="mainnav" aria-label="Seções"></nav>
+    <button type="button" class="gloss-btn" id="glossBtn" aria-haspopup="dialog" aria-controls="gloss">Glossário</button>
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      <button type="button" data-lang="pt" class="lang-btn">PT</button>
+      <button type="button" data-lang="en" class="lang-btn">EN</button>
+    </div>
+    <button type="button" class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainnav">Menu</button>
+  </div>
+</header>
+
+<div id="hero"></div>
+<main id="main" tabindex="-1"></main>
+
+<footer class="footer" id="footer"></footer>
+
+<div class="gloss-scrim" id="glossScrim" hidden></div>
+<aside class="gloss" id="gloss" role="dialog" aria-modal="true" aria-labelledby="glossTitle" hidden>
+  <div class="gloss-head"><h2 id="glossTitle">Glossário</h2><button type="button" class="gloss-close" id="glossClose">Fechar</button></div>
+  <div class="gloss-body" id="glossBody"></div>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<noscript><p style="padding:24px;font:16px system-ui,sans-serif">Este site precisa de JavaScript ativado. / This website requires JavaScript.</p></noscript>
+
+<script src="assets/vendor/papaparse.min.js"></script>
+<script src="assets/vendor/xlsx.full.min.js" defer></script>
+<script src="assets/i18n.js"></script>
+<script src="assets/help.js"></script>
+<script src="assets/article.js"></script>
+<script src="assets/charts.js"></script>
+<script src="assets/games/colmeia.js"></script>
+<script src="assets/games/alimentos.js"></script>
+<script src="assets/games/feira.js"></script>
+<script src="assets/games/quanto.js"></script>
+<script src="assets/games/detetive.js"></script>
+<script src="assets/bee.js"></script>
+<script src="assets/game.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

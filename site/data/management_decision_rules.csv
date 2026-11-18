@@ -1,0 +1,24 @@
+﻿Rule_ID,Management_ID,Context_variable,Context_response,Context_score,Rationale_PT,Rationale_EN
+R-M01-01,M01,Q01,Abundant,0,Prioridade de conservação: manter o habitat existente.,Conservation priority: maintain existing habitat.
+R-M01-02,M01,Q01,Some,1,"Conservar e evitar novas perdas; há habitat, mas a oferta é parcial.",Conserve and prevent further loss; habitat availability is partial.
+R-M01-03,M01,Q01,Scarce,2,Alta necessidade de proteger remanescentes e evitar novas perdas.,High need to protect remnants and prevent further habitat loss.
+R-M01-04,M01,Q01,Unknown,0,Dados insuficientes; recomendar diagnóstico local antes de intensificar a ação.,Insufficient data; recommend local assessment before escalating action.
+R-M02-01,M02,Q02,Yes,2,Há oportunidade explícita para restauração estratégica.,There is an explicit opportunity for strategic restoration.
+R-M02-02,M02,Q02,No,0,Sem área degradada indicada; restauração não é priorizada por esta pergunta.,No degraded area reported; restoration is not prioritized by this question.
+R-M02-03,M02,Q02,Unknown,0,Disponibilidade para restauração desconhecida.,Restoration opportunity is unknown.
+R-M03-01,M03,Q04,High,0,Paisagem já diversificada; prioridade é manter a heterogeneidade.,Landscape already diversified; priority is to maintain heterogeneity.
+R-M03-02,M03,Q04,Moderate,1,Há espaço para aumentar a heterogeneidade da paisagem.,There is scope to increase landscape heterogeneity.
+R-M03-03,M03,Q04,Low,2,Simplificação elevada; diversificação recebe maior prioridade.,High simplification; diversification receives higher priority.
+R-M03-04,M03,Q04,Unknown,0,Diversificação desconhecida; não inferir simplificação.,Diversification is unknown; do not infer simplification.
+R-M04-01,M04,Q03,Abundant,0,Recursos florais já abundantes; foco em manutenção e qualidade.,Floral resources already abundant; focus on maintenance and quality.
+R-M04-02,M04,Q03,Some,1,Recursos florais parciais; melhoria pode ser considerada.,Floral resources are partial; enhancement can be considered.
+R-M04-03,M04,Q03,Scarce,2,Escassez de recursos florais; maior prioridade para recursos diversos e persistentes.,"Floral resources are scarce; higher priority for diverse, persistent resources."
+R-M04-04,M04,Q03,Unknown,0,Recursos florais desconhecidos; não recomendar implantação intensiva sem diagnóstico.,Floral resources unknown; do not recommend intensive establishment without assessment.
+R-M05-01,M05,Q06,High,0,Conectividade relatada como alta; foco em manutenção.,Connectivity reported as high; focus on maintenance.
+R-M05-02,M05,Q06,Moderate,1,Conectividade intermediária; melhoria pode ser avaliada no contexto local.,Intermediate connectivity; enhancement can be assessed in local context.
+R-M05-03,M05,Q06,Low,2,Baixa conectividade aumenta a prioridade de avaliar reconexão/restauração estratégica.,Low connectivity increases priority for assessing strategic reconnection/restoration.
+R-M05-04,M05,Q06,Unknown,0,Conectividade desconhecida; não presumir efeito de corredores.,Connectivity unknown; do not assume corridor effects.
+R-M06-01,M06,Q05,Frequently,2,Uso frequente próximo à floração; IPPM recebe prioridade muito alta.,Frequent use near flowering; IPPM receives very high priority.
+R-M06-02,M06,Q05,Occasionally,1,Uso ocasional próximo à floração; revisar práticas sob IPPM.,Occasional use near flowering; review practices under IPPM.
+R-M06-03,M06,Q05,No,0,Sem uso relatado próximo à floração; manter práticas compatíveis com polinizadores.,No reported use near flowering; maintain pollinator-compatible practices.
+R-M06-04,M06,Q05,Unknown,0,Uso desconhecido; recomendar avaliação do manejo antes de atribuir prioridade.,Use unknown; recommend management assessment before assigning priority.
