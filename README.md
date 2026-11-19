@@ -9,6 +9,10 @@ Bilingual decision-support tool for exploring the economic value, crop dependenc
 
 **[Português](#português) · [English](#english)**
 
+**Plataforma web / Web application (avaliação científica / scientific review):** https://pollination-risk-value-tool.jaqueiuto-j-2010.workers.dev/
+
+O acesso por link destina-se à avaliação científica nesta etapa; o endereço não exige autenticação e não constitui controle de acesso. / Link-based access is intended for scientific review at this stage; the URL does not require authentication and is not access-restricted.
+
 ---
 
 ## Português
@@ -44,7 +48,7 @@ CITATION.cff          como citar
 - O **conjunto analítico 4M está congelado** para reprodutibilidade e reproduz os cálculos do manuscrito: valor da produção US$ 230,1 M, EVP US$ 175,8 M, exportações US$ 196,8 M e EPV US$ 165,3 M.
 - O **Catálogo científico é complementar**: 2.054 registros com UIDs únicos (127 Giannini, 39 Klein, 1.888 Siopa). Ele serve para consulta e rastreabilidade e **não entra automaticamente nos cálculos econômicos**.
 - Os cenários de 10%, 25% e 50% são testes de estresse padronizados do serviço de polinização, **não previsões climáticas nem probabilidades**.
-- A versão submetida aos revisores fica preservada na tag `v2.41-review`, com a organização original de pastas.
+- A versão R/Shiny V2.41 permanece identificada na tag `v2.41-review`, com a organização original de pastas. A submissão anterior (ECOSER-D-26-01259) foi encerrada; uma versão substancialmente revisada está sendo preparada para nova submissão.
 
 ### Usar a versão web
 
@@ -78,6 +82,12 @@ A verificação do site confere os arquivos obrigatórios, a sintaxe dos scripts
 
 Altere o arquivo em `shiny-app/data/`, copie o mesmo arquivo para `site/data/` e rode `node tools/check_site.mjs`. Enquanto o manuscrito estiver em revisão, o conjunto 4M deve permanecer congelado.
 
+### Limitações e perspectivas de desenvolvimento
+
+A plataforma estima a **dependência econômica** da produção e das exportações em relação à polinização e a **exposição econômica em cenários hipotéticos** de redução desse serviço. Não mensura diretamente o risco ecológico, a abundância dos polinizadores, a qualidade dos habitats ou perdas efetivamente observadas. Os cenários não representam previsões nem probabilidades de declínio.
+
+À medida que novas pesquisas e bases de dados confiáveis estiverem disponíveis, versões futuras poderão integrar indicadores de diversidade e abundância de polinizadores, conectividade dos habitats, uso da terra, clima e tendências populacionais. Cada ampliação dependerá de validação científica, documentação dos métodos e testes de reprodutibilidade, preservando a base analítica do manuscrito.
+
 ### Salvaguardas científicas
 
 A proveniência das evidências é mantida por identificadores únicos, referência, abrangência geográfica, tipo de evidência, estado de validação e elegibilidade para o cálculo. Bases derivadas não contam como evidência independente quando reproduzem a mesma publicação. Observações experimentais não são tratadas automaticamente como coeficientes gerais de dependência, e tipos diferentes de evidência nunca são somados ou convertidos entre si.
@@ -90,15 +100,15 @@ Para a versão web (3.0), que reproduz a V2.41 e acrescenta os jogos:
 
 > Jorge, J. S. e colaboradores. (2026). *Pollination Risk and Value Tool* (Version 3.0). Web application.
 
-O manuscrito em revisão continua associado à V2.41. As duas citações valem até o depósito de uma versão pública com DOI.
+A submissão anterior foi associada à V2.41. A versão web 3.0 e a versão R/Shiny V2.41 devem ser identificadas separadamente na nova submissão; as citações acima são provisórias até o depósito de uma versão pública com DOI.
 
 ### Financiamento e contexto institucional
 
 Desenvolvido com apoio institucional da Universidade Federal do Rio Grande do Norte (UFRN) e financiamento da CAPES e do CNPq. As instituições não determinam a seleção das evidências, os coeficientes aplicados nem a interpretação dos resultados.
 
-### Licença
+### Licenciamento e disponibilização
 
-Uma licença de software **ainda não foi atribuída**. Escolha e adicione a licença pretendida antes de tratar o repositório como software de licença aberta. Os componentes de terceiros usados pelo site têm as próprias licenças, listadas em `site/assets/vendor/THIRD_PARTY_LICENSES.txt` e `site/assets/fonts/OFL.txt`.
+O processo de licenciamento da *Pollination Risk and Value Tool* está em andamento e deverá ser concluído antes de sua disponibilização pública oficial. Durante esta etapa, a plataforma poderá ser utilizada para avaliação científica e testes de reprodutibilidade. O acesso ao código e à aplicação não implica, por si só, autorização para reutilização, redistribuição ou modificação do software. Após a definição da licença, a documentação e as condições de uso serão atualizadas. Os componentes de terceiros usados pelo site têm as próprias licenças, listadas em `site/assets/vendor/THIRD_PARTY_LICENSES.txt` e `site/assets/fonts/OFL.txt`.
 
 Não inclua tokens, senhas ou credenciais de publicação no repositório.
 
@@ -137,7 +147,7 @@ CITATION.cff          how to cite
 - The **4M analytical dataset is frozen** for reproducibility and reproduces the manuscript calculations: production value US$ 230.1 M, EVP US$ 175.8 M, exports US$ 196.8 M and EPV US$ 165.3 M.
 - The **Scientific Catalogue is complementary**: 2,054 records with unique UIDs (127 Giannini, 39 Klein, 1,888 Siopa). It supports evidence exploration and provenance tracking and is **not automatically used in the economic calculations**.
 - The 10%, 25% and 50% scenarios are standardized pollination-service stress tests, **not climate forecasts or probabilities**.
-- The release submitted to reviewers is preserved in the `v2.41-review` tag, with the original folder layout.
+- The R/Shiny V2.41 release remains identified by the `v2.41-review` tag, with its original folder layout. The previous submission (ECOSER-D-26-01259) was closed; a substantially revised version is being prepared for a new submission.
 
 ### Using the web version
 
@@ -171,6 +181,12 @@ The website check confirms required files, script syntax, that the site loads on
 
 Change the file in `shiny-app/data/`, copy the same file to `site/data/` and run `node tools/check_site.mjs`. While the manuscript is under review, the 4M dataset should stay frozen.
 
+### Limitations and future development
+
+The platform estimates the **economic dependence** of production and exports on pollination and **economic exposure under hypothetical** reductions in this service. It does not directly measure ecological risk, pollinator abundance, habitat quality, or observed losses. Scenarios are neither forecasts nor probabilities of decline.
+
+As reliable research and datasets become available, future versions may integrate indicators of pollinator diversity and abundance, habitat connectivity, land use, climate, and population trends. Each extension will require scientific validation, documented methods, and reproducibility tests, while preserving the manuscript's analytical baseline.
+
 ### Scientific safeguards
 
 Evidence provenance is retained through unique identifiers, references, geographic scope, evidence type, validation state and calculation eligibility. Derived databases are not counted as independent evidence when they reproduce an underlying publication. Experimental observations are not treated automatically as general crop-dependence coefficients, and different evidence types are never averaged or converted into one another.
@@ -183,14 +199,14 @@ For the web version (3.0), which reproduces V2.41 and adds the games:
 
 > Jorge, J. S. and collaborators. (2026). *Pollination Risk and Value Tool* (Version 3.0). Web application.
 
-The manuscript under review remains associated with V2.41. Both citations apply until a DOI-backed public release is archived.
+The previous submission was associated with V2.41. Web version 3.0 and R/Shiny V2.41 should be identified separately in the new submission; the citations above are provisional until a DOI-backed public release is archived.
 
 ### Funding and institutional context
 
 Developed with institutional support from the Federal University of Rio Grande do Norte (UFRN) and funding from CAPES and CNPq. These institutions do not determine the evidence selected, the coefficients applied or the interpretation of the results.
 
-### License
+### Licensing and availability
 
-A software license has **not yet been assigned**. Choose and add the intended license before treating the repository as openly licensed software. Third-party components used by the website keep their own licenses, listed in `site/assets/vendor/THIRD_PARTY_LICENSES.txt` and `site/assets/fonts/OFL.txt`.
+The licensing process for the *Pollination Risk and Value Tool* is underway and is expected to be completed before its official public release. During this stage, the platform may be used for scientific evaluation and reproducibility testing. Access to the code or application does not, by itself, grant permission to reuse, redistribute, or modify the software. Documentation and terms of use will be updated once a license has been selected. Third-party components used by the website keep their own licenses, listed in `site/assets/vendor/THIRD_PARTY_LICENSES.txt` and `site/assets/fonts/OFL.txt`.
 
 Do not commit account tokens, secrets or deployment credentials to the repository.
