@@ -924,6 +924,14 @@ function pageMethod(){
   <section class="section">
     <h2 class="h">${esc(M.limits_title)}</h2>
     <ul class="list">${M.limits.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+    <div class="reading prose mt-s"><p>${esc(L("A ferramenta estima a dependência econômica da produção e das exportações em relação à polinização e a exposição econômica em cenários hipotéticos de redução desse serviço. Esses resultados não constituem uma medição direta do risco ecológico, da abundância dos polinizadores ou de perdas efetivamente observadas.","The tool estimates the economic dependence of production and exports on pollination and economic exposure under hypothetical reductions in this service. These results do not directly measure ecological risk, pollinator abundance, or actually observed losses."))}</p></div>
+  </section>
+  <section class="section">
+    <h2 class="h">${esc(L("Perspectivas de desenvolvimento","Future development"))}</h2>
+    <div class="reading prose">
+      <p>${esc(L("A plataforma foi concebida para evoluir à medida que novas pesquisas e bases de dados confiáveis se tornem disponíveis. Futuras versões poderão incorporar indicadores de abundância e diversidade de polinizadores, qualidade e conectividade dos habitats, mudanças no uso da terra, condições climáticas e tendências populacionais.","The platform is designed to evolve as new research and reliable datasets become available. Future versions may incorporate indicators of pollinator abundance and diversity, habitat quality and connectivity, land-use change, climatic conditions, and population trends."))}</p>
+      <p>${esc(L("A integração desses indicadores poderá apoiar avaliações mais abrangentes de vulnerabilidade e risco ecológico. Essas funcionalidades ainda não integram o modelo atual e dependerão de dados adequados, validação científica, documentação dos métodos e testes de reprodutibilidade. A base analítica do manuscrito permanecerá identificada e preservada para permitir a reprodução dos resultados publicados.","Integrating these indicators may support broader assessments of vulnerability and ecological risk. These capabilities are not part of the current model and will require suitable data, scientific validation, documented methods, and reproducibility tests. The manuscript's analytical baseline will remain identified and preserved so that published results can be reproduced."))}</p>
+    </div>
   </section>
   <section class="section">
     <h2 class="h">${esc(M.glossary_title)}</h2>
