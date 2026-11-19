@@ -3,7 +3,7 @@
 window.ARTICLE = {
 pt:{
   careful:{
-    artigo:"Os DRs do artigo são conservadores: 0,95 para melão e melancia, 0,05 para mamão e 0,00 para manga. Uma análise de sensibilidade testa 0,25 para mamão e 0,05 para manga. O que você muda aqui vale só para esta sessão e não altera os resultados publicados.",
+    artigo:"Os DRs do artigo são conservadores: 0,95 para melão e melancia, 0,05 para mamão e 0,00 para manga. Uma análise de sensibilidade testa 0,25 para mamão e 0,05 para manga. O que você muda aqui vale só para esta sessão e não altera os resultados de referência do manuscrito.",
     modelo:"Antes de usar um DR, confira se ele vale para a sua cultura e região. A ferramenta avisa quando o seu valor difere da biblioteca científica, mas nunca o substitui sozinha.",
     cenarios:"São testes de estresse proporcionais, não previsões climáticas nem probabilidades. Preços, área plantada, comércio e manejo ficam constantes. Calor, seca, perda de habitat e agrotóxicos podem reduzir os polinizadores, mas nenhuma porcentagem é atribuída a uma causa específica.",
     evidencias:"Bases derivadas que apenas reproduzem uma publicação não contam como evidência independente. Quando as fontes divergem, a ferramenta não escolhe por você: a decisão fica registrada e visível.",
@@ -48,7 +48,7 @@ pt:{
     refs_title:"Referências principais"
   },
   about_article_title:"Artigo associado",
-  about_article:"A ferramenta acompanha o manuscrito “Assessing the Economic Value and Climate-Related Exposure of Pollination Ecosystem Services in Tropical Drylands: A Reproducible Framework and Interactive Tool for Irrigated Fruit Production”, em revisão por pares. O artigo propõe um método reproduzível que liga produção, exportação, dependência de polinizadores e testes de estresse, aplicado à fruticultura irrigada do semiárido potiguar, na Caatinga.",
+  about_article:"A ferramenta acompanha o manuscrito “Assessing the Economic Value and Climate-Related Exposure of Pollination Ecosystem Services in Tropical Drylands: A Reproducible Framework and Interactive Tool for Irrigated Fruit Production”, em preparação para uma nova submissão após avaliação editorial anterior. O artigo propõe um método reproduzível que liga produção, exportação, dependência de polinizadores e testes de estresse, aplicado à fruticultura irrigada do semiárido potiguar, na Caatinga.",
   about_findings:"Principais resultados do artigo (2024)",
   about_list:[
     "A polinização respondeu por US$ 175,8 milhões da produção (76,4%) e US$ 165,3 milhões das exportações (84,0%).",
@@ -58,7 +58,7 @@ pt:{
 },
 en:{
   careful:{
-    artigo:"The article's DRs are conservative: 0.95 for melon and watermelon, 0.05 for papaya and 0.00 for mango. A sensitivity analysis tests 0.25 for papaya and 0.05 for mango. Changes made here apply only to this session and do not alter the published results.",
+    artigo:"The article's DRs are conservative: 0.95 for melon and watermelon, 0.05 for papaya and 0.00 for mango. A sensitivity analysis tests 0.25 for papaya and 0.05 for mango. Changes made here apply only to this session and do not alter the manuscript's reference results.",
     modelo:"Before using a DR, check that it applies to your crop and region. The tool warns when your value differs from the scientific library, but never replaces it on its own.",
     cenarios:"These are proportional stress tests, not climate forecasts or probabilities. Prices, cultivated area, trade and management are held constant. Heat, drought, habitat loss and pesticides can reduce pollinators, but no percentage is attributed to a specific cause.",
     evidencias:"Derived databases that only reproduce a publication do not count as independent evidence. When sources disagree, the tool does not choose for you: the choice stays recorded and visible.",
@@ -103,7 +103,7 @@ en:{
     refs_title:"Key references"
   },
   about_article_title:"Associated article",
-  about_article:"The tool accompanies the manuscript “Assessing the Economic Value and Climate-Related Exposure of Pollination Ecosystem Services in Tropical Drylands: A Reproducible Framework and Interactive Tool for Irrigated Fruit Production”, under peer review. The article proposes a reproducible method linking production, exports, pollinator dependence and stress tests, applied to irrigated fruit farming in the semiarid Caatinga of Rio Grande do Norte.",
+  about_article:"The tool accompanies the manuscript “Assessing the Economic Value and Climate-Related Exposure of Pollination Ecosystem Services in Tropical Drylands: A Reproducible Framework and Interactive Tool for Irrigated Fruit Production”, being prepared for a new submission following a previous editorial decision. The article proposes a reproducible method linking production, exports, pollinator dependence and stress tests, applied to irrigated fruit farming in the semiarid Caatinga of Rio Grande do Norte.",
   about_findings:"Main results of the article (2024)",
   about_list:[
     "Pollination accounted for US$ 175.8 million of production (76.4%) and US$ 165.3 million of exports (84.0%).",
