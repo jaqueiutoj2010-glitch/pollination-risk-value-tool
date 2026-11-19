@@ -63,6 +63,18 @@ Execute entradas idênticas nas duas aplicações e compare valores numéricos a
 
 **Status:** The matrix above is a validation plan, not a record of completed automated equivalence tests. / A matriz acima é um plano de validação, não um registro de testes automatizados de equivalência já concluídos.
 
+## Automated evidence package / Pacote automático de evidências
+
+The `R tests` workflow now generates a downloadable GitHub Actions artifact named `reproducibility-evidence-<run_id>`. When the run succeeds, it contains:
+
+- `cross_implementation_results.csv`: 64 scenario-by-metric comparisons, including the R value, JavaScript value, absolute difference, numeric tolerance and pass/fail.
+- `sha256_manifest.txt`: SHA-256 hashes for the R and JavaScript calculation source, both copies of the fixed 4M input dataset, the Node test harness and the cross-implementation test.
+- `ci_metadata.txt`: commit SHA, branch and workflow run ID.
+
+O workflow `R tests` agora gera um artefato para download com 64 comparações numéricas, hashes SHA-256 e identificação do commit. O artefato só comprova a execução correspondente; deve ser baixado e arquivado antes de expirar no GitHub Actions (retenção configurada em 90 dias).
+
+**Important / Importante:** The earlier pending matrix remains a checklist for broader UI and source-selection behavior; the CSV produced by the new automated test documents the eight calculation scenarios specifically. Do not mark import/export and interface restoration as automated numerical tests without separate evidence.
+
 ## Interpretation / Interpretação
 
 EVP and EPV estimate economic dependence under the selected DR assumptions. Exposure scenarios apply hypothetical proportional reductions to those values. They do not directly estimate observed economic losses, pollinator decline, or measured ecological risk.
