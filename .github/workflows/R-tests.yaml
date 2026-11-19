@@ -6,7 +6,7 @@ on:
   push:
     paths: ["shiny-app/**", "site/assets/app.js", "site/data/article_4M.csv", "tools/calc_js_cli.mjs", ".github/workflows/R-tests.yaml"]
   pull_request:
-    paths: ["shiny-app/**", ".github/workflows/R-tests.yaml"]
+    paths: ["shiny-app/**", "site/assets/app.js", "site/data/article_4M.csv", "tools/calc_js_cli.mjs", ".github/workflows/R-tests.yaml"]
   workflow_dispatch:
 
 jobs:
