@@ -23,6 +23,7 @@ cases <- list(
   list(name="boundary_zero", reduction=.25, dr=rep(0,4)),
   list(name="boundary_one", reduction=.25, dr=rep(1,4))
 )
+report_rows <- list()
 for (case in cases) {
   input <- d
   if (!is.null(case$dr)) input$Pollination_Dependence <- case$dr
@@ -36,7 +37,19 @@ for (case in cases) {
   stopifnot(length(js)==length(keys), all(is.finite(js)))
   rv <- unlist(r[keys], use.names=FALSE)
   delta <- abs(rv-js)
+  report_rows[[length(report_rows)+1L]] <- data.frame(
+    scenario=case$name, reduction=case$reduction, metric=keys,
+    r_value=as.numeric(rv), js_value=as.numeric(js),
+    absolute_difference=as.numeric(delta), tolerance=rep(1e-9,length(keys)),
+    passed=as.logical(delta<=1e-9), stringsAsFactors=FALSE
+  )
   if (any(delta>1e-9)) stop(sprintf("%s: maximum difference = %.12g",case$name,max(delta)))
   cat(sprintf("PASS %-18s max absolute difference %.3g\n",case$name,max(delta)))
 }
 cat("Cross-implementation numeric checks passed (8 cases, 8 metrics each).\n")
+
+# Persist complete scenario-level evidence for CI artifact upload.
+report <- do.call(rbind, report_rows)
+dir.create("../validation-output", showWarnings=FALSE, recursive=TRUE)
+write.csv(report, "../validation-output/cross_implementation_results.csv", row.names=FALSE, na="")
+cat("Saved validation-output/cross_implementation_results.csv (", nrow(report), " comparisons).\n", sep="")
