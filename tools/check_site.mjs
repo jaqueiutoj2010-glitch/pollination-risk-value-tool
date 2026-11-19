@@ -43,18 +43,35 @@ ok(`${refs.length} referências do index.html conferidas / index.html references
 const rootData = join(ROOT, "shiny-app", "data");
 if (existsSync(rootData)) {
   let same = 0;
-  for (const f of readdirSync(join(SITE, "data"))) {
-    const twin = join(rootData, f);
-    if (!existsSync(twin)) continue;
-    sha(twin) === sha(join(SITE, "data", f)) ? same++ : fail(`site/data/${f} difere de shiny-app/data/${f} / differs from the R release data`);
+  const webData = new Set(readdirSync(join(SITE, "data")));
+  const shinyData = new Set(readdirSync(rootData));
+  // Compare shared files byte-for-byte; report files present on only one side.
+  // Files specific to one implementation are reported for review, not treated as errors.
+  for (const f of webData) {
+    if (!shinyData.has(f)) { ok(`Somente web / web-only: ${f}`); continue; }
+    const webFile = join(SITE, "data", f), shinyFile = join(rootData, f);
+    if (!statSync(webFile).isFile() || !statSync(shinyFile).isFile()) continue;
+    sha(shinyFile) === sha(webFile) ? same++ : fail(`site/data/${f} difere de shiny-app/data/${f} / differs from the R release data`);
   }
-  ok(`${same} arquivos de dados idênticos aos da versão R / data files identical to the R release`);
+  for (const f of shinyData) if (!webData.has(f)) ok(`Somente R / R-only: ${f}`);
+  ok(`${same} arquivos compartilhados idênticos / identical shared data files`);
 } else fail("shiny-app/data não encontrada / shiny-app/data not found");
 
 // 5. Números do manuscrito (sistema 4M, Tabela 1) / manuscript benchmarks (4M system)
 const rows = readFileSync(join(SITE, "data/article_4M.csv"), "utf8").replace(/^﻿/, "").trim().split(/\r?\n/);
 const head = rows[0].split(","), col = n => head.indexOf(n);
+const expectedColumns = ["Production_Value", "Export_Value", "Pollination_Dependence"];
+for (const c of expectedColumns) if (col(c) < 0) fail(`Coluna obrigatória ausente / missing required column: ${c}`);
 const data = rows.slice(1).map(l => l.split(","));
+if (data.length !== 4) fail(`Sistema 4M deve conter quatro culturas / expected four crops, found ${data.length}`);
+for (const [i, row] of data.entries()) {
+  for (const c of expectedColumns) {
+    const v = Number(row[col(c)]);
+    if (!Number.isFinite(v)) fail(`Valor inválido / invalid number: row ${i+2}, ${c}`);
+    if (c === "Pollination_Dependence" && (v < 0 || v > 1)) fail(`DR fora de [0,1] / out of range: row ${i+2}`);
+    if (c !== "Pollination_Dependence" && v < 0) fail(`Valor monetário negativo / negative monetary value: row ${i+2}, ${c}`);
+  }
+}
 const sum = (c, f = r => +r[col(c)]) => data.reduce((a, r) => a + f(r), 0);
 const pv = sum("Production_Value"), ev = sum("Production_Value", r => +r[col("Production_Value")] * +r[col("Pollination_Dependence")]);
 const ex = sum("Export_Value"), ep = sum("Export_Value", r => +r[col("Export_Value")] * +r[col("Pollination_Dependence")]);
