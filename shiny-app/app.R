@@ -270,6 +270,59 @@ tr_es[c("subtitle","article","template","dashboard","scenarios","evidence","meth
   "Producción","Exportaciones"
 )
 
+# Additional Spanish labels for data import, evidence and scientific cautions.
+tr_es[c("results_sub","composition","composition_sub","compare","compare_sub",
+        "article_intro","supporting","scenarios_note","remain_evp","remain_epv",
+        "scencompare","scenario_summary","sourcecompare","evidence_help",
+        "divergence","convergent","registered","user_evidence","divergence_note",
+        "quantitative","available","applied","in_use","support_note",
+        "method_title","method_note","method_body","template_title",
+        "template_intro","template_xlsx","template_csv","template_fields",
+        "template_fields_note","template_preview","required","recommended",
+        "optional","upload_title","upload_intro","upload_file","validate_status",
+        "valid_file","invalid_file","imported_preview","apply_import",
+        "clear_import","import_applied","evidence_alert","no_evidence_alert",
+        "imported_source","analysis_mode_article","analysis_mode_user",
+        "user_subtitle","user_composition","field","requirement","unit",
+        "description","manuscript")] <- list(
+ "Resultados actualizados automáticamente a partir de los datos y las evidencias seleccionadas.",
+ "Composición del valor de la producción",
+ "Proporción del valor dependiente de la polinización en el sistema 4M",
+ "Valor de la producción y de la polinización",
+ "Comparación entre el valor total y el dependiente de la polinización",
+ "Datos 4M utilizados en el manuscrito. Los valores se pueden editar y el escenario original se puede restaurar.",
+ "Evidencia ecológica complementaria",
+ "Los escenarios son pruebas estandarizadas de sensibilidad, no predicciones climáticas.",
+ "EVP restante","EPV restante","Escenarios estandarizados de reducción",
+ "Resumen de escenarios","Comparación de evidencias",
+ "Cuando las evidencias difieren, la elección del coeficiente se mantiene explícita.",
+ "Evidencia divergente","Evidencia convergente","Evidencia registrada",
+ "Evidencia no validada","Hay más de un coeficiente cuantitativo para este cultivo.",
+ "Evidencias cuantitativas","Disponible","DR seleccionado","DR en uso",
+ "Las evidencias sin coeficiente formal son informativas y no se utilizan en los cálculos.",
+ "Método de cálculo",
+ "La herramienta estima el valor económico, la dependencia y la exposición ante reducciones especificadas del servicio de polinización.",
+ "EVP = valor de producción × coeficiente de dependencia. EPV = valor de exportaciones × coeficiente de dependencia. PEDR = EVP / valor total de producción. EPDR = EPV / valor total de exportaciones. Las pérdidas de los escenarios se calculan proporcionalmente a la reducción indicada.",
+ "Plantilla de datos para nuevos cultivos",
+ "Descargue la plantilla, complete una fila por cultivo y conserve los nombres de las columnas. Incluye una guía y los campos para calcular EVP, EPV, PEDR, EPDR y escenarios de exposición.",
+ "Descargar plantilla Excel (.xlsx)","Descargar plantilla CSV (.csv)",
+ "Información necesaria",
+ "Los campos económicos deben utilizar las unidades indicadas. El coeficiente de dependencia debe estar entre 0 y 1 y acompañarse, siempre que sea posible, de su referencia.",
+ "Estructura del archivo","Obligatorio","Recomendado","Opcional",
+ "Importar tabla completada",
+ "Seleccione la plantilla completada en Excel (.xlsx) o CSV (.csv). La herramienta valida los campos antes de aplicarlos al análisis.",
+ "Seleccionar archivo","Validación del archivo","Archivo válido para el análisis",
+ "El archivo contiene problemas que deben corregirse",
+ "Vista previa de los datos importados","Aplicar datos al análisis",
+ "Borrar importación","Datos importados aplicados al Panel y a los Escenarios.",
+ "Atención a las evidencias",
+ "No se identificaron divergencias cuantitativas para los cultivos reconocidos.",
+ "Conjunto de datos importado","Modo artículo 4M","Modo análisis del usuario",
+ "Valoración económica de los servicios de polinización — análisis de datos importados",
+ "Proporción del valor dependiente de la polinización en los datos importados",
+ "Campo","Requisito","Unidad / formato","Descripción","Escenario del manuscrito"
+)
+
 server <- function(input,output,session){
   rv <- reactiveValues(lang="pt",tab="dashboard",d=article_data,source="article",import_data=NULL,import_errors=character(),import_warnings=character(),import_ok=FALSE)
   # Spanish labels reuse existing English strings for keys not translated yet.
