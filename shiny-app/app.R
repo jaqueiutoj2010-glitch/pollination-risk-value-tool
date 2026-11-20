@@ -252,12 +252,32 @@ ui <- fluidPage(
   )
 )
 
+# Translation-only dictionary: numerical data and equations are unchanged.
+tr_es <- tr_en
+tr_es[c("subtitle","article","template","dashboard","scenarios","evidence","method",
+        "results","system","prodvalue","evp","exportvalue","epv","dependence",
+        "pollination","other","restore","choose_crop","choose_evidence","apply",
+        "current","reduction","prodloss","exploss","production","exports")] <- list(
+  "Valoración económica de los servicios de polinización — sistema 4M",
+  "Datos del artículo","Plantilla de datos","Panel","Escenarios","Evidencias","Método",
+  "Resultados principales","Sistema 4M · 4 cultivos","Valor de la producción",
+  "Valor económico de la polinización (EVP)","Valor de las exportaciones",
+  "Valor de la polinización en las exportaciones (EPV)","Dependencia económica",
+  "Polinización","Otros factores","Restaurar escenario del manuscrito",
+  "Cultivo","Seleccionar evidencia cuantitativa","Aplicar evidencia",
+  "DR utilizado actualmente","Reducción simulada de la polinización (%)",
+  "Exposición económica — producción","Exposición económica — exportaciones",
+  "Producción","Exportaciones"
+)
+
 server <- function(input,output,session){
   rv <- reactiveValues(lang="pt",tab="dashboard",d=article_data,source="article",import_data=NULL,import_errors=character(),import_warnings=character(),import_ok=FALSE)
-  T <- reactive(if(rv$lang=="pt") tr_pt else tr_en)
+  # Spanish labels reuse existing English strings for keys not translated yet.
+  T <- reactive(if(rv$lang=="pt") tr_pt else if(rv$lang=="es") tr_es else tr_en)
 
   observeEvent(input$pt,{rv$lang <- "pt"})
   observeEvent(input$en,{rv$lang <- "en"})
+  observeEvent(input$es,{rv$lang <- "es"})
   observeEvent(input$tab_article,{rv$tab <- "article"})
   observeEvent(input$tab_template,{rv$tab <- "template"})
   observeEvent(input$tab_dashboard,{rv$tab <- "dashboard"})
@@ -327,7 +347,8 @@ server <- function(input,output,session){
           div(h1(T()$title),p(if(identical(rv$source,"import")) T()$user_subtitle else T()$subtitle), div(class="review-badge", if(rv$lang=="pt") "V2.41 · Versão pública para revisão" else "V2.41 · Public peer-review release"))),
       div(class="lang",
           actionButton("pt","Português",class=if(rv$lang=="pt")"btn btn-light" else "btn btn-outline-light"),
-          actionButton("en","English",class=if(rv$lang=="en")"btn btn-light" else "btn btn-outline-light"))
+          actionButton("en","English",class=if(rv$lang=="en")"btn btn-light" else "btn btn-outline-light"),
+          actionButton("es","Español",class=if(rv$lang=="es")"btn btn-light" else "btn btn-outline-light"))
     )
   })
 
