@@ -330,6 +330,27 @@ tr_es[c("title","modified","round_note")] <- list(
   "La suma de los valores por cultivo mostrados con un decimal es de US$ 230,1 millones; el total agregado indicado en el manuscrito es de US$ 230,2 millones."
 )
 
+
+# Spanish translations for legacy inline bilingual UI text.
+shiny_es_inline <- c(
+  "Scientific reference changed" = "Referencia científica modificada",
+  "User-completed table applied to the analysis." = "Tabla completada por el usuario aplicada al análisis.",
+  "The current dataset structure differs from the manuscript scenario." = "La estructura de los datos actuales difiere del escenario del manuscrito.",
+  "The selected scientific reference differs from the manuscript record, but coefficients and economic results remain unchanged." = "La referencia científica seleccionada difiere de la del manuscrito, pero los coeficientes y resultados económicos permanecen sin cambios.",
+  "User dataset active — results calculated from imported data." = "Datos del usuario activos: resultados calculados con los datos importados.",
+  "V2.41 · Public peer-review release" = "V2.41 · Versión pública para revisión",
+  "Scientific catalog" = "Catálogo científico",
+  "Management" = "Recomendaciones",
+  "About" = "Acerca de",
+  "Complete workbook with a data sheet, filling guide, units and index descriptions." = "Libro completo con hoja de datos, guía de cumplimentación, unidades y descripción de indicadores.",
+  "Indices derived by the tool" = "Indicadores derivados por la herramienta"
+)
+shiny_L <- function(pt, en, lang) {
+  if (identical(lang, "pt")) return(pt)
+  if (identical(lang, "es") && en %in% names(shiny_es_inline)) return(unname(shiny_es_inline[[en]]))
+  en
+}
+
 server <- function(input,output,session){
   rv <- reactiveValues(lang="pt",tab="dashboard",d=article_data,source="article",import_data=NULL,import_errors=character(),import_warnings=character(),import_ok=FALSE)
   # Spanish labels reuse existing English strings for keys not translated yet.
@@ -361,20 +382,14 @@ server <- function(input,output,session){
   modified <- reactive(modification_state() != "original")
   modified_title <- reactive({
     state <- modification_state()
-    if(state == "reference") return(if(rv$lang=="pt") "Referência científica alterada" else "Scientific reference changed")
+    if(state == "reference") return(shiny_L("Referência científica alterada", "Scientific reference changed", rv$lang))
     T()$modified
   })
   modified_detail <- reactive({
     state <- modification_state()
-    if(state == "imported") return(if(rv$lang=="pt")
-      "Tabela preenchida pelo usuário aplicada à análise." else
-      "User-completed table applied to the analysis.")
-    if(state == "structure") return(if(rv$lang=="pt")
-      "A estrutura da base atual difere do cenário do manuscrito." else
-      "The current dataset structure differs from the manuscript scenario.")
-    if(state == "reference") return(if(rv$lang=="pt")
-      "A referência científica selecionada difere da registrada no manuscrito, mas os coeficientes e os resultados econômicos permanecem inalterados." else
-      "The selected scientific reference differs from the manuscript record, but coefficients and economic results remain unchanged.")
+    if(state == "imported") return(shiny_L("Tabela preenchida pelo usuário aplicada à análise.", "User-completed table applied to the analysis.", rv$lang))
+    if(state == "structure") return(shiny_L("A estrutura da base atual difere do cenário do manuscrito.", "The current dataset structure differs from the manuscript scenario.", rv$lang))
+    if(state == "reference") return(shiny_L("A referência científica selecionada difere da registrada no manuscrito, mas os coeficientes e os resultados econômicos permanecem inalterados.", "The selected scientific reference differs from the manuscript record, but coefficients and economic results remain unchanged.", rv$lang))
     if(state != "coefficient") return("")
     idx <- which(abs(rv$d$Pollination_Dependence-article_data$Pollination_Dependence)>1e-9)
     paste(vapply(idx,function(i){
@@ -388,10 +403,7 @@ server <- function(input,output,session){
     if(identical(rv$source,"import")){
       return(div(class="note",
         div(strong(T()$analysis_mode_user),br(),
-            span(if(rv$lang=="pt")
-              "Base do usuário ativa — resultados calculados a partir dos dados importados."
-            else
-              "User dataset active — results calculated from imported data.")),
+            span(shiny_L("Base do usuário ativa — resultados calculados a partir dos dados importados.", "User dataset active — results calculated from imported data.", rv$lang))),
         actionButton(id,T()$restore)
       ))
     }
@@ -404,7 +416,7 @@ server <- function(input,output,session){
   output$hero <- renderUI({
     div(class="hero",
       div(class="brand",div(class="logo","🌼"),
-          div(h1(T()$title),p(if(identical(rv$source,"import")) T()$user_subtitle else T()$subtitle), div(class="review-badge", if(rv$lang=="pt") "V2.41 · Versão pública para revisão" else "V2.41 · Public peer-review release"))),
+          div(h1(T()$title),p(if(identical(rv$source,"import")) T()$user_subtitle else T()$subtitle), div(class="review-badge", shiny_L("V2.41 · Versão pública para revisão", "V2.41 · Public peer-review release", rv$lang)))),
       div(class="lang",
           actionButton("pt","Português",class=if(rv$lang=="pt")"btn btn-light" else "btn btn-outline-light"),
           actionButton("en","English",class=if(rv$lang=="en")"btn btn-light" else "btn btn-outline-light"),
@@ -417,10 +429,10 @@ server <- function(input,output,session){
     div(class="navbar",
         nav_button("tab_article",T()$article,"article"),nav_button("tab_template",T()$template,"template"),nav_button("tab_dashboard",T()$dashboard,"dashboard"),
         nav_button("tab_scenarios",T()$scenarios,"scenarios"),nav_button("tab_evidence",T()$evidence,"evidence"),
-        nav_button("tab_catalogo",if(rv$lang=="pt") "Catálogo científico" else "Scientific catalog","catalogo"),
-        nav_button("tab_management",if(rv$lang=="pt") "Recomendações" else "Management","management"),
+        nav_button("tab_catalogo",shiny_L("Catálogo científico", "Scientific catalog", rv$lang),"catalogo"),
+        nav_button("tab_management",shiny_L("Recomendações", "Management", rv$lang),"management"),
         nav_button("tab_method",T()$method,"method"),
-        nav_button("tab_about",if(rv$lang=="pt") "Sobre" else "About","about"))
+        nav_button("tab_about",shiny_L("Sobre", "About", rv$lang),"about"))
   })
 
   output$page <- renderUI({
@@ -498,7 +510,7 @@ server <- function(input,output,session){
         do.call(div,c(list(class="field-grid"),field_cards)),
 
         div(class="index-box",
-          strong(if(rv$lang=="pt")"Índices derivados pela ferramenta" else "Indices derived by the tool"),
+          strong(shiny_L("Índices derivados pela ferramenta", "Indices derived by the tool", rv$lang)),
           br(),
           span(if(rv$lang=="pt")
             "EVP = valor da produção × DR; PEDR = EVP total / valor total da produção; EPV = valor das exportações × DR; EPDR = EPV total / valor total das exportações; perdas dos cenários = EVP ou EPV × redução simulada."
