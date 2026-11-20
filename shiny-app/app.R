@@ -333,6 +333,8 @@ tr_es[c("title","modified","round_note")] <- list(
 
 # Spanish translations for legacy inline bilingual UI text.
 shiny_es_inline <- c(
+  "Common name (EN)" = "Nombre común (EN)",
+  "Caution: " = "Precaución: ",
   " cultura(s) reconhecida(s). Os dados ainda não foram aplicados à análise." = " cultivo(s) reconocido(s). Los datos todavía no se han aplicado al análisis.",
   "Could not read file: " = "No se pudo leer el archivo: ",
   "Missing required columns: " = "Faltan columnas obligatorias: ",
@@ -1701,7 +1703,7 @@ server <- function(input,output,session){
   })
   output$catalogo_tabela <- DT::renderDT({
     x <- catalogo_filtrado()
-    comum <- if(rv$lang=="pt") "Nome comum (PT)" else "Common name (EN)"
+    comum <- shiny_L("Nome comum (PT)", "Common name (EN)", rv$lang)
     cols <- c(comum,"Nome literal","Fonte","Tipo","Valor literal")
     nomes <- shiny_headers(c("Cultura","Nome científico","Fonte","Evidência","Valor"), c("Crop","Scientific name","Source","Evidence","Value"), rv$lang)
     DT::datatable(x[,cols,drop=FALSE],rownames=FALSE,selection="single",colnames=nomes,
