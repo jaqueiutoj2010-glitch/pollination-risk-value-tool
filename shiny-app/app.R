@@ -333,6 +333,34 @@ tr_es[c("title","modified","round_note")] <- list(
 
 # Spanish translations for legacy inline bilingual UI text.
 shiny_es_inline <- c(
+  "Complete workbook with a data sheet, filling guide, units, and index descriptions." = "Libro de Excel completo con hoja de datos, guía de cumplimentación, unidades y descripción de los indicadores.",
+  "Simple version for data entry, integration with other systems, and future platform import." = "Versión sencilla para introducir datos, integrarlos con otros sistemas e importarlos posteriormente a la plataforma.",
+  "EVP = production value × DR; PEDR = total EVP / total production value; EPV = export value × DR; EPDR = total EPV / total export value; scenario losses = EVP or EPV × simulated reduction." = "EVP = valor de producción × DR; PEDR = EVP total / valor total de producción; EPV = valor de exportaciones × DR; EPDR = EPV total / valor total de exportaciones; pérdidas simuladas = EVP o EPV × reducción simulada.",
+  "Some rows have no crop identifier (Crop)." = "Algunas filas no tienen identificador de cultivo (Crop).",
+  "Production_1000_t must contain numeric values ≥ 0." = "Production_1000_t debe contener valores numéricos ≥ 0.",
+  "Production_Value_USD_M must contain numeric values ≥ 0." = "Production_Value_USD_M debe contener valores numéricos ≥ 0.",
+  "Export_Volume_1000_t must contain numeric values ≥ 0." = "Export_Volume_1000_t debe contener valores numéricos ≥ 0.",
+  "Export_Value_USD_M must contain numeric values ≥ 0." = "Export_Value_USD_M debe contener valores numéricos ≥ 0.",
+  "Pollination_Dependence must range from 0 to 1." = "Pollination_Dependence debe estar entre 0 y 1.",
+  "evidence database contains divergent DR values (available: " = "la base de evidencias contiene valores DR divergentes (disponibles: ",
+  " does not match registered quantitative coefficients; the imported value will be retained until the user decides." = " no coincide con los coeficientes cuantitativos registrados; se conservará el valor importado hasta que el usuario decida.",
+  "Evidence states" = "Estados de las evidencias",
+  "Convergent = registered sources agree; Divergent = registered sources report different DR values; Not validated = DR supplied by the user and not yet checked against the scientific library." = "Convergente = las fuentes registradas coinciden; divergente = las fuentes indican valores DR distintos; no validada = DR proporcionado por el usuario y aún no contrastado con la biblioteca científica.",
+  "crops" = "cultivos",
+  "All crops" = "Todos los cultivos",
+  "Imported coefficient" = "Coeficiente importado",
+  "User supplied" = "Proporcionado por el usuario",
+  "Evidence supplied in the imported spreadsheet; not yet validated against the tool literature database." = "Evidencia proporcionada en la hoja importada; aún no validada con la base bibliográfica de la herramienta.",
+  "Source: " = "Fuente: ",
+  "Lineage: " = "Procedencia: ",
+  "The displayed DR was supplied in the user's spreadsheet. It is being used in the calculations, but has not yet been validated or compared with bibliographic evidence registered in the tool." = "El DR mostrado procede de la hoja del usuario y se utiliza en los cálculos, pero todavía no se ha validado ni comparado con las evidencias bibliográficas registradas.",
+  "Current coefficient preserved" = "Coeficiente actual conservado",
+  "The tool does not automatically replace the DR supplied by the user." = "La herramienta no sustituye automáticamente el DR proporcionado por el usuario.",
+  "DR in use · not validated" = "DR utilizado · no validado",
+  "No literal match in original data; check spelling and synonyms." = "No hay coincidencia literal en los datos originales; revise la ortografía y los sinónimos.",
+  "REVIEW: same study in multiple datasets" = "REVISAR: el mismo estudio aparece en varios conjuntos de datos.",
+  "Matching records:" = "Registros encontrados:",
+  "No matching records" = "No se encontraron registros",
   "Scientific reference changed" = "Referencia científica modificada",
   "User-completed table applied to the analysis." = "Tabla completada por el usuario aplicada al análisis.",
   "The current dataset structure differs from the manuscript scenario." = "La estructura de los datos actuales difiere del escenario del manuscrito.",
@@ -491,17 +519,11 @@ server <- function(input,output,session){
         div(class="template-actions",
           div(class="download-card",
               h3("Excel"),
-              p(if(rv$lang=="pt")
-                  "Planilha completa com aba de dados, guia de preenchimento, unidades e descrição dos índices."
-                else
-                  "Complete workbook with a data sheet, filling guide, units, and index descriptions."),
+              p(shiny_L("Planilha completa com aba de dados, guia de preenchimento, unidades e descrição dos índices.", "Complete workbook with a data sheet, filling guide, units, and index descriptions.", rv$lang)),
               downloadButton("download_template_xlsx",T()$template_xlsx)),
           div(class="download-card",
               h3("CSV"),
-              p(if(rv$lang=="pt")
-                  "Versão simples para preenchimento, integração com outros sistemas e futura importação na plataforma."
-                else
-                  "Simple version for data entry, integration with other systems, and future platform import."),
+              p(shiny_L("Versão simples para preenchimento, integração com outros sistemas e futura importação na plataforma.", "Simple version for data entry, integration with other systems, and future platform import.", rv$lang)),
               downloadButton("download_template_csv",T()$template_csv))
         ),
 
@@ -512,10 +534,7 @@ server <- function(input,output,session){
         div(class="index-box",
           strong(shiny_L("Índices derivados pela ferramenta", "Indices derived by the tool", rv$lang)),
           br(),
-          span(if(rv$lang=="pt")
-            "EVP = valor da produção × DR; PEDR = EVP total / valor total da produção; EPV = valor das exportações × DR; EPDR = EPV total / valor total das exportações; perdas dos cenários = EVP ou EPV × redução simulada."
-          else
-            "EVP = production value × DR; PEDR = total EVP / total production value; EPV = export value × DR; EPDR = total EPV / total export value; scenario losses = EVP or EPV × simulated reduction.")
+          span(shiny_L("EVP = valor da produção × DR; PEDR = EVP total / valor total da produção; EPV = valor das exportações × DR; EPDR = EPV total / valor total das exportações; perdas dos cenários = EVP ou EPV × redução simulada.", "EVP = production value × DR; PEDR = total EVP / total production value; EPV = export value × DR; EPDR = total EPV / total export value; scenario losses = EVP or EPV × simulated reduction.", rv$lang))
         ),
 
         div(class="upload-zone",
@@ -600,17 +619,17 @@ server <- function(input,output,session){
     raw$Evidence_Reference[is.na(raw$Evidence_Reference) | raw$Evidence_Reference==""] <- "User supplied"
 
     if(any(is.na(raw$Crop) | raw$Crop==""))
-      rv$import_errors <- c(rv$import_errors,if(rv$lang=="pt")"Há linhas sem identificação da cultura (Crop)." else "Some rows have no crop identifier (Crop).")
+      rv$import_errors <- c(rv$import_errors,shiny_L("Há linhas sem identificação da cultura (Crop).", "Some rows have no crop identifier (Crop).", rv$lang))
     if(any(!is.finite(raw$Production_1000_t) | raw$Production_1000_t<0))
-      rv$import_errors <- c(rv$import_errors,if(rv$lang=="pt")"Production_1000_t deve conter apenas valores numéricos ≥ 0." else "Production_1000_t must contain numeric values ≥ 0.")
+      rv$import_errors <- c(rv$import_errors,shiny_L("Production_1000_t deve conter apenas valores numéricos ≥ 0.", "Production_1000_t must contain numeric values ≥ 0.", rv$lang))
     if(any(!is.finite(raw$Production_Value_USD_M) | raw$Production_Value_USD_M<0))
-      rv$import_errors <- c(rv$import_errors,if(rv$lang=="pt")"Production_Value_USD_M deve conter apenas valores numéricos ≥ 0." else "Production_Value_USD_M must contain numeric values ≥ 0.")
+      rv$import_errors <- c(rv$import_errors,shiny_L("Production_Value_USD_M deve conter apenas valores numéricos ≥ 0.", "Production_Value_USD_M must contain numeric values ≥ 0.", rv$lang))
     if(any(!is.finite(raw$Export_Volume_1000_t) | raw$Export_Volume_1000_t<0))
-      rv$import_errors <- c(rv$import_errors,if(rv$lang=="pt")"Export_Volume_1000_t deve conter apenas valores numéricos ≥ 0." else "Export_Volume_1000_t must contain numeric values ≥ 0.")
+      rv$import_errors <- c(rv$import_errors,shiny_L("Export_Volume_1000_t deve conter apenas valores numéricos ≥ 0.", "Export_Volume_1000_t must contain numeric values ≥ 0.", rv$lang))
     if(any(!is.finite(raw$Export_Value_USD_M) | raw$Export_Value_USD_M<0))
-      rv$import_errors <- c(rv$import_errors,if(rv$lang=="pt")"Export_Value_USD_M deve conter apenas valores numéricos ≥ 0." else "Export_Value_USD_M must contain numeric values ≥ 0.")
+      rv$import_errors <- c(rv$import_errors,shiny_L("Export_Value_USD_M deve conter apenas valores numéricos ≥ 0.", "Export_Value_USD_M must contain numeric values ≥ 0.", rv$lang))
     if(any(!is.finite(raw$Pollination_Dependence) | raw$Pollination_Dependence<0 | raw$Pollination_Dependence>1))
-      rv$import_errors <- c(rv$import_errors,if(rv$lang=="pt")"Pollination_Dependence deve variar de 0 a 1." else "Pollination_Dependence must range from 0 to 1.")
+      rv$import_errors <- c(rv$import_errors,shiny_L("Pollination_Dependence deve variar de 0 a 1.", "Pollination_Dependence must range from 0 to 1.", rv$lang))
 
     # Evidence warnings: inform, never overwrite user coefficients.
     for(i in seq_len(nrow(raw))){
@@ -620,15 +639,14 @@ server <- function(input,output,session){
         if(length(vals)>1){
           nm <- if(rv$lang=="pt") raw$Crop_PT[i] else raw$Crop[i]
           rv$import_warnings <- c(rv$import_warnings,
-            paste0(nm,": ",if(rv$lang=="pt")"há divergência na base de evidências (DR disponíveis: " else "evidence database contains divergent DR values (available: ",
+            paste0(nm,": ",shiny_L("há divergência na base de evidências (DR disponíveis: ", "evidence database contains divergent DR values (available: ", rv$lang),
                    paste(sprintf("%.2f",vals),collapse=", "),")."))
         }
         if(!any(abs(q$DR-raw$Pollination_Dependence[i])<1e-9)){
           nm <- if(rv$lang=="pt") raw$Crop_PT[i] else raw$Crop[i]
           rv$import_warnings <- c(rv$import_warnings,
             paste0(nm,": DR ",sprintf("%.2f",raw$Pollination_Dependence[i]),
-                   if(rv$lang=="pt")" não coincide com os coeficientes quantitativos cadastrados; o valor importado será mantido até decisão do usuário."
-                   else " does not match registered quantitative coefficients; the imported value will be retained until the user decides."))
+                   shiny_L(" não coincide com os coeficientes quantitativos cadastrados; o valor importado será mantido até decisão do usuário.", " does not match registered quantitative coefficients; the imported value will be retained until the user decides.", rv$lang)))
         }
       }
     }
@@ -768,11 +786,8 @@ server <- function(input,output,session){
           div(class="note",T()$round_note),
           hr(),
           div(class="note",style="margin-bottom:16px",
-          strong(if(rv$lang=="pt") "Estados das evidências" else "Evidence states"),br(),
-          span(if(rv$lang=="pt")
-            "Convergente = fontes cadastradas concordam; Divergente = fontes cadastradas apresentam DRs distintos; Não validada = DR fornecido pelo usuário e ainda não confrontado com a biblioteca científica."
-          else
-            "Convergent = registered sources agree; Divergent = registered sources report different DR values; Not validated = DR supplied by the user and not yet checked against the scientific library.")
+          strong(shiny_L("Estados das evidências", "Evidence states", rv$lang)),br(),
+          span(shiny_L("Convergente = fontes cadastradas concordam; Divergente = fontes cadastradas apresentam DRs distintos; Não validada = DR fornecido pelo usuário e ainda não confrontado com a biblioteca científica.", "Convergent = registered sources agree; Divergent = registered sources report different DR values; Not validated = DR supplied by the user and not yet checked against the scientific library.", rv$lang))
         ),
 
         h3(T()$choose_crop),
@@ -876,11 +891,11 @@ server <- function(input,output,session){
       warning_ui("restore_dashboard"),
       h2(class="title",T()$results),div(class="subtitle",T()$results_sub),
       div(style="text-align:right",
-  span(class="badge badgeok",if(identical(rv$source,"import")) paste0(T()$imported_source," · ",nrow(rv$d)," ",if(rv$lang=="pt")"culturas" else "crops") else T()$system),
+  span(class="badge badgeok",if(identical(rv$source,"import")) paste0(T()$imported_source," · ",nrow(rv$d)," ",shiny_L("culturas", "crops", rv$lang)) else T()$system),
   span(class="badge",style="margin-left:8px;background:#EEF4F2;color:#0D6A53",
        if(identical(rv$source,"import")) T()$analysis_mode_user else T()$analysis_mode_article)
 ),
-      div(style="margin-top:12px;",actionButton("dashboard_all_crops",if(rv$lang=="pt") "Todas as culturas" else "All crops")),
+      div(style="margin-top:12px;",actionButton("dashboard_all_crops",shiny_L("Todas as culturas", "All crops", rv$lang))),
       do.call(div,c(list(class="crop-strip"),crop_cards)),
       uiOutput("dashboard_crop_detail"),
       div(class="grid4",
@@ -966,14 +981,11 @@ server <- function(input,output,session){
         Crop=crop,
         Crop_PT=cur0$Crop_PT,
         Scientific_name=cur0$Scientific_name,
-        Dependence_class=if(rv$lang=="pt") "Coeficiente importado" else "Imported coefficient",
+        Dependence_class=shiny_L("Coeficiente importado", "Imported coefficient", rv$lang),
         DR=cur0$Pollination_Dependence,
-        Geographic_scope=if(rv$lang=="pt") "Fornecida pelo usuário" else "User supplied",
+        Geographic_scope=shiny_L("Fornecida pelo usuário", "User supplied", rv$lang),
         Reference=cur0$Evidence_Reference,
-        Notes=if(rv$lang=="pt")
-          "Evidência informada na planilha importada; ainda não validada pela base bibliográfica da ferramenta."
-        else
-          "Evidence supplied in the imported spreadsheet; not yet validated against the tool literature database.",
+        Notes=shiny_L("Evidência informada na planilha importada; ainda não validada pela base bibliográfica da ferramenta.", "Evidence supplied in the imported spreadsheet; not yet validated against the tool literature database.", rv$lang),
         Evidence_type="User supplied",
         stringsAsFactors=FALSE
       )
@@ -1041,9 +1053,9 @@ server <- function(input,output,session){
               "ID: ", ifelse(is.na(quant$Evidence_ID[i]) || !nzchar(quant$Evidence_ID[i]), "—", quant$Evidence_ID[i]),
               if(!is.na(quant$DOI[i]) && nzchar(quant$DOI[i])) paste0(" · DOI: ", quant$DOI[i]) else "",
               if(!is.na(quant$Source_ID[i]) && nzchar(quant$Source_ID[i]))
-                paste0(" · ",if(rv$lang=="pt") "Fonte: " else "Source: ",quant$Source_ID[i]) else "",
+                paste0(" · ",shiny_L("Fonte: ", "Source: ", rv$lang),quant$Source_ID[i]) else "",
               if(!is.na(quant$Evidence_lineage[i]) && nzchar(quant$Evidence_lineage[i]))
-                paste0(" · ",if(rv$lang=="pt") "Linhagem: " else "Lineage: ",quant$Evidence_lineage[i]) else ""
+                paste0(" · ",shiny_L("Linhagem: ", "Lineage: ", rv$lang),quant$Evidence_lineage[i]) else ""
             )),
         ),
         if(isTRUE(applied)) span(class="badge badgeok",
@@ -1092,10 +1104,7 @@ server <- function(input,output,session){
 
         if(identical(evidence_status,"user")) div(class="warning",
           div(strong(T()$user_evidence),br(),
-              span(if(rv$lang=="pt")
-                "O DR exibido foi fornecido na planilha do usuário. Ele está sendo utilizado nos cálculos, mas ainda não foi validado ou comparado com evidências bibliográficas cadastradas na ferramenta."
-              else
-                "The displayed DR was supplied in the user's spreadsheet. It is being used in the calculations, but has not yet been validated or compared with bibliographic evidence registered in the tool."))),
+              span(shiny_L("O DR exibido foi fornecido na planilha do usuário. Ele está sendo utilizado nos cálculos, mas ainda não foi validado ou comparado com evidências bibliográficas cadastradas na ferramenta.", "The displayed DR was supplied in the user's spreadsheet. It is being used in the calculations, but has not yet been validated or compared with bibliographic evidence registered in the tool.", rv$lang)))),
         if(isTRUE(divergent)) div(class="warning",
           div(strong(T()$divergence),br(),span(T()$divergence_note))),
 
@@ -1107,11 +1116,8 @@ server <- function(input,output,session){
           selectInput("evidence_choice",NULL,choices=labs),
           actionButton("apply_evidence",T()$apply,class="btn btn-success")
         ) else div(class="note",
-          strong(if(rv$lang=="pt") "Coeficiente atual preservado" else "Current coefficient preserved"),br(),
-          if(rv$lang=="pt")
-            "A ferramenta não substitui automaticamente o DR informado pelo usuário."
-          else
-            "The tool does not automatically replace the DR supplied by the user."
+          strong(shiny_L("Coeficiente atual preservado", "Current coefficient preserved", rv$lang)),br(),
+          shiny_L("A ferramenta não substitui automaticamente o DR informado pelo usuário.", "The tool does not automatically replace the DR supplied by the user.", rv$lang)
         ),
 
         if(isTRUE(nrow(support) > 0)) div(class="note",
@@ -1162,10 +1168,10 @@ server <- function(input,output,session){
     if(nrow(q)==0 && nrow(cur)==1){
       shown <- data.frame(
         Reference=cur$Evidence_Reference,
-        Scope=if(rv$lang=="pt") "Fornecida pelo usuário" else "User supplied",
-        Class=if(rv$lang=="pt") "Coeficiente importado" else "Imported coefficient",
+        Scope=shiny_L("Fornecida pelo usuário", "User supplied", rv$lang),
+        Class=shiny_L("Coeficiente importado", "Imported coefficient", rv$lang),
         DR=sprintf("%.2f",cur$Pollination_Dependence),
-        Status=if(rv$lang=="pt") "DR em uso · não validada" else "DR in use · not validated",
+        Status=shiny_L("DR em uso · não validada", "DR in use · not validated", rv$lang),
         stringsAsFactors=FALSE
       )
     } else {
@@ -1550,7 +1556,7 @@ server <- function(input,output,session){
     meta_species <- trimws(siopa_meta$species)
     # Only literal binomial matches; spp. and groups require manual inspection.
     y <- siopa_meta[meta_species %in% species,,drop=FALSE]
-    if(!nrow(y)) return(DT::datatable(data.frame(Message=if(rv$lang=="pt") "Sem correspondência literal nos dados originais; conferir grafia e sinônimos." else "No literal match in original data; check spelling and synonyms."),rownames=FALSE,options=list(dom="t")))
+    if(!nrow(y)) return(DT::datatable(data.frame(Message=shiny_L("Sem correspondência literal nos dados originais; conferir grafia e sinônimos.", "No literal match in original data; check spelling and synonyms.", rv$lang)),rownames=FALSE,options=list(dom="t")))
     y <- y[,c("dataset","study","species","response","treatment","scale","country","pd_value","pd_type"),drop=FALSE]
     names(y) <- if(rv$lang=="pt") c("Arquivo","Estudo","Espécie","Resposta","Tratamento","Escala","País","Valor original","Tipo PD") else c("Dataset","Study","Species","Outcome","Treatment","Scale","Country","Original value","PD type")
     DT::datatable(y,rownames=FALSE,selection="none",options=list(pageLength=8,scrollX=TRUE,searching=TRUE))
@@ -1580,7 +1586,7 @@ server <- function(input,output,session){
     out <- do.call(rbind,z)
     # Flag studies represented in more than one source dataset; this is a review flag, not proof of duplication.
     nd <- ave(as.character(out$dataset), out$study_key, FUN=function(v) length(unique(v)))
-    out$possible_overlap <- ifelse(nd > 1, if(rv$lang=="pt") "REVISAR: mesmo estudo em múltiplos arquivos" else "REVIEW: same study in multiple datasets", "—")
+    out$possible_overlap <- ifelse(nd > 1, shiny_L("REVISAR: mesmo estudo em múltiplos arquivos", "REVIEW: same study in multiple datasets", rv$lang), "—")
     out
   })
   output$catalogo_siopa_estudos <- DT::renderDT({
@@ -1655,7 +1661,7 @@ server <- function(input,output,session){
   output$catalogo_tem_resultados <- reactive(nrow(catalogo_filtrado())>0)
   outputOptions(output,"catalogo_tem_resultados",suspendWhenHidden=FALSE)
   output$catalogo_total <- renderText({
-    paste(if(rv$lang=="pt") "Registros encontrados:" else "Matching records:",nrow(catalogo_filtrado()))
+    paste(shiny_L("Registros encontrados:", "Matching records:", rv$lang),nrow(catalogo_filtrado()))
   })
   output$catalogo_tabela <- DT::renderDT({
     x <- catalogo_filtrado()
@@ -1665,7 +1671,7 @@ server <- function(input,output,session){
     DT::datatable(x[,cols,drop=FALSE],rownames=FALSE,selection="single",colnames=nomes,
       extensions="Buttons",options=list(pageLength=15,scrollX=TRUE,searching=FALSE,autoWidth=FALSE,
         columnDefs=list(list(width="23%",targets=0),list(width="27%",targets=1),list(width="14%",targets=2),list(width="23%",targets=3),list(width="13%",targets=4)),
-        language=list(emptyTable=if(rv$lang=="pt") "Nenhum registro encontrado" else "No matching records")))
+        language=list(emptyTable=shiny_L("Nenhum registro encontrado", "No matching records", rv$lang))))
   },server=TRUE)
   observe({
     x <- catalogo_filtrado(); choices <- x$UID
