@@ -90,3 +90,195 @@ en:{
  metodo:{what:"The formulas behind every calculation in the tool, in plain terms.", steps:[]},
  sobre:{what:"Who developed the platform, who funded it, how to cite it and the status of this release.", steps:[]}
 }};
+
+// Spanish glossary and page-by-page help. IDs and numerical methods unchanged.
+window.GLOSS.es = [
+  {
+    "id": "sistema4m",
+    "t": "Sistema 4M",
+    "d": "Cuatro frutas de cultivo irrigado del semiárido brasileño analizadas en el artículo: melón, sandía, mango y papaya. Los datos de referencia reproducen los resultados del manuscrito."
+  },
+  {
+    "id": "dr",
+    "t": "DR — coeficiente de dependencia de la polinización",
+    "d": "Número entre 0 y 1 que indica qué proporción de la producción de un cultivo depende de la polinización animal. Cero indica ausencia de dependencia; 0,95 representa una dependencia aproximada del 95 %."
+  },
+  {
+    "id": "sensibilidade",
+    "t": "Análisis de sensibilidad",
+    "d": "Repetición de los cálculos con coeficientes alternativos para observar cómo cambian los resultados. El artículo utiliza valores conservadores como referencia."
+  },
+  {
+    "id": "abrafrutas",
+    "t": "Abrafrutas",
+    "d": "Asociación Brasileña de Productores y Exportadores de Frutas y Derivados. Fuente de los datos de producción y exportación de 2024 utilizados en el artículo."
+  },
+  {
+    "id": "conservador",
+    "t": "Coeficientes conservadores",
+    "d": "Coeficientes DR de referencia: 0,95 para melón y sandía, 0,05 para papaya y 0 para mango."
+  },
+  {
+    "id": "prodvalue",
+    "t": "Valor de la producción",
+    "d": "Valor económico total de la producción agrícola, expresado en millones de dólares estadounidenses (US$ M)."
+  },
+  {
+    "id": "exportvalue",
+    "t": "Valor de las exportaciones",
+    "d": "Valor económico de los productos exportados, expresado en millones de dólares estadounidenses (US$ M)."
+  },
+  {
+    "id": "evp",
+    "t": "EVP — valor económico de la polinización",
+    "d": "Parte del valor de producción asociada a la dependencia de polinizadores: valor de producción multiplicado por DR para cada cultivo."
+  },
+  {
+    "id": "epv",
+    "t": "EPV — valor de la polinización en las exportaciones",
+    "d": "Valor de las exportaciones multiplicado por el coeficiente DR correspondiente."
+  },
+  {
+    "id": "pedr",
+    "t": "PEDR — razón de dependencia económica de la producción",
+    "d": "EVP dividido entre el valor total de producción. Indica qué porcentaje del valor producido depende de la polinización."
+  },
+  {
+    "id": "epdr",
+    "t": "EPDR — razón de dependencia económica de las exportaciones",
+    "d": "EPV dividido entre el valor total de exportaciones. Indica qué porcentaje del valor exportado depende de la polinización."
+  },
+  {
+    "id": "reducao",
+    "t": "Reducción simulada del servicio de polinización",
+    "d": "Porcentaje hipotético de reducción del servicio. Los escenarios del 10 %, 25 % y 50 % son pruebas de sensibilidad, no pronósticos climáticos ni probabilidades."
+  },
+  {
+    "id": "exposicao",
+    "t": "Exposición económica",
+    "d": "Valor económico que estaría expuesto a la reducción hipotética del servicio, calculado como EVP o EPV multiplicado por la reducción simulada."
+  },
+  {
+    "id": "remanescente",
+    "t": "EVP / EPV restante",
+    "d": "Valor económico asociado a la polinización que permanecería después de la reducción simulada."
+  },
+  {
+    "id": "evidencia",
+    "t": "Evidencia cuantitativa",
+    "d": "Publicación científica con un coeficiente numérico de dependencia aplicable al cultivo. Las evidencias sin coeficiente formal se presentan como información complementaria."
+  },
+  {
+    "id": "estados",
+    "t": "Estados de la evidencia",
+    "d": "Convergente: fuentes independientes coinciden. Divergente: presentan coeficientes diferentes. Registrada: una sola línea de evidencia. No validada: valor introducido por el usuario."
+  },
+  {
+    "id": "linhagem",
+    "t": "Procedencia de la evidencia",
+    "d": "Publicación original de un coeficiente. Las bases derivadas que reproducen la misma publicación no se consideran fuentes independientes."
+  },
+  {
+    "id": "catalogo",
+    "t": "Catálogo científico",
+    "d": "Colección complementaria de registros científicos para consulta y trazabilidad. No alimenta automáticamente los cálculos económicos."
+  },
+  {
+    "id": "fontes",
+    "t": "Giannini, Klein y Siopa",
+    "d": "Tres fuentes de evidencias distintas: clases cualitativas, coeficientes por cultivo y observaciones experimentales. No se mezclan ni se convierten automáticamente entre sí."
+  },
+  {
+    "id": "uid",
+    "t": "UID",
+    "d": "Identificador único de cada registro del catálogo, utilizado para localizar su origen."
+  },
+  {
+    "id": "prioridade",
+    "t": "Prioridad de manejo",
+    "d": "Urgencia sugerida para una acción según la exposición económica simulada y el contexto ecológico declarado por el usuario."
+  },
+  {
+    "id": "clima",
+    "t": "Cambio climático y polinización",
+    "d": "El calor y la sequía pueden afectar el vuelo, la floración y los recursos de los polinizadores. Los escenarios de la herramienta no son pronósticos climáticos."
+  },
+  {
+    "id": "forca",
+    "t": "Solidez de la evidencia",
+    "d": "Grado de respaldo científico de una acción. Es diferente de su prioridad en un contexto local."
+  }
+];
+window.HELP.es = {
+  "artigo": {
+    "what": "Datos del sistema 4M utilizados en el manuscrito: producción, valor, exportaciones y DR de cada cultivo.",
+    "steps": [
+      "Revise los valores de cada cultivo.",
+      "Para probar otra hipótesis, edite un valor; el Panel y los Escenarios se recalculan.",
+      "Para cambiar el DR, seleccione el cultivo, la evidencia y pulse Aplicar evidencia.",
+      "Para recuperar los datos originales, seleccione Restaurar escenario del manuscrito."
+    ]
+  },
+  "modelo": {
+    "what": "Analice otros cultivos o regiones con el mismo método utilizando una hoja de cálculo.",
+    "steps": [
+      "Descargue la plantilla Excel o CSV.",
+      "Complete una fila por cultivo sin cambiar los nombres de las columnas.",
+      "Importe el archivo; la herramienta comprobará los datos.",
+      "Si es válido, pulse Aplicar datos al análisis."
+    ]
+  },
+  "cenarios": {
+    "what": "Explore la exposición económica ante reducciones hipotéticas del servicio de polinización. No son pronósticos.",
+    "steps": [
+      "Ajuste el control o seleccione 10 %, 25 % o 50 %.",
+      "Consulte la exposición económica de la producción y las exportaciones.",
+      "Compare los escenarios en los gráficos y la tabla.",
+      "El porcentaje también influye en la prioridad de las recomendaciones."
+    ]
+  },
+  "evidencias": {
+    "what": "Compare las fuentes científicas y compruebe qué coeficiente DR se utiliza.",
+    "steps": [
+      "Seleccione un cultivo.",
+      "Compruebe el DR y el estado de la evidencia.",
+      "Compare los coeficientes disponibles.",
+      "Para cambiar de fuente, seleccione Aplicar evidencia; puede restaurar los valores originales."
+    ]
+  },
+  "catalogo": {
+    "what": "Consulte registros científicos complementarios sin modificar los cálculos económicos.",
+    "steps": [
+      "Busque por nombre común, científico o UID.",
+      "Filtre por publicación y tipo de evidencia.",
+      "Consulte la síntesis por especie o los registros individuales.",
+      "Exporte los registros seleccionados en CSV."
+    ]
+  },
+  "recomendacoes": {
+    "what": "Explore acciones de manejo respaldadas por referencias científicas.",
+    "steps": [
+      "Seleccione un escenario de reducción.",
+      "Responda las seis preguntas sobre su área; use Desconocido cuando corresponda.",
+      "Revise las acciones ordenadas por prioridad.",
+      "Consulte las fuentes y sus limitaciones."
+    ]
+  },
+  "jogo": {
+    "what": "Cuatro juegos educativos con la mascota Jandi. Los resultados son didácticos, no estimaciones de pérdidas reales.",
+    "steps": [
+      "Mercado sin abejas: observe la dependencia de distintos alimentos.",
+      "Vuelo de la abeja: explore los escenarios de reducción.",
+      "¿Cuánto vale una abeja?: practique la interpretación de los indicadores.",
+      "Detective de evidencias: identifique los registros aptos para el cálculo."
+    ]
+  },
+  "metodo": {
+    "what": "Fórmulas utilizadas en los cálculos, explicadas de forma accesible.",
+    "steps": []
+  },
+  "sobre": {
+    "what": "Información sobre autores, financiación, citación y estado de la versión.",
+    "steps": []
+  }
+};
