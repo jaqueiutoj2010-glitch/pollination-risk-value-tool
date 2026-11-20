@@ -7,7 +7,7 @@ const DATA = "data/";
 
 /* ======================= estado ======================= */
 const S = {
-  lang: localStorage_get("prvt_lang") || "pt",
+  lang: ["pt","en","es"].includes(localStorage_get("prvt_lang")) ? localStorage_get("prvt_lang") : "pt",
   tab: "painel",
   d: [], source: "article",
   reduction: 25,
@@ -26,7 +26,7 @@ function localStorage_set(k,v){try{window.localStorage.setItem(k,v);}catch(e){}}
 const T = () => window.TR[S.lang];
 const A = () => window.ARTICLE[S.lang];
 const L = (pt,en) => S.lang==="pt" ? pt : en;
-const locale = () => S.lang==="pt" ? "pt-BR" : "en-US";
+const locale = () => ({pt:"pt-BR",en:"en-US",es:"es-ES"})[S.lang] || "pt-BR";
 const isNum = x => typeof x==="number" && isFinite(x);
 const r1 = x => Math.round((x+Number.EPSILON)*10)/10;
 const fmt1 = x => isNum(x) ? r1(x).toLocaleString(locale(),{minimumFractionDigits:1,maximumFractionDigits:1}) : "—";
@@ -169,7 +169,7 @@ function readHash(){ const h = location.hash.replace("#",""); S.tab = TABS.some(
 function renderNav(){
   document.getElementById("mainnav").innerHTML = TABS.map(([k,f])=>`<a href="#${k}"${S.tab===k?' aria-current="page"':""}>${esc(f())}</a>`).join("") + `<a href="#" class="nav-gloss" data-gloss="1">${esc(L("Glossário","Glossary"))}</a>`;
   document.querySelectorAll(".lang-btn").forEach(b=>b.setAttribute("aria-pressed", b.dataset.lang===S.lang?"true":"false"));
-  document.documentElement.lang = S.lang==="pt"?"pt-BR":"en";
+  document.documentElement.lang = locale();
   document.querySelector(".skip").textContent = L("Pular para o conteúdo","Skip to content");
   document.getElementById("menuToggle").textContent = L("Menu","Menu");
   document.getElementById("glossBtn").textContent = L("Glossário","Glossary");
