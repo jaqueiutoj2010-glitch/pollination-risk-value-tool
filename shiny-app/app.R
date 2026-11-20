@@ -549,6 +549,21 @@ server <- function(input,output,session){
         c("Evidence_Reference",T()$recommended,"Texto","Referência utilizada para o coeficiente."),
         c("Notes",T()$optional,"Texto","Observações adicionais.")
       )
+    } else if(rv$lang=="es") {
+      list(
+        c("Crop",T()$required,"Texto","Nombre del cultivo en inglés; identificador principal."),
+        c("Crop_PT",T()$optional,"Texto","Nombre común en portugués."),
+        c("Scientific_name",T()$recommended,"Texto","Nombre científico del cultivo."),
+        c("Year",T()$recommended,"AAAA","Año de referencia."),
+        c("Location",T()$recommended,"Texto","Localidad o región productora."),
+        c("Production_1000_t",T()$required,"10³ t","Producción total del cultivo."),
+        c("Production_Value_USD_M",T()$required,"US$ M","Valor económico total de la producción."),
+        c("Export_Volume_1000_t",T()$optional,"10³ t","Volumen exportado; utilice 0 cuando no corresponda."),
+        c("Export_Value_USD_M",T()$optional,"US$ M","Valor de las exportaciones; utilice 0 cuando no corresponda."),
+        c("Pollination_Dependence",T()$required,"0–1","Coeficiente de dependencia de la polinización."),
+        c("Evidence_Reference",T()$recommended,"Texto","Fuente utilizada para justificar el coeficiente."),
+        c("Notes",T()$optional,"Texto","Observaciones adicionales.")
+      )
     } else {
       list(
         c("Crop",T()$required,"Text","Crop name in English; main identifier."),
