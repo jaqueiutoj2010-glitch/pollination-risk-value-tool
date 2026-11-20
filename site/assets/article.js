@@ -122,5 +122,40 @@ window.REFS = [
   ["Walther, F. et al., 2025. Uncertainties in ecosystem services assessments and their implications for decision support. Ecosystem Services 74, 101714.","https://doi.org/10.1016/j.ecoser.2025.101714"]
 ];
 
-// Spanish content falls back to existing English explanations until reviewed translations are available.
-window.ARTICLE.es = window.ARTICLE.en;
+
+/* Spanish explanatory content. Bibliographic references and numerical values
+   remain linked to the original evidence; untranslated sections retain English. */
+window.ARTICLE.es = {
+ ...window.ARTICLE.en,
+ careful:{
+  artigo:"Los coeficientes de dependencia (DR) del artículo son conservadores: 0,95 para melón y sandía, 0,05 para papaya y 0,00 para mango. Un análisis de sensibilidad evalúa 0,25 para papaya y 0,05 para mango. Los cambios realizados aquí afectan solo a esta sesión y no modifican los resultados de referencia del manuscrito.",
+  modelo:"Antes de utilizar un DR, compruebe que sea adecuado para su cultivo y región. La herramienta advierte cuando su valor difiere de la biblioteca científica, pero nunca lo sustituye automáticamente.",
+  cenarios:"Son pruebas de sensibilidad proporcionales, no predicciones climáticas ni probabilidades. Se mantienen constantes los precios, la superficie cultivada, el comercio y el manejo. El calor, la sequía, la pérdida de hábitat y los plaguicidas pueden afectar a los polinizadores, pero no se atribuye ningún porcentaje a una causa específica.",
+  evidencias:"Las bases de datos derivadas que solo reproducen una publicación no cuentan como evidencia independiente. Si las fuentes discrepan, la herramienta no decide por usted: la elección queda registrada y visible.",
+  catalogo:"Los tres tipos de evidencia tienen significados diferentes y no se suman ni promedian. El intervalo mínimo–máximo describe registros que no necesariamente representan estudios independientes.",
+  recomendacoes:"La solidez de la evidencia y la prioridad de una acción son conceptos diferentes. La herramienta no estima cuánto recupera cada acción en rendimiento o ingresos.",
+  jogo:"Los juegos utilizan datos de la plataforma, pero sus reglas de puntuación, dificultad y porcentajes son didácticos. Sirven para comprender conceptos, no para estimar pérdidas reales."
+ },
+ sources_title:"Las tres fuentes del catálogo",
+ states_title:"Significado de cada estado",
+ method:{
+  ...window.ARTICLE.en.method,
+  framework_title:"Cuatro entradas, cuatro indicadores",
+  framework:"El método constituye una evaluación económica inicial: estima la dependencia y la exposición por cultivo y región sin requerir mediciones de abejas en campo. Combina estadísticas de producción, datos de exportación, coeficientes de dependencia publicados y escenarios estandarizados de reducción del servicio.",
+  data_title:"Origen de los datos",
+  data:[
+   "Producción y valor de producción: panel de producción de Abrafrutas (Asociación Brasileña de Productores y Exportadores de Frutas), 2024.",
+   "Exportaciones (volumen e ingresos): plataforma estadística de Abrafrutas, 2024. Los ingresos ya se expresan en dólares estadounidenses.",
+   "Los valores de producción, informados en miles de reales brasileños, se convirtieron a dólares utilizando el tipo de cambio promedio de 2024."
+  ],
+  conv:"Valor en US$ = valor en miles de BRL × 1.000 ÷ 5,39",
+  dr_title:"Coeficientes utilizados en el artículo",
+  dr_note:"Fuente: Giannini et al. (2015), con la clasificación internacional de Klein et al. (2007) como contexto. Los coeficientes conservadores definen el escenario de referencia; los valores alternativos solo permiten examinar la sensibilidad.",
+  dr_head:["Cultivo","Clase de dependencia","DR (referencia)","DR (sensibilidad)"],
+  dr_rows:[["Melón","Esencial","0.95","0.95"],["Sandía","Esencial","0.95","0.95"],["Papaya","Baja","0.05","0.25"],["Mango","Sin aumento","0.00","0.05"]],
+  scen_title:"Escenarios de reducción",
+  scen:"Las reducciones del 10 %, 25 % y 50 % son supuestos estandarizados. Los estudios sobre clima y uso del suelo documentan diversas vías de impacto sobre los polinizadores, pero difieren según el grupo, la región y el período. Por ello, ningún porcentaje publicado se utilizó como pronóstico para Rio Grande do Norte.",
+  limits_title:"Lo que la herramienta no hace"
+ }
+};
+
