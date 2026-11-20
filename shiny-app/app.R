@@ -426,6 +426,20 @@ shiny_headers <- function(pt, en, lang) {
   en
 }
 
+
+# Localized crop labels; crop identifiers and data remain unchanged.
+shiny_crop_name <- function(en, pt, lang) {
+  if (identical(lang, "pt") && !is.na(pt) && nzchar(pt)) return(pt)
+  if (identical(lang, "es")) {
+    names_es <- c("Melon"="Melón", "Watermelon"="Sandía", "Mango"="Mango", "Papaya"="Papaya")
+    if (!is.na(en) && en %in% names(names_es)) return(unname(names_es[[en]]))
+  }
+  en
+}
+shiny_crop_names <- function(en, pt, lang) {
+  vapply(seq_along(en), function(i) shiny_crop_name(en[i], pt[i], lang), character(1))
+}
+
 server <- function(input,output,session){
   rv <- reactiveValues(lang="pt",tab="dashboard",d=article_data,source="article",import_data=NULL,import_errors=character(),import_warnings=character(),import_ok=FALSE)
   # Spanish labels reuse existing English strings for keys not translated yet.
@@ -468,7 +482,7 @@ server <- function(input,output,session){
     if(state != "coefficient") return("")
     idx <- which(abs(rv$d$Pollination_Dependence-article_data$Pollination_Dependence)>1e-9)
     paste(vapply(idx,function(i){
-      nm <- if(rv$lang=="pt") rv$d$Crop_PT[i] else rv$d$Crop[i]
+      nm <- shiny_crop_name(rv$d$Crop[i], rv$d$Crop_PT[i], rv$lang)
       paste0(nm,": DR ",sprintf("%.2f",article_data$Pollination_Dependence[i])," → ",sprintf("%.2f",rv$d$Pollination_Dependence[i]))
     },character(1)),collapse="; ")
   })
@@ -681,13 +695,13 @@ server <- function(input,output,session){
       if(nrow(q)>0){
         vals <- sort(unique(round(q$DR,4)))
         if(length(vals)>1){
-          nm <- if(rv$lang=="pt") raw$Crop_PT[i] else raw$Crop[i]
+          nm <- shiny_crop_name(raw$Crop[i], raw$Crop_PT[i], rv$lang)
           rv$import_warnings <- c(rv$import_warnings,
             paste0(nm,": ",shiny_L("há divergência na base de evidências (DR disponíveis: ", "evidence database contains divergent DR values (available: ", rv$lang),
                    paste(sprintf("%.2f",vals),collapse=", "),")."))
         }
         if(!any(abs(q$DR-raw$Pollination_Dependence[i])<1e-9)){
-          nm <- if(rv$lang=="pt") raw$Crop_PT[i] else raw$Crop[i]
+          nm <- shiny_crop_name(raw$Crop[i], raw$Crop_PT[i], rv$lang)
           rv$import_warnings <- c(rv$import_warnings,
             paste0(nm,": DR ",sprintf("%.2f",raw$Pollination_Dependence[i]),
                    shiny_L(" não coincide com os coeficientes quantitativos cadastrados; o valor importado será mantido até decisão do usuário.", " does not match registered quantitative coefficients; the imported value will be retained until the user decides.", rv$lang)))
@@ -816,7 +830,7 @@ server <- function(input,output,session){
 
 
   output$article_ui <- renderUI({
-    crop_choices <- if(rv$lang=="pt") setNames(rv$d$Crop,rv$d$Crop_PT) else setNames(rv$d$Crop,rv$d$Crop)
+    crop_choices <- setNames(rv$d$Crop, shiny_crop_names(rv$d$Crop, rv$d$Crop_PT, rv$lang))
     crop <- input$article_crop %||% rv$d$Crop[1]
     q <- evidence_db[evidence_db$Crop==crop & !is.na(evidence_db$DR),,drop=FALSE]
     labs <- if(nrow(q)) setNames(seq_len(nrow(q)),paste0(q$Reference," | DR=",sprintf("%.2f",q$DR)," | ",q$Geographic_scope)) else character()
@@ -844,7 +858,7 @@ server <- function(input,output,session){
     cards <- lapply(seq_len(nrow(rv$d)), function(i){
       cr <- rv$d$Crop[i]
       active <- identical(input$article_crop %||% rv$d$Crop[1], cr)
-      nm <- if(rv$lang=="pt") rv$d$Crop_PT[i] else rv$d$Crop[i]
+      nm <- shiny_crop_name(rv$d$Crop[i], rv$d$Crop_PT[i], rv$lang)
       div(
         class=paste("crop-select-card",if(active)"active" else ""),
         onclick=sprintf("Shiny.setInputValue('article_crop_card','%s',{priority:'event'})",cr),
@@ -905,7 +919,7 @@ server <- function(input,output,session){
     row <- rv$d[rv$d$Crop == selected,,drop=FALSE]
     if(nrow(row)!=1) return(NULL)
     m <- calc_metrics(row)
-    name <- if(rv$lang=="pt") row$Crop_PT[1] else row$Crop[1]
+    name <- shiny_crop_name(row$Crop[1], row$Crop_PT[1], rv$lang)
     div(class="box",style="margin:4px 0 20px;border:2px solid #0D6A53;",
       h3(style="margin:0 0 4px;color:#082F49;",name),
       div(class="subtitle",tags$em(row$Scientific_name[1])),
@@ -926,7 +940,7 @@ server <- function(input,output,session){
         role="button",tabindex="0",
         onclick=sprintf("Shiny.setInputValue('dashboard_crop_card','%s',{priority:'event'})",cr),
         onkeydown=sprintf("if(event.key==='Enter'||event.key===' '){event.preventDefault();Shiny.setInputValue('dashboard_crop_card','%s',{priority:'event'});}",cr),
-        crop_svg(cr,48),div(tags$b(if(rv$lang=="pt")rv$d$Crop_PT[i] else cr),em(rv$d$Scientific_name[i])))
+        crop_svg(cr,48),div(tags$b(shiny_crop_name(cr, rv$d$Crop_PT[i], rv$lang)),em(rv$d$Scientific_name[i])))
     })
     tagList(
       warning_ui("restore_dashboard"),
@@ -1057,7 +1071,7 @@ server <- function(input,output,session){
     crop_cards <- lapply(seq_len(nrow(rv$d)), function(i){
       cr <- rv$d$Crop[i]
       active <- identical(crop,cr)
-      nm <- if(rv$lang=="pt") rv$d$Crop_PT[i] else rv$d$Crop[i]
+      nm <- shiny_crop_name(rv$d$Crop[i], rv$d$Crop_PT[i], rv$lang)
       div(
         class=paste("crop-select-card",if(active)"active" else ""),
         onclick=sprintf("Shiny.setInputValue('evidence_crop_card','%s',{priority:'event'})",cr),
@@ -1131,7 +1145,7 @@ server <- function(input,output,session){
         div(class="evhero",
           div(class="fruitbox",crop_svg(crop,72)),
           div(
-            div(class="ename",if(rv$lang=="pt")base$Crop_PT else base$Crop),
+            div(class="ename",shiny_crop_name(base$Crop, base$Crop_PT, rv$lang)),
             div(class="esc",base$Scientific_name),
             div(style="margin-top:9px",
               span(class="badge badgeok",
