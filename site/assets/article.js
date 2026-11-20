@@ -159,3 +159,40 @@ window.ARTICLE.es = {
  }
 };
 
+
+// Spanish article and limitations: no changes to scientific data.
+Object.assign(window.ARTICLE.es, {
+  "sources": [
+    [
+      "Giannini et al. (2015)",
+      "Coeficientes de dependencia para cultivos comerciales de Brasil. Fuente de los DR del artículo."
+    ],
+    [
+      "Klein et al. (2007)",
+      "Clases cualitativas de dependencia, desde «esencial» hasta «sin aumento», para los principales cultivos del mundo."
+    ],
+    [
+      "Siopa et al. (2024)",
+      "Observaciones experimentales sobre la respuesta de los cultivos a la polinización. Los métodos y las variables difieren entre estudios."
+    ]
+  ],
+  "about_article_title": "Artículo asociado",
+  "about_article": "La herramienta acompaña el manuscrito «Assessing the Economic Value and Climate-Related Exposure of Pollination Ecosystem Services in Tropical Drylands: A Reproducible Framework and Interactive Tool for Irrigated Fruit Production», en preparación para una nueva presentación tras una decisión editorial anterior. El estudio propone un método reproducible que relaciona producción, exportaciones, dependencia de polinizadores y pruebas de sensibilidad, aplicado a la fruticultura irrigada del semiárido de Rio Grande do Norte, en la Caatinga.",
+  "about_findings": "Principales resultados del artículo (2024)",
+  "about_list": [
+    "La polinización representó US$ 175,8 millones del valor de producción (76,4 %) y US$ 165,3 millones de las exportaciones (84,0 %).",
+    "El melón y la sandía concentran más del 99 % de ese valor.",
+    "Las reducciones hipotéticas del 10 %, 25 % y 50 % exponen entre US$ 17,6 y 87,9 millones de producción y entre US$ 16,5 y 82,6 millones de exportaciones."
+  ]
+});
+Object.assign(window.ARTICLE.es.method, {
+  "limits": [
+    "No mide abejas, visitas florales ni déficits de polinización en campo: los DR proceden de la literatura.",
+    "No distingue variaciones dentro del estado (variedades, manejo, hábitat o polinizadores manejados y silvestres).",
+    "No estima el beneficio económico de una acción específica de conservación.",
+    "No suma producción y exportaciones: son cuentas diferentes.",
+    "No pronostica pérdidas: los escenarios son pruebas lineales condicionales."
+  ],
+  "glossary_title": "Glosario",
+  "refs_title": "Referencias principales"
+});
