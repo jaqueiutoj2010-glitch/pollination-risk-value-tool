@@ -121,3 +121,6 @@ window.REFS = [
   ["Brander, L. et al., 2024. Economic values for ecosystem services: A global synthesis and way forward. Ecosystem Services 66, 101606.","https://doi.org/10.1016/j.ecoser.2024.101606"],
   ["Walther, F. et al., 2025. Uncertainties in ecosystem services assessments and their implications for decision support. Ecosystem Services 74, 101714.","https://doi.org/10.1016/j.ecoser.2025.101714"]
 ];
+
+// Spanish content falls back to existing English explanations until reviewed translations are available.
+window.ARTICLE.es = window.ARTICLE.en;
