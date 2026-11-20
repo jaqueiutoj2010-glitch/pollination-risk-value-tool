@@ -333,6 +333,7 @@ tr_es[c("title","modified","round_note")] <- list(
 
 # Spanish translations for legacy inline bilingual UI text.
 shiny_es_inline <- c(
+  "negative experimental value(s) in this selection. Preserved as published; inspect the original outcome and calculation before interpreting." = "valor(es) experimental(es) negativo(s) en esta selección. Se conservan como se publicaron; compruebe la variable original y el cálculo antes de interpretar.",
   "Common name (EN)" = "Nombre común (EN)",
   "Caution: " = "Precaución: ",
   " cultura(s) reconhecida(s). Os dados ainda não foram aplicados à análise." = " cultivo(s) reconocido(s). Los datos todavía no se han aplicado al análisis.",
@@ -748,12 +749,11 @@ server <- function(input,output,session){
     req(rv$import_data)
     d <- rv$import_data[,c("Crop_PT","Scientific_name","Production","Production_Value",
                            "Export_Volume","Export_Value","Pollination_Dependence","Evidence_Reference")]
-    names(d) <- if(rv$lang=="pt")
+    names(d) <- shiny_headers(
       c("Cultura","Nome científico","Produção (10³ t)","Valor produção (US$ M)",
-        "Exportação (10³ t)","Valor exportação (US$ M)","DR","Referência")
-    else
+        "Exportação (10³ t)","Valor exportação (US$ M)","DR","Referência"),
       c("Crop","Scientific name","Production (10³ t)","Production value (US$ M)",
-        "Exports (10³ t)","Export value (US$ M)","DR","Reference")
+        "Exports (10³ t)","Export value (US$ M)","DR","Reference"), rv$lang)
     datatable(d,rownames=FALSE,options=list(dom="t",ordering=FALSE,scrollX=TRUE))
   })
 
@@ -1584,9 +1584,7 @@ server <- function(input,output,session){
     x <- catalogo_filtrado(); ss <- x[x$Fonte=="Siopa",,drop=FALSE]
     v <- suppressWarnings(as.numeric(ss[["Valor numérico"]]))
     if(!any(is.finite(v) & v<0)) return(NULL)
-    p(style="color:#99540b;font-weight:600",if(rv$lang=="pt")
-      paste("Atenção:",sum(is.finite(v) & v<0),"valor(es) experimentais negativos nesta seleção. Preservados como publicados; verificar a variável original e o cálculo antes de interpretar.")
-      else paste("Caution:",sum(is.finite(v) & v<0),"negative experimental value(s) in this selection. Preserved as published; inspect the original outcome and calculation before interpreting."))
+    p(style="color:#99540b;font-weight:600",paste(shiny_L("Atenção:", "Caution:", rv$lang), sum(is.finite(v) & v<0), shiny_L("valor(es) experimentais negativos nesta seleção. Preservados como publicados; verificar a variável original e o cálculo antes de interpretar.", "negative experimental value(s) in this selection. Preserved as published; inspect the original outcome and calculation before interpreting.", rv$lang)))
   })
   output$catalogo_sintese <- DT::renderDT({
     x <- catalogo_sintese(); pt <- rv$lang=="pt"
