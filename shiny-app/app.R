@@ -333,6 +333,9 @@ tr_es[c("title","modified","round_note")] <- list(
 
 # Spanish translations for legacy inline bilingual UI text.
 shiny_es_inline <- c(
+  " cultura(s) reconhecida(s). Os dados ainda não foram aplicados à análise." = " cultivo(s) reconocido(s). Los datos todavía no se han aplicado al análisis.",
+  "Could not read file: " = "No se pudo leer el archivo: ",
+  "Missing required columns: " = "Faltan columnas obligatorias: ",
   "Complete workbook with a data sheet, filling guide, units, and index descriptions." = "Libro de Excel completo con hoja de datos, guía de cumplimentación, unidades y descripción de los indicadores.",
   "Simple version for data entry, integration with other systems, and future platform import." = "Versión sencilla para introducir datos, integrarlos con otros sistemas e importarlos posteriormente a la plataforma.",
   "EVP = production value × DR; PEDR = total EVP / total production value; EPV = export value × DR; EPDR = total EPV / total export value; scenario losses = EVP or EPV × simulated reduction." = "EVP = valor de producción × DR; PEDR = EVP total / valor total de producción; EPV = valor de exportaciones × DR; EPDR = EPV total / valor total de exportaciones; pérdidas simuladas = EVP o EPV × reducción simulada.",
@@ -623,9 +626,7 @@ server <- function(input,output,session){
     },error=function(e)e)
 
     if(inherits(raw,"error")){
-      rv$import_errors <- if(rv$lang=="pt")
-        paste0("Não foi possível ler o arquivo: ",conditionMessage(raw)) else
-        paste0("Could not read file: ",conditionMessage(raw))
+      rv$import_errors <- paste0(shiny_L("Não foi possível ler o arquivo: ", "Could not read file: ", rv$lang), conditionMessage(raw))
       return()
     }
 
@@ -635,8 +636,7 @@ server <- function(input,output,session){
     missing_cols <- setdiff(required_cols,names(raw))
     if(length(missing_cols)){
       rv$import_errors <- c(rv$import_errors,
-        if(rv$lang=="pt") paste0("Colunas obrigatórias ausentes: ",paste(missing_cols,collapse=", "))
-        else paste0("Missing required columns: ",paste(missing_cols,collapse=", ")))
+        paste0(shiny_L("Colunas obrigatórias ausentes: ", "Missing required columns: ", rv$lang), paste(missing_cols,collapse=", ")))
       return()
     }
 
@@ -723,10 +723,7 @@ server <- function(input,output,session){
     if(isTRUE(rv$import_ok)){
       return(div(class="validation-ok",
         tags$b(T()$valid_file),br(),
-        span(if(rv$lang=="pt")
-          paste0(nrow(rv$import_data)," cultura(s) reconhecida(s). Os dados ainda não foram aplicados à análise.")
-        else
-          paste0(nrow(rv$import_data)," crop(s) recognized. Data have not yet been applied to the analysis."))))
+        span(paste0(nrow(rv$import_data), shiny_L(" cultura(s) reconhecida(s). Os dados ainda não foram aplicados à análise.", " crop(s) recognized. Data have not yet been applied to the analysis.", rv$lang)))))
     }
     NULL
   })
@@ -861,7 +858,7 @@ server <- function(input,output,session){
 
   output$article_table <- renderDT({
     shown <- rv$d[,c("Crop_PT","Scientific_name","Production","Production_Value","Export_Volume","Export_Value","Pollination_Dependence")]
-    names(shown) <- if(rv$lang=="pt") c("Cultura","Nome científico","Produção (10³ t)","Valor produção (US$ M)","Exportação (10³ t)","Valor exportação (US$ M)","DR") else c("Crop","Scientific name","Production (10³ t)","Production value (US$ M)","Exports (10³ t)","Export value (US$ M)","DR")
+    names(shown) <- shiny_headers(c("Cultura","Nome científico","Produção (10³ t)","Valor produção (US$ M)","Exportação (10³ t)","Valor exportação (US$ M)","DR"), c("Crop","Scientific name","Production (10³ t)","Production value (US$ M)","Exports (10³ t)","Export value (US$ M)","DR"), rv$lang)
     datatable(shown,rownames=FALSE,editable=list(target="cell",disable=list(columns=c(0,1))),
               options=list(scrollX=TRUE,pageLength=10,dom="ftip",ordering=FALSE))
   })
@@ -1004,7 +1001,7 @@ server <- function(input,output,session){
       Remaining_EVP=round(vapply(ds,function(x)x$evp-x$pl,numeric(1)),1),
       Export_loss=round(vapply(ds,function(x)x$xl,numeric(1)),1),
       Remaining_EPV=round(vapply(ds,function(x)x$epv-x$xl,numeric(1)),1))
-    names(tab) <- if(rv$lang=="pt") c("Cenário","Perda produção (US$ M)","EVP remanescente (US$ M)","Perda exportações (US$ M)","EPV remanescente (US$ M)") else c("Scenario","Production loss (US$ M)","Remaining EVP (US$ M)","Export loss (US$ M)","Remaining EPV (US$ M)")
+    names(tab) <- shiny_headers(c("Cenário","Perda produção (US$ M)","EVP remanescente (US$ M)","Perda exportações (US$ M)","EPV remanescente (US$ M)"), c("Scenario","Production loss (US$ M)","Remaining EVP (US$ M)","Export loss (US$ M)","Remaining EPV (US$ M)"), rv$lang)
     datatable(tab,rownames=FALSE,options=list(dom="t",ordering=FALSE,scrollX=TRUE))
   })
 
@@ -1706,7 +1703,7 @@ server <- function(input,output,session){
     x <- catalogo_filtrado()
     comum <- if(rv$lang=="pt") "Nome comum (PT)" else "Common name (EN)"
     cols <- c(comum,"Nome literal","Fonte","Tipo","Valor literal")
-    nomes <- if(rv$lang=="pt") c("Cultura","Nome científico","Fonte","Evidência","Valor") else c("Crop","Scientific name","Source","Evidence","Value")
+    nomes <- shiny_headers(c("Cultura","Nome científico","Fonte","Evidência","Valor"), c("Crop","Scientific name","Source","Evidence","Value"), rv$lang)
     DT::datatable(x[,cols,drop=FALSE],rownames=FALSE,selection="single",colnames=nomes,
       extensions="Buttons",options=list(pageLength=15,scrollX=TRUE,searching=FALSE,autoWidth=FALSE,
         columnDefs=list(list(width="23%",targets=0),list(width="27%",targets=1),list(width="14%",targets=2),list(width="23%",targets=3),list(width="13%",targets=4)),
