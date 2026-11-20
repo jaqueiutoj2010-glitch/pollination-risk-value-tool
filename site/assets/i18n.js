@@ -81,3 +81,30 @@ en:{
  manuscript:"Manuscript scenario",production:"Production",exports:"Exports"
 }
 };
+
+/* Spanish interface: inherit the established English terminology for keys
+   not yet translated; calculation inputs and scientific references unchanged. */
+window.TR.es = Object.assign({}, window.TR.en, {
+ title:"Pollination Risk and Value Tool",
+ subtitle:"Valoración económica de los servicios de polinización — aplicación al sistema 4M",
+ article:"Datos del artículo", template:"Plantilla de datos", dashboard:"Panel",
+ scenarios:"Escenarios", evidence:"Evidencias", method:"Método",
+ results:"Resultados principales", results_sub:"Resultados actualizados automáticamente a partir de los datos y las evidencias seleccionadas.",
+ system:"Sistema 4M · 4 cultivos",prodvalue:"Valor de la producción",
+ evp:"Valor económico de la polinización (EVP)",exportvalue:"Valor de las exportaciones",
+ epv:"Valor de la polinización en las exportaciones (EPV)",
+ dependence:"Dependencia económica",pollination:"Polinización",other:"Otros factores",
+ restore:"Restaurar escenario del manuscrito",modified:"Datos modificados",
+ choose_crop:"Cultivo",choose_evidence:"Seleccionar evidencia cuantitativa",
+ apply:"Aplicar evidencia",current:"DR utilizado actualmente",
+ scenarios_note:"Los escenarios son pruebas estandarizadas de sensibilidad, no predicciones climáticas.",
+ reduction:"Reducción simulada del servicio de polinización (%)",
+ prodloss:"Exposición económica — producción",exploss:"Exposición económica — exportaciones",
+ remain_evp:"EVP restante",remain_epv:"EPV restante",
+ imported_source:"Conjunto de datos importado",analysis_mode_article:"Modo artículo 4M",
+ analysis_mode_user:"Modo análisis del usuario",
+ user_subtitle:"Valoración económica de los servicios de polinización — análisis de datos importados",
+ field:"Campo",requirement:"Requisito",unit:"Unidad / formato",
+ description:"Descripción",manuscript:"Escenario del manuscrito",
+ production:"Producción",exports:"Exportaciones"
+});
