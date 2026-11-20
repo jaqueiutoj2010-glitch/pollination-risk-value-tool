@@ -323,6 +323,13 @@ tr_es[c("results_sub","composition","composition_sub","compare","compare_sub",
  "Campo","Requisito","Unidad / formato","Descripción","Escenario del manuscrito"
 )
 
+# Complete all Shiny translation dictionary keys (retain scientific numbers).
+tr_es[c("title","modified","round_note")] <- list(
+  "Pollination Risk and Value Tool",
+  "Base modificada",
+  "La suma de los valores por cultivo mostrados con un decimal es de US$ 230,1 millones; el total agregado indicado en el manuscrito es de US$ 230,2 millones."
+)
+
 server <- function(input,output,session){
   rv <- reactiveValues(lang="pt",tab="dashboard",d=article_data,source="article",import_data=NULL,import_errors=character(),import_warnings=character(),import_ok=FALSE)
   # Spanish labels reuse existing English strings for keys not translated yet.
