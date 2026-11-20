@@ -379,6 +379,48 @@ shiny_L <- function(pt, en, lang) {
   en
 }
 
+
+# Translate visible table headers without changing underlying data column names.
+shiny_es_headers <- c(
+  "Reference" = "Referencia",
+  "Scope" = "Ámbito",
+  "Dependence class" = "Clase de dependencia",
+  "Evidence ID" = "ID de evidencia",
+  "Source ID" = "ID de fuente",
+  "Lineage" = "Procedencia",
+  "Dataset" = "Conjunto de datos",
+  "Study" = "Estudio",
+  "Species" = "Especie",
+  "Outcome" = "Resultado",
+  "Treatment" = "Tratamiento",
+  "Scale" = "Escala",
+  "Country" = "País",
+  "Original value" = "Valor original",
+  "PD type" = "Tipo PD",
+  "Crop" = "Cultivo",
+  "Scientific name" = "Nombre científico",
+  "Source" = "Fuente",
+  "Evidence" = "Evidencia",
+  "Value" = "Valor",
+  "Scenario" = "Escenario",
+  "Production loss (US$ M)" = "Pérdida de producción (millones de US$)",
+  "Remaining EVP (US$ M)" = "EVP restante (millones de US$)",
+  "Export loss (US$ M)" = "Pérdida de exportaciones (millones de US$)",
+  "Remaining EPV (US$ M)" = "EPV restante (millones de US$)",
+  "Production (10³ t)" = "Producción (10³ t)",
+  "Production value (US$ M)" = "Valor de producción (millones de US$)",
+  "Exports (10³ t)" = "Exportaciones (10³ t)",
+  "Export value (US$ M)" = "Valor de exportaciones (millones de US$)",
+  "Export volume (10³ t)" = "Volumen exportado (10³ t)"
+)
+shiny_headers <- function(pt, en, lang) {
+  if (identical(lang, "pt")) return(pt)
+  if (identical(lang, "es")) return(vapply(en, function(x) {
+    if (x %in% names(shiny_es_headers)) unname(shiny_es_headers[[x]]) else x
+  }, character(1)))
+  en
+}
+
 server <- function(input,output,session){
   rv <- reactiveValues(lang="pt",tab="dashboard",d=article_data,source="article",import_data=NULL,import_errors=character(),import_warnings=character(),import_ok=FALSE)
   # Spanish labels reuse existing English strings for keys not translated yet.
@@ -1198,12 +1240,9 @@ server <- function(input,output,session){
       )
     }
     if(ncol(shown)==5){
-      names(shown) <- if(rv$lang=="pt") c("Referência","Escopo","Classe de dependência","DR","Status") else c("Reference","Scope","Dependence class","DR","Status")
+      names(shown) <- shiny_headers(c("Referência","Escopo","Classe de dependência","DR","Status"), c("Reference","Scope","Dependence class","DR","Status"), rv$lang)
     } else {
-      names(shown) <- if(rv$lang=="pt")
-        c("ID da evidência","Referência","DOI","ID da fonte","Escopo","Classe de dependência","DR","Linhagem","Status")
-      else
-        c("Evidence ID","Reference","DOI","Source ID","Scope","Dependence class","DR","Lineage","Status")
+      names(shown) <- shiny_headers(c("ID da evidência","Referência","DOI","ID da fonte","Escopo","Classe de dependência","DR","Linhagem","Status"), c("Evidence ID","Reference","DOI","Source ID","Scope","Dependence class","DR","Lineage","Status"), rv$lang)
     }
     datatable(shown,rownames=FALSE,options=list(dom="tip",ordering=FALSE,scrollX=TRUE,pageLength=10))
   })
@@ -1558,7 +1597,7 @@ server <- function(input,output,session){
     y <- siopa_meta[meta_species %in% species,,drop=FALSE]
     if(!nrow(y)) return(DT::datatable(data.frame(Message=shiny_L("Sem correspondência literal nos dados originais; conferir grafia e sinônimos.", "No literal match in original data; check spelling and synonyms.", rv$lang)),rownames=FALSE,options=list(dom="t")))
     y <- y[,c("dataset","study","species","response","treatment","scale","country","pd_value","pd_type"),drop=FALSE]
-    names(y) <- if(rv$lang=="pt") c("Arquivo","Estudo","Espécie","Resposta","Tratamento","Escala","País","Valor original","Tipo PD") else c("Dataset","Study","Species","Outcome","Treatment","Scale","Country","Original value","PD type")
+    names(y) <- shiny_headers(c("Arquivo","Estudo","Espécie","Resposta","Tratamento","Escala","País","Valor original","Tipo PD"), c("Dataset","Study","Species","Outcome","Treatment","Scale","Country","Original value","PD type"), rv$lang)
     DT::datatable(y,rownames=FALSE,selection="none",options=list(pageLength=8,scrollX=TRUE,searching=TRUE))
   },server=TRUE)
   # V2.37: study-level traceability and protocol overlap flags. This is NOT a pooled estimate.
